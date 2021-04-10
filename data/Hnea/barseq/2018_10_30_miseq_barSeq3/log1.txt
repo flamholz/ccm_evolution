@@ -1,0 +1,80 @@
+fastq for index S3: /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/Ex1_0-5_S3_L001_R1_001.fastq.gz
+fastq for index S5: /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/Ex1_10_S5_L001_R1_001.fastq.gz
+fastq for index S1: /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/PC1_S1_L001_R1_001.fastq.gz
+Running: zcat /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/PC1_S1_L001_R1_001.fastq.gz | /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/MultiCodes.pl  -minQuality 0 -index S1 -out /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S1
+Reads 2940748 Multiplexed 2940748 Usable(20) 2832270 fraction 0.963112106171627 unique codes 494851 
+Wrong presequence position: 716 reads (0.024%)
+Off	18	0	0.000
+Off	19	0	0.000
+Off	20	2832270	1.000
+Off	21	0	0.000
+Off	22	0	0.000
+Wrote 494851 unique barcodes to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S1.codes
+Wrote number of barcodes seen a certain number of times to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S1.counts; nOnce = 380040
+Running: zcat /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/Ex1_0-5_S3_L001_R1_001.fastq.gz | /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/MultiCodes.pl  -minQuality 0 -index S3 -out /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S3
+Reads 2682859 Multiplexed 2682859 Usable(20) 2585201 fraction 0.963599279723608 unique codes 437598 
+Wrong presequence position: 571 reads (0.021%)
+Off	18	0	0.000
+Off	19	0	0.000
+Off	20	2585201	1.000
+Off	21	0	0.000
+Off	22	0	0.000
+Wrote 437598 unique barcodes to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S3.codes
+Wrote number of barcodes seen a certain number of times to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S3.counts; nOnce = 331040
+Running: zcat /home/savage/shared/Jack/JackSequecingData/2018_10_30_miseq/ex1/Ex1_10_S5_L001_R1_001.fastq.gz | /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/MultiCodes.pl  -minQuality 0 -index S5 -out /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S5
+Reads 4029746 Multiplexed 4029746 Usable(20) 3882729 fraction 0.963517055417389 unique codes 639206 
+Wrong presequence position: 889 reads (0.022%)
+Off	18	0	0.000
+Off	19	0	0.000
+Off	20	3882729	1.000
+Off	21	0	0.000
+Off	22	0	0.000
+Wrote 639206 unique barcodes to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S5.codes
+Wrote number of barcodes seen a certain number of times to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S5.counts; nOnce = 516795
+Running: /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/combineBarSeq.pl /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/test /home/savage/shared/Jack/SavageLab/scripts/HnTnSeqAnalysis/DSJD02HTn1_R1/DSJDo2Htn1_S1_l006_R1_001.pool /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S1.codes /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S3.codes /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/S5.codes
+Prototype after '@' for main::ShortList : @_ at /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/combineBarSeq.pl line 222.
+Read 107254 pool entries from /home/savage/shared/Jack/SavageLab/scripts/HnTnSeqAnalysis/DSJD02HTn1_R1/DSJDo2Htn1_S1_l006_R1_001.pool
+Read 276322 lines for codes in pool and 1295333 ignored lines across 3 files
+Indexes 3 Success 3 LowCount 0 LowFraction 0 Total Reads (millions): 9.300 
+Median Fraction (LowCount Excluded) 0.773
+Success S1 S3 S5
+Wrote /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/test.poolcount
+Wrote /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/test.colsum
+Running: /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/BarSeqR.pl -org Halo -exps /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/exps_table  -pool /home/savage/shared/Jack/SavageLab/scripts/HnTnSeqAnalysis/DSJD02HTn1_R1/DSJDo2Htn1_S1_l006_R1_001.pool -indir /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3 -outdir /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3 -genes g/Halo/genes.GC test
+No media for	test.S1	test.S3	test.S5
+Check gene locations: success 2407 wrap 0 overlap-adjacent 1 failure 0
+Processing 3 experiments, 2408 genes, 1 sets for Halo
+Wrote data for 107255 barcodes (90955 in genes) to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/all.poolcount
+Wrote 3 experiments to /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/exps
+Warning: non-unique synonym Dimetridazole: Dimetridazole or 1,2-dimethyl-5-nitroimidazole
+Warning: non-unique synonym 1,2-dimethyl-5-nitroimidazole: Dimetridazole or 1,2-dimethyl-5-nitroimidazole
+Running R: /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/RunFEBA.R Halo /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3 /mnt/59E0-214E/data/Jack/SavageLab/scripts/berkeleylab-feba-7de9bcaf0960/bin/.. > /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/log
+Set test simplified to setA
+Aggregating all over genes
+Aggregating Time0 totals
+Only 2 experiments of 2  passed quality filters!
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_quality.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_genes.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_logratios_unnormalized.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_logratios_unnormalized_naive.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_logratios.tab 
+Wrote fitness for  2  successful experiments to  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_logratios_good.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/gene_counts.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_t.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_standard_error_obs.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_standard_error_naive.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/strain_fit.tab 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_quality.pdf 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_quality_cor12.pdf 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_cluster_logcounts.pdf 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit_chr_bias.pdf 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/expsUsed 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/cofit 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/specific_phenotypes 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit2018Oct30.image 
+Created link for  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit.image 
+Wrote  /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/index.html 
+Warning message:
+In file.symlink(img, nameToPath("fit.image")) :
+  cannot symlink 'fit2018Oct30.image' to '/home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/fit.image', reason 'Function not implemented'
+Success for Halo, please visit /home/savage/shared/Jack/SavageLab/RB-TnSeq/2018_10_30_miseq_barSeq3/index.html

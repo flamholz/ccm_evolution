@@ -1,0 +1,1703 @@
+locusId	sysName	desc	comb	setAS3 0-5	setAS5 10
+GFF1190		hypothetical protein	 hypothetical protein	2056	2935
+GFF1209		hypothetical protein	 hypothetical protein	125	177
+GFF1357		hypothetical protein	 hypothetical protein	331	578
+GFF1439		multidrug efflux protein	 multidrug efflux protein	809	1081
+GFF1496		hypothetical protein	 hypothetical protein	31	62
+GFF160		2-isopropylmalate synthase	 2-isopropylmalate synthase	1957	3240
+GFF1606		hypothetical protein	 hypothetical protein	318	471
+GFF1629		hypothetical protein	 hypothetical protein	216	308
+GFF1704		hypothetical protein	 hypothetical protein	646	1028
+GFF1835		cytochrome C	 cytochrome C	773	1051
+GFF2046		hypothetical protein	 hypothetical protein	203	302
+GFF2212		hypothetical protein	 hypothetical protein	546	840
+GFF2252		IS66 family transposase	 IS66 family transposase	2137	3237
+GFF2279		IS3 family transposase	 IS3 family transposase	670	1007
+GFF2280		IS3 family transposase	 IS3 family transposase	503	801
+GFF365		IS66 family transposase	 IS66 family transposase	983	1418
+GFF366		IS66 family transposase	 IS66 family transposase	375	485
+GFF371		Killer protein	 Killer protein	253	345
+GFF455		integrase	 integrase	638	905
+GFF511		pilus assembly protein PilG	 pilus assembly protein PilG	2032	2367
+GFF559		hypothetical protein	 hypothetical protein	437	587
+GFF718		flagellar biosynthesis protein FlhA	 flagellar biosynthesis protein FlhA	5326	7729
+GFF782		hypothetical protein	 hypothetical protein	1265	1779
+GFF824		hypothetical protein	 hypothetical protein	246	336
+GFF879		hypothetical protein	 hypothetical protein	368	549
+GFF880		IS3 family transposase	 IS3 family transposase	1120	1549
+GFF881		GNAT family N-acetyltransferase	 GNAT family N-acetyltransferase	356	518
+GFF94		hypothetical protein	 hypothetical protein	295	473
+GFF951		IS3 family transposase	 IS3 family transposase	654	912
+HNEAP_RS00025	HNEAP_RS00025	DNA replication and repair protein RecF	HNEAP_RS00025 DNA replication and repair protein RecF	519	865
+HNEAP_RS00035	HNEAP_RS00035	LemA family protein	HNEAP_RS00035 LemA family protein	724	1149
+HNEAP_RS00040	HNEAP_RS00040	hypothetical protein	HNEAP_RS00040 hypothetical protein	1340	2212
+HNEAP_RS00045	HNEAP_RS00045	exodeoxyribonuclease III	HNEAP_RS00045 exodeoxyribonuclease III	353	638
+HNEAP_RS00050	HNEAP_RS00050	ABC transporter permease	HNEAP_RS00050 ABC transporter permease	2328	3748
+HNEAP_RS00055	HNEAP_RS00055	ABC transporter	HNEAP_RS00055 ABC transporter	1131	1796
+HNEAP_RS00060	HNEAP_RS00060	arylesterase	HNEAP_RS00060 arylesterase	763	1156
+HNEAP_RS00065	HNEAP_RS00065	DUF559 domain-containing protein	HNEAP_RS00065 DUF559 domain-containing protein	533	839
+HNEAP_RS00070	HNEAP_RS00070	IS110 family transposase	HNEAP_RS00070 IS110 family transposase	1634	2504
+HNEAP_RS00075	HNEAP_RS00075	prepilin-type cleavage/methylation domain-containing protein	HNEAP_RS00075 prepilin-type cleavage/methylation domain-containing protein	643	999
+HNEAP_RS00080	HNEAP_RS00080	Tfp pilus assembly protein FimT-like protein	HNEAP_RS00080 Tfp pilus assembly protein FimT-like protein	2871	4392
+HNEAP_RS00085	HNEAP_RS00085	type IV pilus modification protein PilV	HNEAP_RS00085 type IV pilus modification protein PilV	3751	5345
+HNEAP_RS00090	HNEAP_RS00090	prepilin-type cleavage/methylation domain-containing protein	HNEAP_RS00090 prepilin-type cleavage/methylation domain-containing protein	4668	6612
+HNEAP_RS00095	HNEAP_RS00095	hypothetical protein	HNEAP_RS00095 hypothetical protein	2981	4521
+HNEAP_RS00100	HNEAP_RS00100	type 4 fimbrial biogenesis protein PilY1	HNEAP_RS00100 type 4 fimbrial biogenesis protein PilY1	26254	40922
+HNEAP_RS00105	HNEAP_RS00105	PilE protein	HNEAP_RS00105 PilE protein	2909	4304
+HNEAP_RS00110	HNEAP_RS00110	pilus assembly protein	HNEAP_RS00110 pilus assembly protein	613	971
+HNEAP_RS00115	HNEAP_RS00115	DUF559 domain-containing protein	HNEAP_RS00115 DUF559 domain-containing protein	150	239
+HNEAP_RS00120	HNEAP_RS00120	excinuclease ABC subunit UvrA	HNEAP_RS00120 excinuclease ABC subunit UvrA	1589	2559
+HNEAP_RS00130	HNEAP_RS00130	gamma-glutamyltransferase	HNEAP_RS00130 gamma-glutamyltransferase	3192	4994
+HNEAP_RS00135	HNEAP_RS00135	23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ	HNEAP_RS00135 23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ	1532	2345
+HNEAP_RS00140	HNEAP_RS00140	metallophosphoesterase	HNEAP_RS00140 metallophosphoesterase	570	967
+HNEAP_RS00145	HNEAP_RS00145	ketohexokinase	HNEAP_RS00145 ketohexokinase	42	69
+HNEAP_RS00150	HNEAP_RS00150	GGDEF domain-containing protein	HNEAP_RS00150 GGDEF domain-containing protein	2471	3691
+HNEAP_RS00155	HNEAP_RS00155	BolA family transcriptional regulator	HNEAP_RS00155 BolA family transcriptional regulator	227	329
+HNEAP_RS00160	HNEAP_RS00160	HDOD domain-containing protein	HNEAP_RS00160 HDOD domain-containing protein	960	1438
+HNEAP_RS00165	HNEAP_RS00165	bifunctional (p)ppGpp synthetase/guanosine-3' 5'-bis(diphosphate) 3'-pyrophosphohydrolase	HNEAP_RS00165 bifunctional (p)ppGpp synthetase/guanosine-3' 5'-bis(diphosphate) 3'-pyrophosphohydrolase	29	55
+HNEAP_RS00170	HNEAP_RS00170	DNA-directed RNA polymerase subunit omega	HNEAP_RS00170 DNA-directed RNA polymerase subunit omega	21	35
+HNEAP_RS00180	HNEAP_RS00180	DedA family protein	HNEAP_RS00180 DedA family protein	228	433
+HNEAP_RS00185	HNEAP_RS00185	glycine zipper 2TM domain-containing protein	HNEAP_RS00185 glycine zipper 2TM domain-containing protein	651	1091
+HNEAP_RS00190	HNEAP_RS00190	membrane protein	HNEAP_RS00190 membrane protein	78	132
+HNEAP_RS00195	HNEAP_RS00195	exodeoxyribonuclease III	HNEAP_RS00195 exodeoxyribonuclease III	600	987
+HNEAP_RS00200	HNEAP_RS00200	hypothetical protein	HNEAP_RS00200 hypothetical protein	378	547
+HNEAP_RS00205	HNEAP_RS00205	hypothetical protein	HNEAP_RS00205 hypothetical protein	3053	4916
+HNEAP_RS00210	HNEAP_RS00210	TIGR01458 family HAD-type hydrolase	HNEAP_RS00210 TIGR01458 family HAD-type hydrolase	1064	1753
+HNEAP_RS00215	HNEAP_RS00215	competence/damage-inducible protein A	HNEAP_RS00215 competence/damage-inducible protein A	1196	1787
+HNEAP_RS00230	HNEAP_RS00230	hypothetical protein	HNEAP_RS00230 hypothetical protein	459	636
+HNEAP_RS00235	HNEAP_RS00235	hypothetical protein	HNEAP_RS00235 hypothetical protein	1241	2067
+HNEAP_RS00240	HNEAP_RS00240	5'-deoxynucleotidase	HNEAP_RS00240 5'-deoxynucleotidase	106	165
+HNEAP_RS00245	HNEAP_RS00245	deoxyguanosinetriphosphate triphosphohydrolase	HNEAP_RS00245 deoxyguanosinetriphosphate triphosphohydrolase	1569	2420
+HNEAP_RS00250	HNEAP_RS00250	NAD(P)-dependent oxidoreductase	HNEAP_RS00250 NAD(P)-dependent oxidoreductase	1397	2276
+HNEAP_RS00260	HNEAP_RS00260	DNA recombination protein RmuC	HNEAP_RS00260 DNA recombination protein RmuC	1577	2628
+HNEAP_RS00265	HNEAP_RS00265	hypothetical protein	HNEAP_RS00265 hypothetical protein	164	318
+HNEAP_RS00270	HNEAP_RS00270	metallophosphoesterase	HNEAP_RS00270 metallophosphoesterase	17	29
+HNEAP_RS00275	HNEAP_RS00275	hypothetical protein	HNEAP_RS00275 hypothetical protein	233	396
+HNEAP_RS00280	HNEAP_RS00280	hypothetical protein	HNEAP_RS00280 hypothetical protein	268	398
+HNEAP_RS00285	HNEAP_RS00285	bifunctional [glutamate--ammonia ligase]-adenylyl-L-tyrosine phosphorylase/[glutamate--ammonia-ligase] adenylyltransferase	HNEAP_RS00285 bifunctional [glutamate--ammonia ligase]-adenylyl-L-tyrosine phosphorylase/[glutamate--ammonia-ligase] adenylyltransferase	202	360
+HNEAP_RS00290	HNEAP_RS00290	hypothetical protein	HNEAP_RS00290 hypothetical protein	491	753
+HNEAP_RS00295	HNEAP_RS00295	molecular chaperone Skp	HNEAP_RS00295 molecular chaperone Skp	818	1331
+HNEAP_RS00300	HNEAP_RS00300	phosphopantetheine-binding protein	HNEAP_RS00300 phosphopantetheine-binding protein	143	218
+HNEAP_RS00305	HNEAP_RS00305	3-oxoacyl-ACP synthase	HNEAP_RS00305 3-oxoacyl-ACP synthase	2033	3216
+HNEAP_RS00310	HNEAP_RS00310	acyl carrier protein	HNEAP_RS00310 acyl carrier protein	49	99
+HNEAP_RS00320	HNEAP_RS00320	AMP-dependent synthetase and ligase	HNEAP_RS00320 AMP-dependent synthetase and ligase	2051	3146
+HNEAP_RS00325	HNEAP_RS00325	acyl-CoA synthetase	HNEAP_RS00325 acyl-CoA synthetase	663	1050
+HNEAP_RS00330	HNEAP_RS00330	outer membrane lipoprotein carrier protein LolA	HNEAP_RS00330 outer membrane lipoprotein carrier protein LolA	641	1105
+HNEAP_RS00335	HNEAP_RS00335	MMPL domain-containing protein	HNEAP_RS00335 MMPL domain-containing protein	2164	3415
+HNEAP_RS00340	HNEAP_RS00340	hypothetical protein	HNEAP_RS00340 hypothetical protein	533	820
+HNEAP_RS00345	HNEAP_RS00345	2-hydroxyacid dehydrogenase	HNEAP_RS00345 2-hydroxyacid dehydrogenase	417	778
+HNEAP_RS00350	HNEAP_RS00350	PilZ domain-containing protein	HNEAP_RS00350 PilZ domain-containing protein	122	237
+HNEAP_RS00355	HNEAP_RS00355	glutamate racemase	HNEAP_RS00355 glutamate racemase	757	1238
+HNEAP_RS00360	HNEAP_RS00360	Txe/YoeB family addiction module toxin	HNEAP_RS00360 Txe/YoeB family addiction module toxin	111	185
+HNEAP_RS00365	HNEAP_RS00365	prevent-host-death family protein	HNEAP_RS00365 prevent-host-death family protein	57	76
+HNEAP_RS00370	HNEAP_RS00370	hypothetical protein	HNEAP_RS00370 hypothetical protein	428	600
+HNEAP_RS00375	HNEAP_RS00375	hypothetical protein	HNEAP_RS00375 hypothetical protein	17	33
+HNEAP_RS00380	HNEAP_RS00380	hypothetical protein	HNEAP_RS00380 hypothetical protein	368	593
+HNEAP_RS00385	HNEAP_RS00385	hypothetical protein	HNEAP_RS00385 hypothetical protein	256	412
+HNEAP_RS00390	HNEAP_RS00390	hypothetical protein	HNEAP_RS00390 hypothetical protein	90	131
+HNEAP_RS00395	HNEAP_RS00395	hypothetical protein	HNEAP_RS00395 hypothetical protein	219	402
+HNEAP_RS00400	HNEAP_RS00400	hypothetical protein	HNEAP_RS00400 hypothetical protein	92	150
+HNEAP_RS00405	HNEAP_RS00405	hypothetical protein	HNEAP_RS00405 hypothetical protein	104	128
+HNEAP_RS00410	HNEAP_RS00410	hypothetical protein	HNEAP_RS00410 hypothetical protein	118	191
+HNEAP_RS00415	HNEAP_RS00415	yfeABCD locus regulator	HNEAP_RS00415 yfeABCD locus regulator	244	370
+HNEAP_RS00420	HNEAP_RS00420	ATPase	HNEAP_RS00420 ATPase	867	1329
+HNEAP_RS00435	HNEAP_RS00435	cation transporter	HNEAP_RS00435 cation transporter	711	1163
+HNEAP_RS00445	HNEAP_RS00445	hypothetical protein	HNEAP_RS00445 hypothetical protein	291	441
+HNEAP_RS00450	HNEAP_RS00450	mercury transporter MerC	HNEAP_RS00450 mercury transporter MerC	373	564
+HNEAP_RS00455	HNEAP_RS00455	hypothetical protein	HNEAP_RS00455 hypothetical protein	253	381
+HNEAP_RS00460	HNEAP_RS00460	hypothetical protein	HNEAP_RS00460 hypothetical protein	439	641
+HNEAP_RS00465	HNEAP_RS00465	hypothetical protein	HNEAP_RS00465 hypothetical protein	941	1463
+HNEAP_RS00470	HNEAP_RS00470	integrase	HNEAP_RS00470 integrase	362	549
+HNEAP_RS00480	HNEAP_RS00480	class I SAM-dependent methyltransferase	HNEAP_RS00480 class I SAM-dependent methyltransferase	567	922
+HNEAP_RS00485	HNEAP_RS00485	SNF2-like protein	HNEAP_RS00485 SNF2-like protein	4345	7175
+HNEAP_RS00490	HNEAP_RS00490	ferrous iron transport protein A	HNEAP_RS00490 ferrous iron transport protein A	37	100
+HNEAP_RS00510	HNEAP_RS00510	molecular chaperone DnaJ	HNEAP_RS00510 molecular chaperone DnaJ	518	831
+HNEAP_RS00565	HNEAP_RS00565	twin-arginine translocase subunit TatC	HNEAP_RS00565 twin-arginine translocase subunit TatC	53	69
+HNEAP_RS00575	HNEAP_RS00575	iron export ABC transporter permease subunit FetB	HNEAP_RS00575 iron export ABC transporter permease subunit FetB	328	490
+HNEAP_RS00580	HNEAP_RS00580	ABC transporter	HNEAP_RS00580 ABC transporter	259	413
+HNEAP_RS00585	HNEAP_RS00585	hypothetical protein	HNEAP_RS00585 hypothetical protein	482	755
+HNEAP_RS00590	HNEAP_RS00590	DNA helicase RecG	HNEAP_RS00590 DNA helicase RecG	1630	2474
+HNEAP_RS00595	HNEAP_RS00595	Hsp20/alpha crystallin family protein	HNEAP_RS00595 Hsp20/alpha crystallin family protein	405	675
+HNEAP_RS00605	HNEAP_RS00605	OmpA family protein	HNEAP_RS00605 OmpA family protein	953	1472
+HNEAP_RS00610	HNEAP_RS00610	hypothetical protein	HNEAP_RS00610 hypothetical protein	1335	2177
+HNEAP_RS00615	HNEAP_RS00615	hypothetical protein	HNEAP_RS00615 hypothetical protein	212	366
+HNEAP_RS00620	HNEAP_RS00620	hypothetical protein	HNEAP_RS00620 hypothetical protein	345	628
+HNEAP_RS00635	HNEAP_RS00635	diguanylate cyclase	HNEAP_RS00635 diguanylate cyclase	1159	1826
+HNEAP_RS00640	HNEAP_RS00640	response regulator	HNEAP_RS00640 response regulator	277	413
+HNEAP_RS00645	HNEAP_RS00645	sensor histidine kinase	HNEAP_RS00645 sensor histidine kinase	2311	3676
+HNEAP_RS00650	HNEAP_RS00650	serine/threonine-protein phosphatase	HNEAP_RS00650 serine/threonine-protein phosphatase	734	1119
+HNEAP_RS00655	HNEAP_RS00655	magnesium and cobalt transport protein CorA	HNEAP_RS00655 magnesium and cobalt transport protein CorA	1100	1732
+HNEAP_RS00660	HNEAP_RS00660	glycosyltransferase family 1 protein	HNEAP_RS00660 glycosyltransferase family 1 protein	1346	2288
+HNEAP_RS00665	HNEAP_RS00665	phosphatase PAP2 family protein	HNEAP_RS00665 phosphatase PAP2 family protein	618	902
+HNEAP_RS00670	HNEAP_RS00670	general secretion pathway protein GspC	HNEAP_RS00670 general secretion pathway protein GspC	1468	2403
+HNEAP_RS00675	HNEAP_RS00675	type II secretion system protein GspD	HNEAP_RS00675 type II secretion system protein GspD	2997	4687
+HNEAP_RS00680	HNEAP_RS00680	type II secretion system protein GspE	HNEAP_RS00680 type II secretion system protein GspE	2639	4299
+HNEAP_RS00685	HNEAP_RS00685	type II secretion system protein GspF	HNEAP_RS00685 type II secretion system protein GspF	1295	2133
+HNEAP_RS00690	HNEAP_RS00690	type II secretion system protein GspG	HNEAP_RS00690 type II secretion system protein GspG	297	500
+HNEAP_RS00705	HNEAP_RS00705	type II secretion system protein GspJ	HNEAP_RS00705 type II secretion system protein GspJ	535	855
+HNEAP_RS00710	HNEAP_RS00710	general secretion pathway protein GspK	HNEAP_RS00710 general secretion pathway protein GspK	1310	2205
+HNEAP_RS00715	HNEAP_RS00715	type II secretory pathway component PulL-like protein	HNEAP_RS00715 type II secretory pathway component PulL-like protein	1990	2905
+HNEAP_RS00720	HNEAP_RS00720	type II secretion system protein M	HNEAP_RS00720 type II secretion system protein M	1141	1711
+HNEAP_RS00725	HNEAP_RS00725	type II secretion system protein N	HNEAP_RS00725 type II secretion system protein N	1269	2099
+HNEAP_RS00730	HNEAP_RS00730	DUF4395 domain-containing protein	HNEAP_RS00730 DUF4395 domain-containing protein	301	849
+HNEAP_RS00735	HNEAP_RS00735	hypothetical protein	HNEAP_RS00735 hypothetical protein	907	1457
+HNEAP_RS00740	HNEAP_RS00740	BCCT family transporter	HNEAP_RS00740 BCCT family transporter	2388	3844
+HNEAP_RS00745	HNEAP_RS00745	MFS transporter	HNEAP_RS00745 MFS transporter	734	1113
+HNEAP_RS00750	HNEAP_RS00750	MFS transporter	HNEAP_RS00750 MFS transporter	623	993
+HNEAP_RS00760	HNEAP_RS00760	serine/threonine protein kinase	HNEAP_RS00760 serine/threonine protein kinase	2405	3665
+HNEAP_RS00765	HNEAP_RS00765	phosphopeptide-binding protein	HNEAP_RS00765 phosphopeptide-binding protein	456	776
+HNEAP_RS00770	HNEAP_RS00770	NADPH-dependent 7-cyano-7-deazaguanine reductase QueF	HNEAP_RS00770 NADPH-dependent 7-cyano-7-deazaguanine reductase QueF	155	236
+HNEAP_RS00775	HNEAP_RS00775	chromosome segregation protein SMC	HNEAP_RS00775 chromosome segregation protein SMC	3445	5380
+HNEAP_RS00795	HNEAP_RS00795	tRNA-Pro	HNEAP_RS00795 tRNA-Pro	122	211
+HNEAP_RS00800	HNEAP_RS00800	Lrp/AsnC family transcriptional regulator	HNEAP_RS00800 Lrp/AsnC family transcriptional regulator	792	1206
+HNEAP_RS00810	HNEAP_RS00810	ABC transporter ATP-binding protein	HNEAP_RS00810 ABC transporter ATP-binding protein	1280	1922
+HNEAP_RS00815	HNEAP_RS00815	phosphohistidine phosphatase SixA	HNEAP_RS00815 phosphohistidine phosphatase SixA	191	337
+HNEAP_RS00820	HNEAP_RS00820	rhombosortase	HNEAP_RS00820 rhombosortase	307	495
+HNEAP_RS00825	HNEAP_RS00825	transaldolase	HNEAP_RS00825 transaldolase	483	800
+HNEAP_RS00830	HNEAP_RS00830	hypothetical protein	HNEAP_RS00830 hypothetical protein	305	466
+HNEAP_RS00835	HNEAP_RS00835	RNA polymerase sigma factor	HNEAP_RS00835 RNA polymerase sigma factor	598	966
+HNEAP_RS00840	HNEAP_RS00840	hypothetical protein	HNEAP_RS00840 hypothetical protein	694	1107
+HNEAP_RS00845	HNEAP_RS00845	phosphate porin	HNEAP_RS00845 phosphate porin	1699	2681
+HNEAP_RS00850	HNEAP_RS00850	sensor domain-containing diguanylate cyclase	HNEAP_RS00850 sensor domain-containing diguanylate cyclase	790	1178
+HNEAP_RS00855	HNEAP_RS00855	protein disulfide oxidoreductase	HNEAP_RS00855 protein disulfide oxidoreductase	429	647
+HNEAP_RS00865	HNEAP_RS00865	dUTP diphosphatase	HNEAP_RS00865 dUTP diphosphatase	13	33
+HNEAP_RS00875	HNEAP_RS00875	hypothetical protein	HNEAP_RS00875 hypothetical protein	113	193
+HNEAP_RS00880	HNEAP_RS00880	DUF4124 domain-containing protein	HNEAP_RS00880 DUF4124 domain-containing protein	605	923
+HNEAP_RS00885	HNEAP_RS00885	MFS transporter	HNEAP_RS00885 MFS transporter	1588	2411
+HNEAP_RS00890	HNEAP_RS00890	ArsR family transcriptional regulator	HNEAP_RS00890 ArsR family transcriptional regulator	645	978
+HNEAP_RS00895	HNEAP_RS00895	ATPase AAA	HNEAP_RS00895 ATPase AAA	6	11
+HNEAP_RS00900	HNEAP_RS00900	DUF58 domain-containing protein	HNEAP_RS00900 DUF58 domain-containing protein	8	26
+HNEAP_RS00905	HNEAP_RS00905	hypothetical protein	HNEAP_RS00905 hypothetical protein	54	99
+HNEAP_RS00910	HNEAP_RS00910	VWA domain-containing protein	HNEAP_RS00910 VWA domain-containing protein	21	21
+HNEAP_RS00915	HNEAP_RS00915	hypothetical protein	HNEAP_RS00915 hypothetical protein	77	137
+HNEAP_RS00920	HNEAP_RS00920	hypothetical protein	HNEAP_RS00920 hypothetical protein	346	591
+HNEAP_RS00925	HNEAP_RS00925	hypothetical protein	HNEAP_RS00925 hypothetical protein	230	353
+HNEAP_RS00930	HNEAP_RS00930	High potential iron-sulfur protein	HNEAP_RS00930 High potential iron-sulfur protein	356	630
+HNEAP_RS00935	HNEAP_RS00935	SELO family protein	HNEAP_RS00935 SELO family protein	1761	2786
+HNEAP_RS00940	HNEAP_RS00940	hypothetical protein	HNEAP_RS00940 hypothetical protein	995	1517
+HNEAP_RS00945	HNEAP_RS00945	diaminobutyrate acetyltransferase	HNEAP_RS00945 diaminobutyrate acetyltransferase	698	1075
+HNEAP_RS00950	HNEAP_RS00950	diaminobutyrate--2-oxoglutarate transaminase	HNEAP_RS00950 diaminobutyrate--2-oxoglutarate transaminase	818	1239
+HNEAP_RS00955	HNEAP_RS00955	ectoine synthase	HNEAP_RS00955 ectoine synthase	130	240
+HNEAP_RS00960	HNEAP_RS00960	inositol monophosphatase	HNEAP_RS00960 inositol monophosphatase	656	1044
+HNEAP_RS00965	HNEAP_RS00965	rhodanese	HNEAP_RS00965 rhodanese	1368	2125
+HNEAP_RS00970	HNEAP_RS00970	DUF2076 domain-containing protein	HNEAP_RS00970 DUF2076 domain-containing protein	825	1179
+HNEAP_RS00980	HNEAP_RS00980	type II restriction endonuclease	HNEAP_RS00980 type II restriction endonuclease	231	365
+HNEAP_RS00990	HNEAP_RS00990	DUF3240 domain-containing protein	HNEAP_RS00990 DUF3240 domain-containing protein	151	240
+HNEAP_RS00995	HNEAP_RS00995	CusA/CzcA family heavy metal efflux RND transporter	HNEAP_RS00995 CusA/CzcA family heavy metal efflux RND transporter	3088	4779
+HNEAP_RS01000	HNEAP_RS01000	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS01000 efflux RND transporter periplasmic adaptor subunit	1963	3074
+HNEAP_RS01005	HNEAP_RS01005	TolC family protein	HNEAP_RS01005 TolC family protein	2022	3121
+HNEAP_RS01010	HNEAP_RS01010	DNA-binding response regulator	HNEAP_RS01010 DNA-binding response regulator	758	1296
+HNEAP_RS01015	HNEAP_RS01015	two-component sensor histidine kinase	HNEAP_RS01015 two-component sensor histidine kinase	2279	3650
+HNEAP_RS01025	HNEAP_RS01025	tryptophan-rich sensory protein	HNEAP_RS01025 tryptophan-rich sensory protein	157	204
+HNEAP_RS01030	HNEAP_RS01030	DUF2309 domain-containing protein	HNEAP_RS01030 DUF2309 domain-containing protein	1396	3884
+HNEAP_RS01035	HNEAP_RS01035	NADH dehydrogenase subunit 5	HNEAP_RS01035 NADH dehydrogenase subunit 5	883	2310
+HNEAP_RS01040	HNEAP_RS01040	LysR family transcriptional regulator	HNEAP_RS01040 LysR family transcriptional regulator	262	627
+HNEAP_RS01045	HNEAP_RS01045	DUF3817 domain-containing protein	HNEAP_RS01045 DUF3817 domain-containing protein	360	578
+HNEAP_RS01050	HNEAP_RS01050	aminoacyl-tRNA hydrolase	HNEAP_RS01050 aminoacyl-tRNA hydrolase	80	129
+HNEAP_RS01055	HNEAP_RS01055	hypothetical protein	HNEAP_RS01055 hypothetical protein	301	530
+HNEAP_RS01060	HNEAP_RS01060	thioredoxin domain-containing protein	HNEAP_RS01060 thioredoxin domain-containing protein	2480	3942
+HNEAP_RS01065	HNEAP_RS01065	DUF839 domain-containing protein	HNEAP_RS01065 DUF839 domain-containing protein	1596	2472
+HNEAP_RS01070	HNEAP_RS01070	hypothetical protein	HNEAP_RS01070 hypothetical protein	1645	2576
+HNEAP_RS01080	HNEAP_RS01080	hypothetical protein	HNEAP_RS01080 hypothetical protein	882	1447
+HNEAP_RS01085	HNEAP_RS01085	DUF2892 domain-containing protein	HNEAP_RS01085 DUF2892 domain-containing protein	83	143
+HNEAP_RS01090	HNEAP_RS01090	hypothetical protein	HNEAP_RS01090 hypothetical protein	331	537
+HNEAP_RS01105	HNEAP_RS01105	alkaline invertase	HNEAP_RS01105 alkaline invertase	1570	2549
+HNEAP_RS01110	HNEAP_RS01110	sucrose-phosphate synthase	HNEAP_RS01110 sucrose-phosphate synthase	3597	5580
+HNEAP_RS01115	HNEAP_RS01115	haloacid dehalogenase	HNEAP_RS01115 haloacid dehalogenase	1	2
+HNEAP_RS01120	HNEAP_RS01120	Small-conductance mechanosensitive channel-like protein	HNEAP_RS01120 Small-conductance mechanosensitive channel-like protein	644	1131
+HNEAP_RS01125	HNEAP_RS01125	pilin	HNEAP_RS01125 pilin	594	918
+HNEAP_RS01130	HNEAP_RS01130	monofunctional biosynthetic peptidoglycan transglycosylase	HNEAP_RS01130 monofunctional biosynthetic peptidoglycan transglycosylase	320	536
+HNEAP_RS01135	HNEAP_RS01135	Vi polysaccharide biosynthesis UDP-N-acetylglucosamine C-6 dehydrogenase TviB	HNEAP_RS01135 Vi polysaccharide biosynthesis UDP-N-acetylglucosamine C-6 dehydrogenase TviB	1357	1889
+HNEAP_RS01140	HNEAP_RS01140	nucleotidyltransferase domain-containing protein	HNEAP_RS01140 nucleotidyltransferase domain-containing protein	68	114
+HNEAP_RS01145	HNEAP_RS01145	hypothetical protein	HNEAP_RS01145 hypothetical protein	593	864
+HNEAP_RS01155	HNEAP_RS01155	group 1 glycosyl transferase	HNEAP_RS01155 group 1 glycosyl transferase	1055	1630
+HNEAP_RS01165	HNEAP_RS01165	hypothetical protein	HNEAP_RS01165 hypothetical protein	998	1502
+HNEAP_RS01170	HNEAP_RS01170	DegT/DnrJ/EryC1/StrS family aminotransferase	HNEAP_RS01170 DegT/DnrJ/EryC1/StrS family aminotransferase	767	1035
+HNEAP_RS01180	HNEAP_RS01180	nucleotidyltransferase domain-containing protein	HNEAP_RS01180 nucleotidyltransferase domain-containing protein	171	323
+HNEAP_RS01185	HNEAP_RS01185	type II toxin-antitoxin system RelE/ParE family toxin	HNEAP_RS01185 type II toxin-antitoxin system RelE/ParE family toxin	197	324
+HNEAP_RS01195	HNEAP_RS01195	Txe/YoeB family addiction module toxin	HNEAP_RS01195 Txe/YoeB family addiction module toxin	117	177
+HNEAP_RS01200	HNEAP_RS01200	type II toxin-antitoxin system prevent-host-death family antitoxin	HNEAP_RS01200 type II toxin-antitoxin system prevent-host-death family antitoxin	43	87
+HNEAP_RS01215	HNEAP_RS01215	carbohydrate porin	HNEAP_RS01215 carbohydrate porin	1098	1555
+HNEAP_RS01220	HNEAP_RS01220	succinyldiaminopimelate transaminase	HNEAP_RS01220 succinyldiaminopimelate transaminase	940	1423
+HNEAP_RS01225	HNEAP_RS01225	glyoxalase	HNEAP_RS01225 glyoxalase	144	255
+HNEAP_RS01235	HNEAP_RS01235	ParA family protein	HNEAP_RS01235 ParA family protein	498	800
+HNEAP_RS01240	HNEAP_RS01240	nitrogen regulation protein NR(I)	HNEAP_RS01240 nitrogen regulation protein NR(I)	1818	2645
+HNEAP_RS01245	HNEAP_RS01245	hypothetical protein	HNEAP_RS01245 hypothetical protein	1143	1866
+HNEAP_RS01250	HNEAP_RS01250	DUF4124 domain-containing protein	HNEAP_RS01250 DUF4124 domain-containing protein	328	545
+HNEAP_RS01265	HNEAP_RS01265	hypothetical protein	HNEAP_RS01265 hypothetical protein	248	411
+HNEAP_RS01270	HNEAP_RS01270	C4-dicarboxylate ABC transporter	HNEAP_RS01270 C4-dicarboxylate ABC transporter	1225	1837
+HNEAP_RS01275	HNEAP_RS01275	integral membrane protein	HNEAP_RS01275 integral membrane protein	607	1023
+HNEAP_RS01280	HNEAP_RS01280	cytochrome c554	HNEAP_RS01280 cytochrome c554	22	49
+HNEAP_RS01315	HNEAP_RS01315	hypothetical protein	HNEAP_RS01315 hypothetical protein	192	487
+HNEAP_RS01320	HNEAP_RS01320	copper oxidase	HNEAP_RS01320 copper oxidase	1644	3278
+HNEAP_RS01325	HNEAP_RS01325	copper resistance protein B	HNEAP_RS01325 copper resistance protein B	709	1329
+HNEAP_RS01330	HNEAP_RS01330	hypothetical protein	HNEAP_RS01330 hypothetical protein	100	182
+HNEAP_RS01335	HNEAP_RS01335	bilirubin oxidase	HNEAP_RS01335 bilirubin oxidase	681	1623
+HNEAP_RS01340	HNEAP_RS01340	TolC family protein	HNEAP_RS01340 TolC family protein	196	647
+HNEAP_RS01350	HNEAP_RS01350	AcrB/AcrD/AcrF family protein	HNEAP_RS01350 AcrB/AcrD/AcrF family protein	413	1240
+HNEAP_RS01355	HNEAP_RS01355	DUF4332 domain-containing protein	HNEAP_RS01355 DUF4332 domain-containing protein	197	302
+HNEAP_RS01360	HNEAP_RS01360	type II toxin-antitoxin system RelE/ParE family toxin	HNEAP_RS01360 type II toxin-antitoxin system RelE/ParE family toxin	58	82
+HNEAP_RS01365	HNEAP_RS01365	hypothetical protein	HNEAP_RS01365 hypothetical protein	135	200
+HNEAP_RS01375	HNEAP_RS01375	ATP-dependent RNA helicase HrpA	HNEAP_RS01375 ATP-dependent RNA helicase HrpA	3301	4954
+HNEAP_RS01380	HNEAP_RS01380	hypothetical protein	HNEAP_RS01380 hypothetical protein	2096	3302
+HNEAP_RS01385	HNEAP_RS01385	DUF3024 domain-containing protein	HNEAP_RS01385 DUF3024 domain-containing protein	97	136
+HNEAP_RS01390	HNEAP_RS01390	type II toxin-antitoxin system RelE/ParE family toxin	HNEAP_RS01390 type II toxin-antitoxin system RelE/ParE family toxin	217	268
+HNEAP_RS01395	HNEAP_RS01395	type II toxin-antitoxin system ParD family antitoxin	HNEAP_RS01395 type II toxin-antitoxin system ParD family antitoxin	93	141
+HNEAP_RS01400	HNEAP_RS01400	anti-sigma-K factor RskA	HNEAP_RS01400 anti-sigma-K factor RskA	816	1343
+HNEAP_RS01405	HNEAP_RS01405	hypothetical protein	HNEAP_RS01405 hypothetical protein	883	1352
+HNEAP_RS01415	HNEAP_RS01415	hypothetical protein	HNEAP_RS01415 hypothetical protein	197	239
+HNEAP_RS01420	HNEAP_RS01420	DUF692 domain-containing protein	HNEAP_RS01420 DUF692 domain-containing protein	1008	1587
+HNEAP_RS01430	HNEAP_RS01430	thioredoxin domain-containing protein	HNEAP_RS01430 thioredoxin domain-containing protein	1954	3017
+HNEAP_RS01435	HNEAP_RS01435	fatty acid hydroxylase	HNEAP_RS01435 fatty acid hydroxylase	619	943
+HNEAP_RS01440	HNEAP_RS01440	DUF4124 domain-containing protein	HNEAP_RS01440 DUF4124 domain-containing protein	336	494
+HNEAP_RS01445	HNEAP_RS01445	aminoglycoside phosphotransferase	HNEAP_RS01445 aminoglycoside phosphotransferase	619	912
+HNEAP_RS01450	HNEAP_RS01450	Zn-dependent hydrolase	HNEAP_RS01450 Zn-dependent hydrolase	1192	1746
+HNEAP_RS01455	HNEAP_RS01455	pyridine nucleotide-disulfide oxidoreductase	HNEAP_RS01455 pyridine nucleotide-disulfide oxidoreductase	1243	1971
+HNEAP_RS01460	HNEAP_RS01460	DNA helicase RecQ	HNEAP_RS01460 DNA helicase RecQ	1633	2366
+HNEAP_RS01465	HNEAP_RS01465	hypothetical protein	HNEAP_RS01465 hypothetical protein	774	1153
+HNEAP_RS01470	HNEAP_RS01470	UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase	HNEAP_RS01470 UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase	1751	2003
+HNEAP_RS01475	HNEAP_RS01475	peptidase S16	HNEAP_RS01475 peptidase S16	380	584
+HNEAP_RS01480	HNEAP_RS01480	thiol reductase thioredoxin	HNEAP_RS01480 thiol reductase thioredoxin	162	296
+HNEAP_RS01485	HNEAP_RS01485	AEC family transporter	HNEAP_RS01485 AEC family transporter	550	756
+HNEAP_RS01490	HNEAP_RS01490	FKBP-type peptidylprolyl isomerase	HNEAP_RS01490 FKBP-type peptidylprolyl isomerase	27	43
+HNEAP_RS01495	HNEAP_RS01495	peptidase M61 domain-containing protein	HNEAP_RS01495 peptidase M61 domain-containing protein	310	481
+HNEAP_RS01530	HNEAP_RS01530	elongation factor Tu	HNEAP_RS01530 elongation factor Tu	24	37
+HNEAP_RS01735	HNEAP_RS01735	hypothetical protein	HNEAP_RS01735 hypothetical protein	170	238
+HNEAP_RS01740	HNEAP_RS01740	excinuclease ABC subunit UvrB	HNEAP_RS01740 excinuclease ABC subunit UvrB	1457	2182
+HNEAP_RS01750	HNEAP_RS01750	23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB	HNEAP_RS01750 23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB	689	1076
+HNEAP_RS01760	HNEAP_RS01760	recombinase RecA	HNEAP_RS01760 recombinase RecA	65	97
+HNEAP_RS01765	HNEAP_RS01765	regulatory protein RecX	HNEAP_RS01765 regulatory protein RecX	408	507
+HNEAP_RS01785	HNEAP_RS01785	ammonium transporter	HNEAP_RS01785 ammonium transporter	571	838
+HNEAP_RS01810	HNEAP_RS01810	hypothetical protein	HNEAP_RS01810 hypothetical protein	406	557
+HNEAP_RS01820	HNEAP_RS01820	hypothetical protein	HNEAP_RS01820 hypothetical protein	601	904
+HNEAP_RS01825	HNEAP_RS01825	hypothetical protein	HNEAP_RS01825 hypothetical protein	52	52
+HNEAP_RS01850	HNEAP_RS01850	hypothetical protein	HNEAP_RS01850 hypothetical protein	4021	5603
+HNEAP_RS01855	HNEAP_RS01855	ShlB/FhaC/HecB family hemolysin secretion/activation protein	HNEAP_RS01855 ShlB/FhaC/HecB family hemolysin secretion/activation protein	1227	1842
+HNEAP_RS01860	HNEAP_RS01860	addiction module antidote protein  HigA family	HNEAP_RS01860 addiction module antidote protein  HigA family	43	83
+HNEAP_RS01870	HNEAP_RS01870	hypothetical protein	HNEAP_RS01870 hypothetical protein	244	382
+HNEAP_RS01875	HNEAP_RS01875	hypothetical protein	HNEAP_RS01875 hypothetical protein	261	355
+HNEAP_RS01885	HNEAP_RS01885	DUF302 domain-containing protein	HNEAP_RS01885 DUF302 domain-containing protein	371	618
+HNEAP_RS01890	HNEAP_RS01890	aromatic hydrocarbon degradation membrane protein	HNEAP_RS01890 aromatic hydrocarbon degradation membrane protein	512	791
+HNEAP_RS01900	HNEAP_RS01900	hypothetical protein	HNEAP_RS01900 hypothetical protein	1005	1460
+HNEAP_RS01905	HNEAP_RS01905	translational GTPase TypA	HNEAP_RS01905 translational GTPase TypA	15	37
+HNEAP_RS01920	HNEAP_RS01920	trigger factor	HNEAP_RS01920 trigger factor	141	185
+HNEAP_RS01925	HNEAP_RS01925	ATP-dependent Clp endopeptidase  proteolytic subunit ClpP	HNEAP_RS01925 ATP-dependent Clp endopeptidase  proteolytic subunit ClpP	88	156
+HNEAP_RS01930	HNEAP_RS01930	ATP-dependent Clp protease ATP-binding subunit ClpX	HNEAP_RS01930 ATP-dependent Clp protease ATP-binding subunit ClpX	526	660
+HNEAP_RS01935	HNEAP_RS01935	endopeptidase La	HNEAP_RS01935 endopeptidase La	55	106
+HNEAP_RS01940	HNEAP_RS01940	HU family DNA-binding protein	HNEAP_RS01940 HU family DNA-binding protein	107	142
+HNEAP_RS01945	HNEAP_RS01945	peptidyl-prolyl cis-trans isomerase	HNEAP_RS01945 peptidyl-prolyl cis-trans isomerase	69	124
+HNEAP_RS01955	HNEAP_RS01955	ABC transporter substrate-binding protein	HNEAP_RS01955 ABC transporter substrate-binding protein	1502	2265
+HNEAP_RS01960	HNEAP_RS01960	hypothetical protein	HNEAP_RS01960 hypothetical protein	1084	1554
+HNEAP_RS01965	HNEAP_RS01965	FMN-binding negative transcriptional regulator	HNEAP_RS01965 FMN-binding negative transcriptional regulator	664	899
+HNEAP_RS01970	HNEAP_RS01970	microcin C ABC transporter permease YejB	HNEAP_RS01970 microcin C ABC transporter permease YejB	766	1157
+HNEAP_RS01975	HNEAP_RS01975	ABC transporter permease	HNEAP_RS01975 ABC transporter permease	963	1369
+HNEAP_RS01980	HNEAP_RS01980	YkgJ family cysteine cluster protein	HNEAP_RS01980 YkgJ family cysteine cluster protein	696	1070
+HNEAP_RS01985	HNEAP_RS01985	ABC transporter substrate-binding protein	HNEAP_RS01985 ABC transporter substrate-binding protein	547	807
+HNEAP_RS01990	HNEAP_RS01990	DUF1255 domain-containing protein	HNEAP_RS01990 DUF1255 domain-containing protein	414	647
+HNEAP_RS01995	HNEAP_RS01995	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine-endopeptidase	HNEAP_RS01995 D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine-endopeptidase	40	57
+HNEAP_RS02000	HNEAP_RS02000	metal-dependent phosphohydrolase	HNEAP_RS02000 metal-dependent phosphohydrolase	884	1366
+HNEAP_RS02005	HNEAP_RS02005	single-stranded-DNA-specific exonuclease RecJ	HNEAP_RS02005 single-stranded-DNA-specific exonuclease RecJ	827	1216
+HNEAP_RS02010	HNEAP_RS02010	exopolyphosphatase	HNEAP_RS02010 exopolyphosphatase	1508	2007
+HNEAP_RS02040	HNEAP_RS02040	thioredoxin family protein	HNEAP_RS02040 thioredoxin family protein	1205	1771
+HNEAP_RS02045	HNEAP_RS02045	hypothetical protein	HNEAP_RS02045 hypothetical protein	490	772
+HNEAP_RS02050	HNEAP_RS02050	IS630 family transposase	HNEAP_RS02050 IS630 family transposase	1412	2003
+HNEAP_RS02070	HNEAP_RS02070	SPFH/Band 7/PHB domain protein	HNEAP_RS02070 SPFH/Band 7/PHB domain protein	697	1073
+HNEAP_RS02075	HNEAP_RS02075	hypothetical protein	HNEAP_RS02075 hypothetical protein	287	401
+HNEAP_RS02080	HNEAP_RS02080	NfeD family protein	HNEAP_RS02080 NfeD family protein	120	183
+HNEAP_RS02090	HNEAP_RS02090	16S rRNA (uracil(1498)-N(3))-methyltransferase	HNEAP_RS02090 16S rRNA (uracil(1498)-N(3))-methyltransferase	855	1246
+HNEAP_RS02110	HNEAP_RS02110	hypothetical protein	HNEAP_RS02110 hypothetical protein	432	596
+HNEAP_RS02115	HNEAP_RS02115	lipid hydroperoxide peroxidase	HNEAP_RS02115 lipid hydroperoxide peroxidase	428	638
+HNEAP_RS02120	HNEAP_RS02120	fructokinase	HNEAP_RS02120 fructokinase	867	1222
+HNEAP_RS02125	HNEAP_RS02125	arsenical efflux pump membrane protein ArsB	HNEAP_RS02125 arsenical efflux pump membrane protein ArsB	957	1364
+HNEAP_RS02130	HNEAP_RS02130	exodeoxyribonuclease VII large subunit	HNEAP_RS02130 exodeoxyribonuclease VII large subunit	1237	1700
+HNEAP_RS02135	HNEAP_RS02135	cytoplasmic domain of flagellar protein FhlB-like protein	HNEAP_RS02135 cytoplasmic domain of flagellar protein FhlB-like protein	383	489
+HNEAP_RS02140	HNEAP_RS02140	flagellar hook-length control protein FliK	HNEAP_RS02140 flagellar hook-length control protein FliK	1037	1576
+HNEAP_RS02145	HNEAP_RS02145	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS02145 sigma-54-dependent Fis family transcriptional regulator	2863	4299
+HNEAP_RS02150	HNEAP_RS02150	flagellar hook-basal body complex protein FliE	HNEAP_RS02150 flagellar hook-basal body complex protein FliE	368	530
+HNEAP_RS02155	HNEAP_RS02155	flagellar M-ring protein FliF	HNEAP_RS02155 flagellar M-ring protein FliF	3449	4971
+HNEAP_RS02160	HNEAP_RS02160	flagellar motor switch protein FliG	HNEAP_RS02160 flagellar motor switch protein FliG	2331	3437
+HNEAP_RS02165	HNEAP_RS02165	flagellar assembly protein FliH	HNEAP_RS02165 flagellar assembly protein FliH	712	907
+HNEAP_RS02170	HNEAP_RS02170	flagellar protein export ATPase FliI	HNEAP_RS02170 flagellar protein export ATPase FliI	1461	1882
+HNEAP_RS02175	HNEAP_RS02175	hypothetical protein	HNEAP_RS02175 hypothetical protein	1290	1819
+HNEAP_RS02180	HNEAP_RS02180	flagellar hook-length control protein FliK	HNEAP_RS02180 flagellar hook-length control protein FliK	2601	4126
+HNEAP_RS02185	HNEAP_RS02185	histone family protein nucleoid-structuring protein H-NS	HNEAP_RS02185 histone family protein nucleoid-structuring protein H-NS	24	54
+HNEAP_RS02270	HNEAP_RS02270	hypothetical protein	HNEAP_RS02270 hypothetical protein	204	312
+HNEAP_RS02275	HNEAP_RS02275	RES domain-containing protein	HNEAP_RS02275 RES domain-containing protein	292	450
+HNEAP_RS02305	HNEAP_RS02305	sel1 repeat family protein	HNEAP_RS02305 sel1 repeat family protein	1785	2608
+HNEAP_RS02310	HNEAP_RS02310	cardiolipin synthase	HNEAP_RS02310 cardiolipin synthase	353	521
+HNEAP_RS02315	HNEAP_RS02315	short-chain dehydrogenase/reductase	HNEAP_RS02315 short-chain dehydrogenase/reductase	582	830
+HNEAP_RS02320	HNEAP_RS02320	BAX inhibitor (BI)-1/YccA family protein	HNEAP_RS02320 BAX inhibitor (BI)-1/YccA family protein	723	1080
+HNEAP_RS02325	HNEAP_RS02325	hypothetical protein	HNEAP_RS02325 hypothetical protein	165	289
+HNEAP_RS02330	HNEAP_RS02330	CBS domain-containing protein	HNEAP_RS02330 CBS domain-containing protein	468	668
+HNEAP_RS02335	HNEAP_RS02335	HPP family protein	HNEAP_RS02335 HPP family protein	724	1105
+HNEAP_RS02340	HNEAP_RS02340	methyl-accepting chemotaxis protein	HNEAP_RS02340 methyl-accepting chemotaxis protein	1857	2638
+HNEAP_RS02345	HNEAP_RS02345	IclR family transcriptional regulator	HNEAP_RS02345 IclR family transcriptional regulator	426	546
+HNEAP_RS02350	HNEAP_RS02350	DUF3429 domain-containing protein	HNEAP_RS02350 DUF3429 domain-containing protein	127	181
+HNEAP_RS02355	HNEAP_RS02355	DUF502 domain-containing protein	HNEAP_RS02355 DUF502 domain-containing protein	301	428
+HNEAP_RS02370	HNEAP_RS02370	sodium/hydrogen exchanger	HNEAP_RS02370 sodium/hydrogen exchanger	1327	1825
+HNEAP_RS02390	HNEAP_RS02390	integrase	HNEAP_RS02390 integrase	1765	2480
+HNEAP_RS02400	HNEAP_RS02400	hypothetical protein	HNEAP_RS02400 hypothetical protein	612	876
+HNEAP_RS02425	HNEAP_RS02425	AlpA family phage regulatory protein	HNEAP_RS02425 AlpA family phage regulatory protein	190	287
+HNEAP_RS02430	HNEAP_RS02430	NAD(P)-dependent oxidoreductase	HNEAP_RS02430 NAD(P)-dependent oxidoreductase	560	825
+HNEAP_RS02440	HNEAP_RS02440	ABC transporter permease	HNEAP_RS02440 ABC transporter permease	42	88
+HNEAP_RS02450	HNEAP_RS02450	mannose-1-phosphate guanylyltransferase/mannose-6-phosphate isomerase	HNEAP_RS02450 mannose-1-phosphate guanylyltransferase/mannose-6-phosphate isomerase	403	587
+HNEAP_RS02455	HNEAP_RS02455	phosphomannomutase/phosphoglucomutase	HNEAP_RS02455 phosphomannomutase/phosphoglucomutase	307	431
+HNEAP_RS02460	HNEAP_RS02460	hypothetical protein	HNEAP_RS02460 hypothetical protein	526	725
+HNEAP_RS02470	HNEAP_RS02470	GDP-mannose 4 6-dehydratase	HNEAP_RS02470 GDP-mannose 4 6-dehydratase	207	286
+HNEAP_RS02475	HNEAP_RS02475	GDP-6-deoxy-D-lyxo-4-hexulose reductase	HNEAP_RS02475 GDP-6-deoxy-D-lyxo-4-hexulose reductase	138	169
+HNEAP_RS02480	HNEAP_RS02480	glycosyltransferase family 1 protein	HNEAP_RS02480 glycosyltransferase family 1 protein	99	125
+HNEAP_RS02485	HNEAP_RS02485	group 1 glycosyl transferase	HNEAP_RS02485 group 1 glycosyl transferase	126	156
+HNEAP_RS02490	HNEAP_RS02490	undecaprenyl-phosphate glucose phosphotransferase	HNEAP_RS02490 undecaprenyl-phosphate glucose phosphotransferase	363	522
+HNEAP_RS02495	HNEAP_RS02495	nucleotidyltransferase family protein	HNEAP_RS02495 nucleotidyltransferase family protein	16	30
+HNEAP_RS02500	HNEAP_RS02500	TolC family type I secretion outer membrane protein	HNEAP_RS02500 TolC family type I secretion outer membrane protein	99	123
+HNEAP_RS02515	HNEAP_RS02515	peroxiredoxin	HNEAP_RS02515 peroxiredoxin	321	475
+HNEAP_RS02525	HNEAP_RS02525	hypothetical protein	HNEAP_RS02525 hypothetical protein	587	839
+HNEAP_RS02530	HNEAP_RS02530	cation transporter	HNEAP_RS02530 cation transporter	455	654
+HNEAP_RS02535	HNEAP_RS02535	DUF1244 domain-containing protein	HNEAP_RS02535 DUF1244 domain-containing protein	256	335
+HNEAP_RS02540	HNEAP_RS02540	BolA family transcriptional regulator	HNEAP_RS02540 BolA family transcriptional regulator	104	115
+HNEAP_RS02545	HNEAP_RS02545	ribonuclease D	HNEAP_RS02545 ribonuclease D	901	1318
+HNEAP_RS02550	HNEAP_RS02550	peptidyl-prolyl cis-trans isomerase	HNEAP_RS02550 peptidyl-prolyl cis-trans isomerase	164	234
+HNEAP_RS02585	HNEAP_RS02585	response regulator	HNEAP_RS02585 response regulator	421	443
+HNEAP_RS02595	HNEAP_RS02595	methyl-accepting chemotaxis sensory transducer	HNEAP_RS02595 methyl-accepting chemotaxis sensory transducer	8732	10469
+HNEAP_RS02600	HNEAP_RS02600	signal transduction histidine kinase	HNEAP_RS02600 signal transduction histidine kinase	21643	25187
+HNEAP_RS02605	HNEAP_RS02605	hypothetical protein	HNEAP_RS02605 hypothetical protein	662	838
+HNEAP_RS02610	HNEAP_RS02610	hypothetical protein	HNEAP_RS02610 hypothetical protein	860	1153
+HNEAP_RS02615	HNEAP_RS02615	TonB-dependent receptor	HNEAP_RS02615 TonB-dependent receptor	1539	2129
+HNEAP_RS02620	HNEAP_RS02620	ADP compounds hydrolase NudE	HNEAP_RS02620 ADP compounds hydrolase NudE	1082	1856
+HNEAP_RS02625	HNEAP_RS02625	3'(2') 5'-bisphosphate nucleotidase	HNEAP_RS02625 3'(2') 5'-bisphosphate nucleotidase	1366	2107
+HNEAP_RS02635	HNEAP_RS02635	MFS transporter	HNEAP_RS02635 MFS transporter	826	1094
+HNEAP_RS02640	HNEAP_RS02640	YebC/PmpR family DNA-binding transcriptional regulator	HNEAP_RS02640 YebC/PmpR family DNA-binding transcriptional regulator	604	919
+HNEAP_RS02660	HNEAP_RS02660	tol-pal system-associated acyl-CoA thioesterase	HNEAP_RS02660 tol-pal system-associated acyl-CoA thioesterase	216	327
+HNEAP_RS02685	HNEAP_RS02685	tol-pal system protein YbgF	HNEAP_RS02685 tol-pal system protein YbgF	474	706
+HNEAP_RS02690	HNEAP_RS02690	7-carboxy-7-deazaguanine synthase QueE	HNEAP_RS02690 7-carboxy-7-deazaguanine synthase QueE	210	287
+HNEAP_RS02695	HNEAP_RS02695	7-cyano-7-deazaguanine synthase QueC	HNEAP_RS02695 7-cyano-7-deazaguanine synthase QueC	362	530
+HNEAP_RS02730	HNEAP_RS02730	hypothetical protein	HNEAP_RS02730 hypothetical protein	47	74
+HNEAP_RS02735	HNEAP_RS02735	hypothetical protein	HNEAP_RS02735 hypothetical protein	586	846
+HNEAP_RS02740	HNEAP_RS02740	cytochrome c	HNEAP_RS02740 cytochrome c	74	105
+HNEAP_RS02745	HNEAP_RS02745	purine or other phosphorylase family 1	HNEAP_RS02745 purine or other phosphorylase family 1	876	1312
+HNEAP_RS02750	HNEAP_RS02750	adenine phosphoribosyltransferase	HNEAP_RS02750 adenine phosphoribosyltransferase	179	256
+HNEAP_RS02755	HNEAP_RS02755	Smr protein/MutS2	HNEAP_RS02755 Smr protein/MutS2	335	496
+HNEAP_RS02765	HNEAP_RS02765	protein-L-isoaspartate(D-aspartate) O-methyltransferase	HNEAP_RS02765 protein-L-isoaspartate(D-aspartate) O-methyltransferase	737	914
+HNEAP_RS02770	HNEAP_RS02770	DedA family protein	HNEAP_RS02770 DedA family protein	67	87
+HNEAP_RS02775	HNEAP_RS02775	hypothetical protein	HNEAP_RS02775 hypothetical protein	236	372
+HNEAP_RS02785	HNEAP_RS02785	hypothetical protein	HNEAP_RS02785 hypothetical protein	61	84
+HNEAP_RS02790	HNEAP_RS02790	zinc transporter ZntB	HNEAP_RS02790 zinc transporter ZntB	606	868
+HNEAP_RS02795	HNEAP_RS02795	class I SAM-dependent methyltransferase	HNEAP_RS02795 class I SAM-dependent methyltransferase	500	731
+HNEAP_RS02800	HNEAP_RS02800	Fur family transcriptional regulator	HNEAP_RS02800 Fur family transcriptional regulator	475	625
+HNEAP_RS02805	HNEAP_RS02805	MBL fold metallo-hydrolase	HNEAP_RS02805 MBL fold metallo-hydrolase	311	419
+HNEAP_RS02810	HNEAP_RS02810	hypothetical protein	HNEAP_RS02810 hypothetical protein	208	272
+HNEAP_RS02815	HNEAP_RS02815	hypothetical protein	HNEAP_RS02815 hypothetical protein	472	537
+HNEAP_RS02825	HNEAP_RS02825	hypothetical protein	HNEAP_RS02825 hypothetical protein	376	497
+HNEAP_RS02830	HNEAP_RS02830	sulfurtransferase	HNEAP_RS02830 sulfurtransferase	601	848
+HNEAP_RS02855	HNEAP_RS02855	exodeoxyribonuclease V subunit gamma	HNEAP_RS02855 exodeoxyribonuclease V subunit gamma	907	1257
+HNEAP_RS02860	HNEAP_RS02860	GGDEF domain-containing protein	HNEAP_RS02860 GGDEF domain-containing protein	713	974
+HNEAP_RS02875	HNEAP_RS02875	hypothetical protein	HNEAP_RS02875 hypothetical protein	1848	2529
+HNEAP_RS02880	HNEAP_RS02880	ABC transporter ATP-binding protein	HNEAP_RS02880 ABC transporter ATP-binding protein	1740	2456
+HNEAP_RS02885	HNEAP_RS02885	hypothetical protein	HNEAP_RS02885 hypothetical protein	531	751
+HNEAP_RS02895	HNEAP_RS02895	MarC family protein	HNEAP_RS02895 MarC family protein	415	545
+HNEAP_RS02900	HNEAP_RS02900	phosphatidylethanolamine N-methyltransferase	HNEAP_RS02900 phosphatidylethanolamine N-methyltransferase	576	829
+HNEAP_RS02905	HNEAP_RS02905	biopolymer transporter ExbD	HNEAP_RS02905 biopolymer transporter ExbD	78	165
+HNEAP_RS02910	HNEAP_RS02910	MotA/TolQ/ExbB proton channel family protein	HNEAP_RS02910 MotA/TolQ/ExbB proton channel family protein	338	601
+HNEAP_RS02920	HNEAP_RS02920	catecholate siderophore receptor Fiu	HNEAP_RS02920 catecholate siderophore receptor Fiu	236	1446
+HNEAP_RS02925	HNEAP_RS02925	Fe2+-dependent dioxygenase	HNEAP_RS02925 Fe2+-dependent dioxygenase	17	169
+HNEAP_RS02935	HNEAP_RS02935	glucan biosynthesis protein D	HNEAP_RS02935 glucan biosynthesis protein D	880	1183
+HNEAP_RS02940	HNEAP_RS02940	glucans biosynthesis glucosyltransferase MdoH	HNEAP_RS02940 glucans biosynthesis glucosyltransferase MdoH	1361	1863
+HNEAP_RS02945	HNEAP_RS02945	hypothetical protein	HNEAP_RS02945 hypothetical protein	288	387
+HNEAP_RS02950	HNEAP_RS02950	glucan biosynthesis protein G	HNEAP_RS02950 glucan biosynthesis protein G	1509	2206
+HNEAP_RS02960	HNEAP_RS02960	DUF465 domain-containing protein	HNEAP_RS02960 DUF465 domain-containing protein	116	148
+HNEAP_RS03000	HNEAP_RS03000	complex I NDUFA9 subunit family protein	HNEAP_RS03000 complex I NDUFA9 subunit family protein	1330	1891
+HNEAP_RS03005	HNEAP_RS03005	membrane protein	HNEAP_RS03005 membrane protein	250	333
+HNEAP_RS03010	HNEAP_RS03010	membrane protein	HNEAP_RS03010 membrane protein	896	1292
+HNEAP_RS03015	HNEAP_RS03015	pyridine nucleotide-disulfide oxidoreductase	HNEAP_RS03015 pyridine nucleotide-disulfide oxidoreductase	1330	1770
+HNEAP_RS03020	HNEAP_RS03020	hypothetical protein	HNEAP_RS03020 hypothetical protein	36	42
+HNEAP_RS03025	HNEAP_RS03025	50S ribosomal protein L3 N(5)-glutamine methyltransferase	HNEAP_RS03025 50S ribosomal protein L3 N(5)-glutamine methyltransferase	1078	1471
+HNEAP_RS03035	HNEAP_RS03035	hypothetical protein	HNEAP_RS03035 hypothetical protein	1094	1599
+HNEAP_RS03040	HNEAP_RS03040	diguanylate cyclase	HNEAP_RS03040 diguanylate cyclase	1342	2165
+HNEAP_RS03055	HNEAP_RS03055	TatD family deoxyribonuclease	HNEAP_RS03055 TatD family deoxyribonuclease	207	325
+HNEAP_RS03070	HNEAP_RS03070	hypothetical protein	HNEAP_RS03070 hypothetical protein	441	653
+HNEAP_RS03075	HNEAP_RS03075	hypothetical protein	HNEAP_RS03075 hypothetical protein	358	429
+HNEAP_RS03095	HNEAP_RS03095	type I restriction-modification protein subunit M	HNEAP_RS03095 type I restriction-modification protein subunit M	2474	3538
+HNEAP_RS03110	HNEAP_RS03110	hypothetical protein	HNEAP_RS03110 hypothetical protein	1086	1559
+HNEAP_RS03115	HNEAP_RS03115	restriction endonuclease subunit R	HNEAP_RS03115 restriction endonuclease subunit R	1342	1939
+HNEAP_RS03145	HNEAP_RS03145	DUF3417 domain-containing protein	HNEAP_RS03145 DUF3417 domain-containing protein	2601	3783
+HNEAP_RS03150	HNEAP_RS03150	flagellin	HNEAP_RS03150 flagellin	1209	1811
+HNEAP_RS03155	HNEAP_RS03155	flagellar protein FlaG	HNEAP_RS03155 flagellar protein FlaG	486	630
+HNEAP_RS03160	HNEAP_RS03160	flagellar hook-associated 2 domain-containing protein	HNEAP_RS03160 flagellar hook-associated 2 domain-containing protein	1821	2819
+HNEAP_RS03165	HNEAP_RS03165	flagellar export chaperone FliS	HNEAP_RS03165 flagellar export chaperone FliS	749	1088
+HNEAP_RS03170	HNEAP_RS03170	hypothetical protein	HNEAP_RS03170 hypothetical protein	902	1270
+HNEAP_RS03175	HNEAP_RS03175	hypothetical protein	HNEAP_RS03175 hypothetical protein	5602	8415
+HNEAP_RS03180	HNEAP_RS03180	NAD-dependent dehydratase	HNEAP_RS03180 NAD-dependent dehydratase	1344	1746
+HNEAP_RS03185	HNEAP_RS03185	aminotransferase DegT	HNEAP_RS03185 aminotransferase DegT	455	612
+HNEAP_RS03195	HNEAP_RS03195	N-acetylneuraminate synthase	HNEAP_RS03195 N-acetylneuraminate synthase	867	1229
+HNEAP_RS03200	HNEAP_RS03200	sugar O-acyltransferase  sialic acid O-acetyltransferase NeuD family	HNEAP_RS03200 sugar O-acyltransferase  sialic acid O-acetyltransferase NeuD family	146	232
+HNEAP_RS03205	HNEAP_RS03205	alcohol dehydrogenase	HNEAP_RS03205 alcohol dehydrogenase	1211	1730
+HNEAP_RS03210	HNEAP_RS03210	acylneuraminate cytidylyltransferase family protein	HNEAP_RS03210 acylneuraminate cytidylyltransferase family protein	798	1253
+HNEAP_RS03220	HNEAP_RS03220	DUF4124 domain-containing protein	HNEAP_RS03220 DUF4124 domain-containing protein	306	455
+HNEAP_RS03230	HNEAP_RS03230	DUF302 domain-containing protein	HNEAP_RS03230 DUF302 domain-containing protein	97	213
+HNEAP_RS03235	HNEAP_RS03235	amino acid-binding ACT domain-containing protein	HNEAP_RS03235 amino acid-binding ACT domain-containing protein	745	1054
+HNEAP_RS03240	HNEAP_RS03240	peroxiredoxin	HNEAP_RS03240 peroxiredoxin	246	307
+HNEAP_RS03245	HNEAP_RS03245	phosphate starvation protein PhoH	HNEAP_RS03245 phosphate starvation protein PhoH	325	418
+HNEAP_RS03255	HNEAP_RS03255	hypothetical protein	HNEAP_RS03255 hypothetical protein	141	243
+HNEAP_RS03260	HNEAP_RS03260	alpha/beta hydrolase	HNEAP_RS03260 alpha/beta hydrolase	447	606
+HNEAP_RS03265	HNEAP_RS03265	ribonuclease T	HNEAP_RS03265 ribonuclease T	679	1018
+HNEAP_RS03275	HNEAP_RS03275	TIGR00341 family protein	HNEAP_RS03275 TIGR00341 family protein	1208	1801
+HNEAP_RS03280	HNEAP_RS03280	ATP-dependent DNA helicase	HNEAP_RS03280 ATP-dependent DNA helicase	1909	2615
+HNEAP_RS03290	HNEAP_RS03290	penicillin-binding protein 1B	HNEAP_RS03290 penicillin-binding protein 1B	1239	1780
+HNEAP_RS03300	HNEAP_RS03300	glycine zipper 2TM domain-containing protein	HNEAP_RS03300 glycine zipper 2TM domain-containing protein	156	223
+HNEAP_RS03305	HNEAP_RS03305	DNA mismatch repair protein MutS	HNEAP_RS03305 DNA mismatch repair protein MutS	2058	2852
+HNEAP_RS03310	HNEAP_RS03310	septum site-determining protein MinC	HNEAP_RS03310 septum site-determining protein MinC	180	277
+HNEAP_RS03315	HNEAP_RS03315	cell division protein ZapD	HNEAP_RS03315 cell division protein ZapD	300	425
+HNEAP_RS03320	HNEAP_RS03320	methionine synthase	HNEAP_RS03320 methionine synthase	3655	5201
+HNEAP_RS03325	HNEAP_RS03325	DUF2062 domain-containing protein	HNEAP_RS03325 DUF2062 domain-containing protein	448	622
+HNEAP_RS03330	HNEAP_RS03330	MFS transporter	HNEAP_RS03330 MFS transporter	108	171
+HNEAP_RS03335	HNEAP_RS03335	HlyD family secretion protein	HNEAP_RS03335 HlyD family secretion protein	141	194
+HNEAP_RS03360	HNEAP_RS03360	septum formation initiator	HNEAP_RS03360 septum formation initiator	27	38
+HNEAP_RS03375	HNEAP_RS03375	GGDEF domain-containing protein	HNEAP_RS03375 GGDEF domain-containing protein	116	181
+HNEAP_RS03380	HNEAP_RS03380	hypothetical protein	HNEAP_RS03380 hypothetical protein	1666	2506
+HNEAP_RS03390	HNEAP_RS03390	hypothetical protein	HNEAP_RS03390 hypothetical protein	416	578
+HNEAP_RS03395	HNEAP_RS03395	pyridoxamine 5'-phosphate oxidase-like FMN-binding protein	HNEAP_RS03395 pyridoxamine 5'-phosphate oxidase-like FMN-binding protein	169	225
+HNEAP_RS03400	HNEAP_RS03400	cytochrome c assembly protein	HNEAP_RS03400 cytochrome c assembly protein	265	356
+HNEAP_RS03405	HNEAP_RS03405	dimethylmenaquinone methyltransferase	HNEAP_RS03405 dimethylmenaquinone methyltransferase	1203	1737
+HNEAP_RS03410	HNEAP_RS03410	SIS domain-containing protein	HNEAP_RS03410 SIS domain-containing protein	511	731
+HNEAP_RS03415	HNEAP_RS03415	YraN family protein	HNEAP_RS03415 YraN family protein	683	951
+HNEAP_RS03420	HNEAP_RS03420	hypothetical protein	HNEAP_RS03420 hypothetical protein	1840	2887
+HNEAP_RS03425	HNEAP_RS03425	16S rRNA (cytidine(1402)-2'-O)-methyltransferase	HNEAP_RS03425 16S rRNA (cytidine(1402)-2'-O)-methyltransferase	1585	2069
+HNEAP_RS03435	HNEAP_RS03435	outer membrane protein assembly factor BamC	HNEAP_RS03435 outer membrane protein assembly factor BamC	448	653
+HNEAP_RS03445	HNEAP_RS03445	diguanylate cyclase	HNEAP_RS03445 diguanylate cyclase	1235	1780
+HNEAP_RS03450	HNEAP_RS03450	hypothetical protein	HNEAP_RS03450 hypothetical protein	802	1143
+HNEAP_RS03460	HNEAP_RS03460	signal transduction histidine kinase	HNEAP_RS03460 signal transduction histidine kinase	2744	4269
+HNEAP_RS03465	HNEAP_RS03465	hypothetical protein	HNEAP_RS03465 hypothetical protein	237	356
+HNEAP_RS03470	HNEAP_RS03470	hypothetical protein	HNEAP_RS03470 hypothetical protein	258	368
+HNEAP_RS03475	HNEAP_RS03475	hypothetical protein	HNEAP_RS03475 hypothetical protein	126	184
+HNEAP_RS03485	HNEAP_RS03485	DUF924 domain-containing protein	HNEAP_RS03485 DUF924 domain-containing protein	192	254
+HNEAP_RS03490	HNEAP_RS03490	diguanylate cyclase	HNEAP_RS03490 diguanylate cyclase	271	360
+HNEAP_RS03495	HNEAP_RS03495	NAD(P)/FAD-dependent oxidoreductase	HNEAP_RS03495 NAD(P)/FAD-dependent oxidoreductase	1445	2069
+HNEAP_RS03500	HNEAP_RS03500	hypothetical protein	HNEAP_RS03500 hypothetical protein	396	581
+HNEAP_RS03505	HNEAP_RS03505	DUF883 domain-containing protein	HNEAP_RS03505 DUF883 domain-containing protein	128	196
+HNEAP_RS03525	HNEAP_RS03525	EVE domain-containing protein	HNEAP_RS03525 EVE domain-containing protein	263	395
+HNEAP_RS03530	HNEAP_RS03530	5-formyltetrahydrofolate cyclo-ligase	HNEAP_RS03530 5-formyltetrahydrofolate cyclo-ligase	288	429
+HNEAP_RS03535	HNEAP_RS03535	S-adenosylmethionine-dependent methyltransferase	HNEAP_RS03535 S-adenosylmethionine-dependent methyltransferase	549	805
+HNEAP_RS03545	HNEAP_RS03545	RNA polymerase sigma factor RpoE	HNEAP_RS03545 RNA polymerase sigma factor RpoE	22	42
+HNEAP_RS03550	HNEAP_RS03550	hypothetical protein	HNEAP_RS03550 hypothetical protein	242	333
+HNEAP_RS03555	HNEAP_RS03555	hypothetical protein	HNEAP_RS03555 hypothetical protein	62	60
+HNEAP_RS03560	HNEAP_RS03560	hypothetical protein	HNEAP_RS03560 hypothetical protein	567	848
+HNEAP_RS03565	HNEAP_RS03565	positive regulator of sigma E  RseC/MucC	HNEAP_RS03565 positive regulator of sigma E  RseC/MucC	18	31
+HNEAP_RS03575	HNEAP_RS03575	hypothetical protein	HNEAP_RS03575 hypothetical protein	1138	1582
+HNEAP_RS03580	HNEAP_RS03580	flagellar motor switch protein FliM	HNEAP_RS03580 flagellar motor switch protein FliM	2267	3412
+HNEAP_RS03585	HNEAP_RS03585	flagellar motor switch protein FliN	HNEAP_RS03585 flagellar motor switch protein FliN	1192	1645
+HNEAP_RS03595	HNEAP_RS03595	flagellar biosynthetic protein FliP	HNEAP_RS03595 flagellar biosynthetic protein FliP	1872	2560
+HNEAP_RS03600	HNEAP_RS03600	flagellar biosynthetic protein FliQ	HNEAP_RS03600 flagellar biosynthetic protein FliQ	278	424
+HNEAP_RS03605	HNEAP_RS03605	flagellar biosynthetic protein FliR	HNEAP_RS03605 flagellar biosynthetic protein FliR	1120	1524
+HNEAP_RS03610	HNEAP_RS03610	flagellar biosynthesis protein FlhB	HNEAP_RS03610 flagellar biosynthesis protein FlhB	1902	2803
+HNEAP_RS03620	HNEAP_RS03620	flagellar biosynthesis protein FlhF	HNEAP_RS03620 flagellar biosynthesis protein FlhF	1044	1626
+HNEAP_RS03625	HNEAP_RS03625	MinD/ParA family protein	HNEAP_RS03625 MinD/ParA family protein	7	5
+HNEAP_RS03630	HNEAP_RS03630	RNA polymerase sigma factor FliA	HNEAP_RS03630 RNA polymerase sigma factor FliA	2479	3574
+HNEAP_RS03635	HNEAP_RS03635	chemotaxis protein CheY	HNEAP_RS03635 chemotaxis protein CheY	209	286
+HNEAP_RS03640	HNEAP_RS03640	hypothetical protein	HNEAP_RS03640 hypothetical protein	305	407
+HNEAP_RS03645	HNEAP_RS03645	chemotaxis protein CheA	HNEAP_RS03645 chemotaxis protein CheA	1497	2176
+HNEAP_RS03650	HNEAP_RS03650	chemotaxis response regulator protein-glutamate methylesterase	HNEAP_RS03650 chemotaxis response regulator protein-glutamate methylesterase	847	1273
+HNEAP_RS03655	HNEAP_RS03655	ParA family protein	HNEAP_RS03655 ParA family protein	547	756
+HNEAP_RS03660	HNEAP_RS03660	hypothetical protein	HNEAP_RS03660 hypothetical protein	1656	2468
+HNEAP_RS03665	HNEAP_RS03665	hypothetical protein	HNEAP_RS03665 hypothetical protein	76	108
+HNEAP_RS03670	HNEAP_RS03670	DUF2802 domain-containing protein	HNEAP_RS03670 DUF2802 domain-containing protein	284	444
+HNEAP_RS03675	HNEAP_RS03675	DUF3488 domain-containing protein	HNEAP_RS03675 DUF3488 domain-containing protein	1379	2114
+HNEAP_RS03680	HNEAP_RS03680	DUF58 domain-containing protein	HNEAP_RS03680 DUF58 domain-containing protein	1802	2598
+HNEAP_RS03685	HNEAP_RS03685	AI-2E family transporter	HNEAP_RS03685 AI-2E family transporter	167	243
+HNEAP_RS03695	HNEAP_RS03695	hypothetical protein	HNEAP_RS03695 hypothetical protein	506	722
+HNEAP_RS03700	HNEAP_RS03700	hypothetical protein	HNEAP_RS03700 hypothetical protein	105	140
+HNEAP_RS03705	HNEAP_RS03705	phosphatase	HNEAP_RS03705 phosphatase	371	571
+HNEAP_RS03710	HNEAP_RS03710	hypothetical protein	HNEAP_RS03710 hypothetical protein	241	382
+HNEAP_RS03715	HNEAP_RS03715	peptidyl-prolyl cis-trans isomerase	HNEAP_RS03715 peptidyl-prolyl cis-trans isomerase	542	892
+HNEAP_RS03725	HNEAP_RS03725	DUF2069 domain-containing protein	HNEAP_RS03725 DUF2069 domain-containing protein	692	933
+HNEAP_RS03730	HNEAP_RS03730	NAD(P)H:quinone oxidoreductase	HNEAP_RS03730 NAD(P)H:quinone oxidoreductase	3	5
+HNEAP_RS03735	HNEAP_RS03735	TlpA family protein disulfide reductase	HNEAP_RS03735 TlpA family protein disulfide reductase	397	533
+HNEAP_RS03740	HNEAP_RS03740	hypothetical protein	HNEAP_RS03740 hypothetical protein	673	1061
+HNEAP_RS03745	HNEAP_RS03745	TolC family protein	HNEAP_RS03745 TolC family protein	796	1258
+HNEAP_RS03750	HNEAP_RS03750	hypothetical protein	HNEAP_RS03750 hypothetical protein	1060	1476
+HNEAP_RS03755	HNEAP_RS03755	N-acetylglutaminylglutamine amidotransferase	HNEAP_RS03755 N-acetylglutaminylglutamine amidotransferase	570	744
+HNEAP_RS03760	HNEAP_RS03760	FAD-dependent oxidoreductase	HNEAP_RS03760 FAD-dependent oxidoreductase	909	1270
+HNEAP_RS03770	HNEAP_RS03770	PTS mannose transporter subunit IIA	HNEAP_RS03770 PTS mannose transporter subunit IIA	124	162
+HNEAP_RS03775	HNEAP_RS03775	RNase adapter RapZ	HNEAP_RS03775 RNase adapter RapZ	371	523
+HNEAP_RS03790	HNEAP_RS03790	ribosomal subunit interface protein	HNEAP_RS03790 ribosomal subunit interface protein	102	116
+HNEAP_RS03825	HNEAP_RS03825	hypothetical protein	HNEAP_RS03825 hypothetical protein	732	1073
+HNEAP_RS03835	HNEAP_RS03835	ABC transporter ATP-binding protein	HNEAP_RS03835 ABC transporter ATP-binding protein	187	226
+HNEAP_RS03840	HNEAP_RS03840	ABC transporter permease	HNEAP_RS03840 ABC transporter permease	212	312
+HNEAP_RS03845	HNEAP_RS03845	outer membrane lipid asymmetry maintenance protein MlaD	HNEAP_RS03845 outer membrane lipid asymmetry maintenance protein MlaD	332	415
+HNEAP_RS03850	HNEAP_RS03850	TolC family protein	HNEAP_RS03850 TolC family protein	304	459
+HNEAP_RS03855	HNEAP_RS03855	toluene tolerance family protein	HNEAP_RS03855 toluene tolerance family protein	276	338
+HNEAP_RS03860	HNEAP_RS03860	STAS domain-containing protein	HNEAP_RS03860 STAS domain-containing protein	180	253
+HNEAP_RS03900	HNEAP_RS03900	recombination protein RecR	HNEAP_RS03900 recombination protein RecR	323	495
+HNEAP_RS03905	HNEAP_RS03905	PilZ domain-containing protein	HNEAP_RS03905 PilZ domain-containing protein	31	37
+HNEAP_RS03910	HNEAP_RS03910	DUF1631 domain-containing protein	HNEAP_RS03910 DUF1631 domain-containing protein	1940	2742
+HNEAP_RS03915	HNEAP_RS03915	glycogen synthase GlgA	HNEAP_RS03915 glycogen synthase GlgA	298	328
+HNEAP_RS03920	HNEAP_RS03920	1 4-alpha-glucan-branching protein	HNEAP_RS03920 1 4-alpha-glucan-branching protein	640	719
+HNEAP_RS03925	HNEAP_RS03925	glucose-1-phosphate adenylyltransferase	HNEAP_RS03925 glucose-1-phosphate adenylyltransferase	1695	2398
+HNEAP_RS03930	HNEAP_RS03930	glycoside hydrolase	HNEAP_RS03930 glycoside hydrolase	1352	2015
+HNEAP_RS03935	HNEAP_RS03935	4-alpha-glucanotransferase	HNEAP_RS03935 4-alpha-glucanotransferase	1469	2168
+HNEAP_RS03950	HNEAP_RS03950	multidrug ABC transporter substrate-binding protein	HNEAP_RS03950 multidrug ABC transporter substrate-binding protein	1479	2109
+HNEAP_RS03955	HNEAP_RS03955	ABC transporter ATP-binding protein	HNEAP_RS03955 ABC transporter ATP-binding protein	593	792
+HNEAP_RS03960	HNEAP_RS03960	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS03960 efflux RND transporter periplasmic adaptor subunit	1232	1779
+HNEAP_RS03965	HNEAP_RS03965	RND transporter	HNEAP_RS03965 RND transporter	1710	2550
+HNEAP_RS03975	HNEAP_RS03975	two-component sensor histidine kinase	HNEAP_RS03975 two-component sensor histidine kinase	1322	1956
+HNEAP_RS03980	HNEAP_RS03980	DNA-binding response regulator	HNEAP_RS03980 DNA-binding response regulator	1157	1775
+HNEAP_RS03985	HNEAP_RS03985	TolC family protein	HNEAP_RS03985 TolC family protein	1506	2248
+HNEAP_RS03990	HNEAP_RS03990	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS03990 efflux RND transporter periplasmic adaptor subunit	808	1157
+HNEAP_RS03995	HNEAP_RS03995	AcrB/AcrD/AcrF family protein	HNEAP_RS03995 AcrB/AcrD/AcrF family protein	1644	2458
+HNEAP_RS04000	HNEAP_RS04000	hypothetical protein	HNEAP_RS04000 hypothetical protein	502	725
+HNEAP_RS04005	HNEAP_RS04005	ABC transporter substrate-binding protein	HNEAP_RS04005 ABC transporter substrate-binding protein	951	1425
+HNEAP_RS04010	HNEAP_RS04010	nitrate ABC transporter permease	HNEAP_RS04010 nitrate ABC transporter permease	936	1387
+HNEAP_RS04015	HNEAP_RS04015	ABC transporter ATP-binding protein	HNEAP_RS04015 ABC transporter ATP-binding protein	714	1096
+HNEAP_RS04020	HNEAP_RS04020	creatininase	HNEAP_RS04020 creatininase	843	1241
+HNEAP_RS04025	HNEAP_RS04025	type III glutamate--ammonia ligase	HNEAP_RS04025 type III glutamate--ammonia ligase	1807	2497
+HNEAP_RS04030	HNEAP_RS04030	nickel-responsive transcriptional regulator NikR	HNEAP_RS04030 nickel-responsive transcriptional regulator NikR	333	569
+HNEAP_RS04035	HNEAP_RS04035	urea carboxylase	HNEAP_RS04035 urea carboxylase	638	924
+HNEAP_RS04040	HNEAP_RS04040	urea carboxylase	HNEAP_RS04040 urea carboxylase	521	759
+HNEAP_RS04045	HNEAP_RS04045	urea carboxylase	HNEAP_RS04045 urea carboxylase	2890	4158
+HNEAP_RS04060	HNEAP_RS04060	P-II family nitrogen regulator	HNEAP_RS04060 P-II family nitrogen regulator	41	45
+HNEAP_RS04065	HNEAP_RS04065	glycine oxidase ThiO	HNEAP_RS04065 glycine oxidase ThiO	33	37
+HNEAP_RS04075	HNEAP_RS04075	VIT family protein	HNEAP_RS04075 VIT family protein	525	821
+HNEAP_RS04080	HNEAP_RS04080	hypothetical protein	HNEAP_RS04080 hypothetical protein	609	834
+HNEAP_RS04085	HNEAP_RS04085	bifunctional (p)ppGpp synthetase/guanosine-3' 5'-bis(diphosphate) 3'-pyrophosphohydrolase	HNEAP_RS04085 bifunctional (p)ppGpp synthetase/guanosine-3' 5'-bis(diphosphate) 3'-pyrophosphohydrolase	1053	1594
+HNEAP_RS04090	HNEAP_RS04090	hypothetical protein	HNEAP_RS04090 hypothetical protein	291	408
+HNEAP_RS04095	HNEAP_RS04095	DUF3365 domain-containing protein	HNEAP_RS04095 DUF3365 domain-containing protein	369	612
+HNEAP_RS04100	HNEAP_RS04100	molybdenum ABC transporter ATP-binding protein	HNEAP_RS04100 molybdenum ABC transporter ATP-binding protein	257	334
+HNEAP_RS04110	HNEAP_RS04110	molybdate ABC transporter substrate-binding protein	HNEAP_RS04110 molybdate ABC transporter substrate-binding protein	50	71
+HNEAP_RS04115	HNEAP_RS04115	ModE family transcriptional regulator	HNEAP_RS04115 ModE family transcriptional regulator	951	1334
+HNEAP_RS04120	HNEAP_RS04120	hypothetical protein	HNEAP_RS04120 hypothetical protein	694	960
+HNEAP_RS04125	HNEAP_RS04125	deoxyribodipyrimidine photo-lyase	HNEAP_RS04125 deoxyribodipyrimidine photo-lyase	1186	1745
+HNEAP_RS04130	HNEAP_RS04130	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS04130 efflux RND transporter periplasmic adaptor subunit	1432	2254
+HNEAP_RS04135	HNEAP_RS04135	AcrB/AcrD/AcrF family protein	HNEAP_RS04135 AcrB/AcrD/AcrF family protein	3572	4950
+HNEAP_RS04150	HNEAP_RS04150	CRISPR-associated endonuclease Cas2	HNEAP_RS04150 CRISPR-associated endonuclease Cas2	34	54
+HNEAP_RS04155	HNEAP_RS04155	type I-C CRISPR-associated endonuclease Cas1	HNEAP_RS04155 type I-C CRISPR-associated endonuclease Cas1	942	1325
+HNEAP_RS04165	HNEAP_RS04165	type II toxin-antitoxin system PemK/MazF family toxin	HNEAP_RS04165 type II toxin-antitoxin system PemK/MazF family toxin	89	150
+HNEAP_RS04170	HNEAP_RS04170	CRISPR-associated protein Cas4	HNEAP_RS04170 CRISPR-associated protein Cas4	748	1092
+HNEAP_RS04175	HNEAP_RS04175	type I-C CRISPR-associated protein Cas7/Csd2	HNEAP_RS04175 type I-C CRISPR-associated protein Cas7/Csd2	606	951
+HNEAP_RS04180	HNEAP_RS04180	type I-C CRISPR-associated protein Cas8c/Csd1	HNEAP_RS04180 type I-C CRISPR-associated protein Cas8c/Csd1	1661	2473
+HNEAP_RS04185	HNEAP_RS04185	type I-C CRISPR-associated protein Cas5	HNEAP_RS04185 type I-C CRISPR-associated protein Cas5	380	551
+HNEAP_RS04190	HNEAP_RS04190	CRISPR-associated helicase/endonuclease Cas3	HNEAP_RS04190 CRISPR-associated helicase/endonuclease Cas3	2322	3362
+HNEAP_RS04195	HNEAP_RS04195	addiction module antidote protein  HigA family	HNEAP_RS04195 addiction module antidote protein  HigA family	40	48
+HNEAP_RS04200	HNEAP_RS04200	hypothetical protein	HNEAP_RS04200 hypothetical protein	230	308
+HNEAP_RS04205	HNEAP_RS04205	gamma-glutamyltransferase family protein	HNEAP_RS04205 gamma-glutamyltransferase family protein	2105	3053
+HNEAP_RS04210	HNEAP_RS04210	C4-dicarboxylate ABC transporter	HNEAP_RS04210 C4-dicarboxylate ABC transporter	1433	2017
+HNEAP_RS04215	HNEAP_RS04215	C4-dicarboxylate ABC transporter permease	HNEAP_RS04215 C4-dicarboxylate ABC transporter permease	1416	1917
+HNEAP_RS04220	HNEAP_RS04220	C4-dicarboxylate ABC transporter	HNEAP_RS04220 C4-dicarboxylate ABC transporter	999	1473
+HNEAP_RS04225	HNEAP_RS04225	Lrp/AsnC family transcriptional regulator	HNEAP_RS04225 Lrp/AsnC family transcriptional regulator	556	784
+HNEAP_RS04230	HNEAP_RS04230	GntR family transcriptional regulator	HNEAP_RS04230 GntR family transcriptional regulator	319	396
+HNEAP_RS04235	HNEAP_RS04235	hypothetical protein	HNEAP_RS04235 hypothetical protein	791	1168
+HNEAP_RS04240	HNEAP_RS04240	allantoinase PuuE	HNEAP_RS04240 allantoinase PuuE	1093	1578
+HNEAP_RS04245	HNEAP_RS04245	OHCU decarboxylase	HNEAP_RS04245 OHCU decarboxylase	279	338
+HNEAP_RS04250	HNEAP_RS04250	ABC transporter ATP-binding protein	HNEAP_RS04250 ABC transporter ATP-binding protein	1550	2189
+HNEAP_RS04255	HNEAP_RS04255	ABC transporter permease	HNEAP_RS04255 ABC transporter permease	824	1217
+HNEAP_RS04260	HNEAP_RS04260	ABC transporter permease	HNEAP_RS04260 ABC transporter permease	870	1246
+HNEAP_RS04265	HNEAP_RS04265	8-oxoguanine deaminase	HNEAP_RS04265 8-oxoguanine deaminase	1264	1787
+HNEAP_RS04270	HNEAP_RS04270	nucleoside deaminase	HNEAP_RS04270 nucleoside deaminase	386	518
+HNEAP_RS04275	HNEAP_RS04275	uracil phosphoribosyltransferase	HNEAP_RS04275 uracil phosphoribosyltransferase	661	983
+HNEAP_RS04280	HNEAP_RS04280	cytosine deaminase	HNEAP_RS04280 cytosine deaminase	1223	1790
+HNEAP_RS04285	HNEAP_RS04285	DUF3225 domain-containing protein	HNEAP_RS04285 DUF3225 domain-containing protein	466	680
+HNEAP_RS04290	HNEAP_RS04290	AtzE family amidohydrolase	HNEAP_RS04290 AtzE family amidohydrolase	1695	2455
+HNEAP_RS04295	HNEAP_RS04295	DUF4089 domain-containing protein	HNEAP_RS04295 DUF4089 domain-containing protein	28	63
+HNEAP_RS04300	HNEAP_RS04300	cysteine hydrolase	HNEAP_RS04300 cysteine hydrolase	233	354
+HNEAP_RS04305	HNEAP_RS04305	ABC transporter ATP-binding protein	HNEAP_RS04305 ABC transporter ATP-binding protein	2610	3643
+HNEAP_RS04310	HNEAP_RS04310	cysteine hydrolase	HNEAP_RS04310 cysteine hydrolase	751	1156
+HNEAP_RS04315	HNEAP_RS04315	ABC transporter permease	HNEAP_RS04315 ABC transporter permease	949	1297
+HNEAP_RS04320	HNEAP_RS04320	ABC transporter permease	HNEAP_RS04320 ABC transporter permease	902	1328
+HNEAP_RS04325	HNEAP_RS04325	BMP family ABC transporter substrate-binding protein	HNEAP_RS04325 BMP family ABC transporter substrate-binding protein	1259	1849
+HNEAP_RS04330	HNEAP_RS04330	hypothetical protein	HNEAP_RS04330 hypothetical protein	115	225
+HNEAP_RS04335	HNEAP_RS04335	GntR family transcriptional regulator	HNEAP_RS04335 GntR family transcriptional regulator	611	903
+HNEAP_RS04340	HNEAP_RS04340	hypothetical protein	HNEAP_RS04340 hypothetical protein	1113	1658
+HNEAP_RS04345	HNEAP_RS04345	nucleoside deaminase	HNEAP_RS04345 nucleoside deaminase	525	892
+HNEAP_RS04355	HNEAP_RS04355	xanthine dehydrogenase molybdopterin binding subunit	HNEAP_RS04355 xanthine dehydrogenase molybdopterin binding subunit	1525	2279
+HNEAP_RS04360	HNEAP_RS04360	xanthine dehydrogenase small subunit	HNEAP_RS04360 xanthine dehydrogenase small subunit	1902	2739
+HNEAP_RS04365	HNEAP_RS04365	hydroxyisourate hydrolase	HNEAP_RS04365 hydroxyisourate hydrolase	257	416
+HNEAP_RS04370	HNEAP_RS04370	amidase	HNEAP_RS04370 amidase	986	1357
+HNEAP_RS04375	HNEAP_RS04375	sulfite exporter TauE/SafE family protein	HNEAP_RS04375 sulfite exporter TauE/SafE family protein	734	1084
+HNEAP_RS04380	HNEAP_RS04380	alanine--glyoxylate aminotransferase family protein	HNEAP_RS04380 alanine--glyoxylate aminotransferase family protein	1410	2065
+HNEAP_RS04385	HNEAP_RS04385	allantoate amidohydrolase	HNEAP_RS04385 allantoate amidohydrolase	739	1219
+HNEAP_RS04390	HNEAP_RS04390	regulator of ribonuclease activity A	HNEAP_RS04390 regulator of ribonuclease activity A	622	794
+HNEAP_RS04395	HNEAP_RS04395	adenosine deaminase	HNEAP_RS04395 adenosine deaminase	1364	1935
+HNEAP_RS04400	HNEAP_RS04400	BMP family ABC transporter substrate-binding protein	HNEAP_RS04400 BMP family ABC transporter substrate-binding protein	1277	1836
+HNEAP_RS04405	HNEAP_RS04405	hypothetical protein	HNEAP_RS04405 hypothetical protein	480	774
+HNEAP_RS04410	HNEAP_RS04410	formamidase	HNEAP_RS04410 formamidase	1616	2276
+HNEAP_RS04415	HNEAP_RS04415	amino acid ABC transporter ATP-binding protein	HNEAP_RS04415 amino acid ABC transporter ATP-binding protein	795	1201
+HNEAP_RS04440	HNEAP_RS04440	oxygen-independent coproporphyrinogen III oxidase	HNEAP_RS04440 oxygen-independent coproporphyrinogen III oxidase	829	1146
+HNEAP_RS04445	HNEAP_RS04445	hypothetical protein	HNEAP_RS04445 hypothetical protein	298	401
+HNEAP_RS04450	HNEAP_RS04450	ABC transporter ATP-binding protein	HNEAP_RS04450 ABC transporter ATP-binding protein	309	454
+HNEAP_RS04455	HNEAP_RS04455	ABC transporter permease	HNEAP_RS04455 ABC transporter permease	330	430
+HNEAP_RS04460	HNEAP_RS04460	collagenase-like protease	HNEAP_RS04460 collagenase-like protease	1964	2850
+HNEAP_RS04465	HNEAP_RS04465	EAL domain-containing protein	HNEAP_RS04465 EAL domain-containing protein	388	555
+HNEAP_RS04470	HNEAP_RS04470	DUF202 domain-containing protein	HNEAP_RS04470 DUF202 domain-containing protein	91	118
+HNEAP_RS04480	HNEAP_RS04480	translesion error-prone DNA polymerase V subunit UmuC	HNEAP_RS04480 translesion error-prone DNA polymerase V subunit UmuC	610	896
+HNEAP_RS04485	HNEAP_RS04485	cation acetate symporter	HNEAP_RS04485 cation acetate symporter	510	807
+HNEAP_RS04490	HNEAP_RS04490	DUF485 domain-containing protein	HNEAP_RS04490 DUF485 domain-containing protein	99	137
+HNEAP_RS04495	HNEAP_RS04495	MoxR family ATPase	HNEAP_RS04495 MoxR family ATPase	614	942
+HNEAP_RS04500	HNEAP_RS04500	hypothetical protein	HNEAP_RS04500 hypothetical protein	1190	1664
+HNEAP_RS04505	HNEAP_RS04505	hypothetical protein	HNEAP_RS04505 hypothetical protein	275	258
+HNEAP_RS04520	HNEAP_RS04520	Xaa-Pro aminopeptidase	HNEAP_RS04520 Xaa-Pro aminopeptidase	328	426
+HNEAP_RS04525	HNEAP_RS04525	hypothetical protein	HNEAP_RS04525 hypothetical protein	373	543
+HNEAP_RS04540	HNEAP_RS04540	hypothetical protein	HNEAP_RS04540 hypothetical protein	300	447
+HNEAP_RS04550	HNEAP_RS04550	phosphate starvation-inducible protein PsiE	HNEAP_RS04550 phosphate starvation-inducible protein PsiE	84	109
+HNEAP_RS04565	HNEAP_RS04565	microcompartments protein	HNEAP_RS04565 microcompartments protein	172	273
+HNEAP_RS04570	HNEAP_RS04570	hypothetical protein	HNEAP_RS04570 hypothetical protein	174	279
+HNEAP_RS04575	HNEAP_RS04575	CbbQ/NirQ/NorQ/GpvN family protein	HNEAP_RS04575 CbbQ/NirQ/NorQ/GpvN family protein	456	939
+HNEAP_RS04580	HNEAP_RS04580	nitrogen regulatory protein P-II	HNEAP_RS04580 nitrogen regulatory protein P-II	63	63
+HNEAP_RS04585	HNEAP_RS04585	DUF2309 domain-containing protein	HNEAP_RS04585 DUF2309 domain-containing protein	691	1387
+HNEAP_RS04590	HNEAP_RS04590	hypothetical protein	HNEAP_RS04590 hypothetical protein	179	382
+HNEAP_RS04595	HNEAP_RS04595	oxidoreductase	HNEAP_RS04595 oxidoreductase	546	1073
+HNEAP_RS04600	HNEAP_RS04600	VWA domain-containing protein	HNEAP_RS04600 VWA domain-containing protein	897	1736
+HNEAP_RS04605	HNEAP_RS04605	hypothetical protein	HNEAP_RS04605 hypothetical protein	96	162
+HNEAP_RS04610	HNEAP_RS04610	ParA family protein	HNEAP_RS04610 ParA family protein	325	837
+HNEAP_RS04615	HNEAP_RS04615	hypothetical protein	HNEAP_RS04615 hypothetical protein	0	97
+HNEAP_RS04620	HNEAP_RS04620	major carboxysome shell protein 1B	HNEAP_RS04620 major carboxysome shell protein 1B	96	339
+HNEAP_RS04625	HNEAP_RS04625	major carboxysome shell protein 1A	HNEAP_RS04625 major carboxysome shell protein 1A	15	276
+HNEAP_RS04630	HNEAP_RS04630	major carboxysome shell protein 1C	HNEAP_RS04630 major carboxysome shell protein 1C	1	247
+HNEAP_RS04635	HNEAP_RS04635	carboxysome peptide B	HNEAP_RS04635 carboxysome peptide B	3	316
+HNEAP_RS04640	HNEAP_RS04640	carboxysome peptide A	HNEAP_RS04640 carboxysome peptide A	1	99
+HNEAP_RS04645	HNEAP_RS04645	carboxysome shell carbonic anhydrase	HNEAP_RS04645 carboxysome shell carbonic anhydrase	33	1649
+HNEAP_RS04650	HNEAP_RS04650	hypothetical protein	HNEAP_RS04650 hypothetical protein	27	3478
+HNEAP_RS04655	HNEAP_RS04655	ribulose bisphosphate carboxylase small subunit	HNEAP_RS04655 ribulose bisphosphate carboxylase small subunit	2	76
+HNEAP_RS04660	HNEAP_RS04660	ribulose bisphosphate carboxylase large chain	HNEAP_RS04660 ribulose bisphosphate carboxylase large chain	24	1687
+HNEAP_RS04665	HNEAP_RS04665	copper-translocating P-type ATPase	HNEAP_RS04665 copper-translocating P-type ATPase	117	128
+HNEAP_RS04670	HNEAP_RS04670	DUF302 domain-containing protein	HNEAP_RS04670 DUF302 domain-containing protein	81	112
+HNEAP_RS04675	HNEAP_RS04675	heavy metal transport/detoxification protein	HNEAP_RS04675 heavy metal transport/detoxification protein	334	505
+HNEAP_RS04680	HNEAP_RS04680	hypothetical protein	HNEAP_RS04680 hypothetical protein	198	265
+HNEAP_RS04685	HNEAP_RS04685	NnrS family protein	HNEAP_RS04685 NnrS family protein	861	1153
+HNEAP_RS04690	HNEAP_RS04690	hypothetical protein	HNEAP_RS04690 hypothetical protein	376	572
+HNEAP_RS04695	HNEAP_RS04695	Rrf2 family transcriptional regulator	HNEAP_RS04695 Rrf2 family transcriptional regulator	72	112
+HNEAP_RS04705	HNEAP_RS04705	hypothetical protein	HNEAP_RS04705 hypothetical protein	330	436
+HNEAP_RS04710	HNEAP_RS04710	hypothetical protein	HNEAP_RS04710 hypothetical protein	70	85
+HNEAP_RS04715	HNEAP_RS04715	hypothetical protein	HNEAP_RS04715 hypothetical protein	682	953
+HNEAP_RS04720	HNEAP_RS04720	hypothetical protein	HNEAP_RS04720 hypothetical protein	1008	1393
+HNEAP_RS04725	HNEAP_RS04725	hypothetical protein	HNEAP_RS04725 hypothetical protein	423	597
+HNEAP_RS04730	HNEAP_RS04730	hypothetical protein	HNEAP_RS04730 hypothetical protein	379	534
+HNEAP_RS04735	HNEAP_RS04735	hypothetical protein	HNEAP_RS04735 hypothetical protein	707	1015
+HNEAP_RS04745	HNEAP_RS04745	IS30 family transposase	HNEAP_RS04745 IS30 family transposase	1006	1328
+HNEAP_RS04760	HNEAP_RS04760	conjugative relaxase	HNEAP_RS04760 conjugative relaxase	4499	6552
+HNEAP_RS04765	HNEAP_RS04765	phosphate acetyltransferase	HNEAP_RS04765 phosphate acetyltransferase	429	570
+HNEAP_RS04770	HNEAP_RS04770	metallophosphoesterase	HNEAP_RS04770 metallophosphoesterase	863	1241
+HNEAP_RS04780	HNEAP_RS04780	beta-ketoacyl synthase	HNEAP_RS04780 beta-ketoacyl synthase	16	23
+HNEAP_RS04795	HNEAP_RS04795	TauD/TfdA family dioxygenase	HNEAP_RS04795 TauD/TfdA family dioxygenase	568	773
+HNEAP_RS04800	HNEAP_RS04800	hypothetical protein	HNEAP_RS04800 hypothetical protein	269	420
+HNEAP_RS04805	HNEAP_RS04805	phosphopantetheine-binding protein	HNEAP_RS04805 phosphopantetheine-binding protein	468	695
+HNEAP_RS04810	HNEAP_RS04810	type I polyketide synthase	HNEAP_RS04810 type I polyketide synthase	5251	7284
+HNEAP_RS04815	HNEAP_RS04815	AMP-dependent ligase	HNEAP_RS04815 AMP-dependent ligase	1114	1561
+HNEAP_RS04820	HNEAP_RS04820	transcription factor jumonji jmjC domain-containing protein	HNEAP_RS04820 transcription factor jumonji jmjC domain-containing protein	824	1106
+HNEAP_RS04835	HNEAP_RS04835	LuxR family transcriptional regulator	HNEAP_RS04835 LuxR family transcriptional regulator	122	166
+HNEAP_RS04850	HNEAP_RS04850	hypothetical protein	HNEAP_RS04850 hypothetical protein	343	452
+HNEAP_RS04855	HNEAP_RS04855	hypothetical protein	HNEAP_RS04855 hypothetical protein	303	429
+HNEAP_RS04860	HNEAP_RS04860	site-specific integrase	HNEAP_RS04860 site-specific integrase	823	1238
+HNEAP_RS04865	HNEAP_RS04865	phosphopyruvate hydratase	HNEAP_RS04865 phosphopyruvate hydratase	951	1457
+HNEAP_RS04870	HNEAP_RS04870	plasma-membrane proton-efflux P-type ATPase	HNEAP_RS04870 plasma-membrane proton-efflux P-type ATPase	2213	3148
+HNEAP_RS04875	HNEAP_RS04875	polyphosphate kinase 2	HNEAP_RS04875 polyphosphate kinase 2	559	808
+HNEAP_RS04880	HNEAP_RS04880	hypothetical protein	HNEAP_RS04880 hypothetical protein	171	272
+HNEAP_RS04885	HNEAP_RS04885	XRE family transcriptional regulator	HNEAP_RS04885 XRE family transcriptional regulator	148	255
+HNEAP_RS04895	HNEAP_RS04895	hypothetical protein	HNEAP_RS04895 hypothetical protein	244	318
+HNEAP_RS04900	HNEAP_RS04900	M48 family peptidase	HNEAP_RS04900 M48 family peptidase	562	785
+HNEAP_RS04905	HNEAP_RS04905	leucyl aminopeptidase	HNEAP_RS04905 leucyl aminopeptidase	30	33
+HNEAP_RS04910	HNEAP_RS04910	hypothetical protein	HNEAP_RS04910 hypothetical protein	101	154
+HNEAP_RS04915	HNEAP_RS04915	NlpC/P60 family protein	HNEAP_RS04915 NlpC/P60 family protein	374	596
+HNEAP_RS04920	HNEAP_RS04920	bifunctional 23S rRNA (guanine(2069)-N(7))-methyltransferase RlmK/23S rRNA (guanine(2445)-N(2))-methyltransferase RlmL	HNEAP_RS04920 bifunctional 23S rRNA (guanine(2069)-N(7))-methyltransferase RlmK/23S rRNA (guanine(2445)-N(2))-methyltransferase RlmL	2828	4015
+HNEAP_RS04925	HNEAP_RS04925	ABC transporter ATP-binding protein	HNEAP_RS04925 ABC transporter ATP-binding protein	1838	2559
+HNEAP_RS04940	HNEAP_RS04940	DUF423 domain-containing protein	HNEAP_RS04940 DUF423 domain-containing protein	236	325
+HNEAP_RS04945	HNEAP_RS04945	outer membrane protein assembly factor BamE	HNEAP_RS04945 outer membrane protein assembly factor BamE	253	331
+HNEAP_RS04950	HNEAP_RS04950	ferric iron uptake transcriptional regulator	HNEAP_RS04950 ferric iron uptake transcriptional regulator	124	198
+HNEAP_RS04955	HNEAP_RS04955	DUF1134 domain-containing protein	HNEAP_RS04955 DUF1134 domain-containing protein	262	433
+HNEAP_RS04960	HNEAP_RS04960	hypothetical protein	HNEAP_RS04960 hypothetical protein	100	130
+HNEAP_RS04975	HNEAP_RS04975	RNA pyrophosphohydrolase	HNEAP_RS04975 RNA pyrophosphohydrolase	117	219
+HNEAP_RS04980	HNEAP_RS04980	phosphoenolpyruvate-protein phosphotransferase PtsP	HNEAP_RS04980 phosphoenolpyruvate-protein phosphotransferase PtsP	1739	2718
+HNEAP_RS05015	HNEAP_RS05015	glucose-6-phosphate dehydrogenase	HNEAP_RS05015 glucose-6-phosphate dehydrogenase	314	501
+HNEAP_RS05020	HNEAP_RS05020	6-phosphogluconate dehydrogenase (decarboxylating)	HNEAP_RS05020 6-phosphogluconate dehydrogenase (decarboxylating)	427	746
+HNEAP_RS05030	HNEAP_RS05030	cation transporter	HNEAP_RS05030 cation transporter	663	901
+HNEAP_RS05035	HNEAP_RS05035	glycerol kinase	HNEAP_RS05035 glycerol kinase	1182	1895
+HNEAP_RS05040	HNEAP_RS05040	ABC transporter ATP-binding protein/permease	HNEAP_RS05040 ABC transporter ATP-binding protein/permease	1660	2344
+HNEAP_RS05045	HNEAP_RS05045	hypothetical protein	HNEAP_RS05045 hypothetical protein	535	801
+HNEAP_RS05055	HNEAP_RS05055	alanine racemase	HNEAP_RS05055 alanine racemase	988	1318
+HNEAP_RS05060	HNEAP_RS05060	glutamine amidotransferase	HNEAP_RS05060 glutamine amidotransferase	138	182
+HNEAP_RS05090	HNEAP_RS05090	hypothetical protein	HNEAP_RS05090 hypothetical protein	547	805
+HNEAP_RS05100	HNEAP_RS05100	ABC transporter ATP-binding protein	HNEAP_RS05100 ABC transporter ATP-binding protein	59	87
+HNEAP_RS05110	HNEAP_RS05110	SMC-Scp complex subunit ScpB	HNEAP_RS05110 SMC-Scp complex subunit ScpB	489	730
+HNEAP_RS05115	HNEAP_RS05115	hypothetical protein	HNEAP_RS05115 hypothetical protein	436	556
+HNEAP_RS05125	HNEAP_RS05125	AcrB/AcrD/AcrF family protein	HNEAP_RS05125 AcrB/AcrD/AcrF family protein	4948	7055
+HNEAP_RS05130	HNEAP_RS05130	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS05130 efflux RND transporter periplasmic adaptor subunit	2243	3055
+HNEAP_RS05135	HNEAP_RS05135	TolC family protein	HNEAP_RS05135 TolC family protein	3504	5088
+HNEAP_RS05140	HNEAP_RS05140	hypothetical protein	HNEAP_RS05140 hypothetical protein	787	1135
+HNEAP_RS05145	HNEAP_RS05145	hypothetical protein	HNEAP_RS05145 hypothetical protein	388	486
+HNEAP_RS05150	HNEAP_RS05150	nitroreductase family protein	HNEAP_RS05150 nitroreductase family protein	512	757
+HNEAP_RS05155	HNEAP_RS05155	pirin family protein	HNEAP_RS05155 pirin family protein	568	772
+HNEAP_RS05160	HNEAP_RS05160	polyisoprenoid-binding protein	HNEAP_RS05160 polyisoprenoid-binding protein	1126	1588
+HNEAP_RS05165	HNEAP_RS05165	LysR family transcriptional regulator	HNEAP_RS05165 LysR family transcriptional regulator	341	487
+HNEAP_RS05170	HNEAP_RS05170	rhodanese-like domain-containing protein	HNEAP_RS05170 rhodanese-like domain-containing protein	536	764
+HNEAP_RS05175	HNEAP_RS05175	fluoride efflux transporter CrcB	HNEAP_RS05175 fluoride efflux transporter CrcB	40	45
+HNEAP_RS05180	HNEAP_RS05180	tRNA epoxyqueuosine(34) reductase QueG	HNEAP_RS05180 tRNA epoxyqueuosine(34) reductase QueG	382	562
+HNEAP_RS05185	HNEAP_RS05185	hypothetical protein	HNEAP_RS05185 hypothetical protein	607	955
+HNEAP_RS05195	HNEAP_RS05195	recombination-associated protein RdgC	HNEAP_RS05195 recombination-associated protein RdgC	360	431
+HNEAP_RS05200	HNEAP_RS05200	aminopeptidase N	HNEAP_RS05200 aminopeptidase N	2130	2481
+HNEAP_RS05205	HNEAP_RS05205	flagellar motor stator protein MotA	HNEAP_RS05205 flagellar motor stator protein MotA	1370	1943
+HNEAP_RS05210	HNEAP_RS05210	motility protein MotB	HNEAP_RS05210 motility protein MotB	2397	3314
+HNEAP_RS05215	HNEAP_RS05215	class I SAM-dependent methyltransferase	HNEAP_RS05215 class I SAM-dependent methyltransferase	462	673
+HNEAP_RS05225	HNEAP_RS05225	DUF815 domain-containing protein	HNEAP_RS05225 DUF815 domain-containing protein	992	1486
+HNEAP_RS05255	HNEAP_RS05255	protein-(glutamine-N5) methyltransferase  release factor-specific	HNEAP_RS05255 protein-(glutamine-N5) methyltransferase  release factor-specific	4	3
+HNEAP_RS05260	HNEAP_RS05260	hypothetical protein	HNEAP_RS05260 hypothetical protein	74	97
+HNEAP_RS05275	HNEAP_RS05275	GNAT family N-acetyltransferase	HNEAP_RS05275 GNAT family N-acetyltransferase	238	389
+HNEAP_RS05280	HNEAP_RS05280	hypothetical protein	HNEAP_RS05280 hypothetical protein	224	337
+HNEAP_RS05295	HNEAP_RS05295	methionine--tRNA ligase	HNEAP_RS05295 methionine--tRNA ligase	73	89
+HNEAP_RS05300	HNEAP_RS05300	hypothetical protein	HNEAP_RS05300 hypothetical protein	882	1231
+HNEAP_RS05310	HNEAP_RS05310	peroxiredoxin	HNEAP_RS05310 peroxiredoxin	169	279
+HNEAP_RS05315	HNEAP_RS05315	hypothetical protein	HNEAP_RS05315 hypothetical protein	129	199
+HNEAP_RS05320	HNEAP_RS05320	hypothetical protein	HNEAP_RS05320 hypothetical protein	865	1238
+HNEAP_RS05330	HNEAP_RS05330	energy-dependent translational throttle protein EttA	HNEAP_RS05330 energy-dependent translational throttle protein EttA	1285	1612
+HNEAP_RS05335	HNEAP_RS05335	HDOD domain-containing protein	HNEAP_RS05335 HDOD domain-containing protein	283	414
+HNEAP_RS05340	HNEAP_RS05340	hypothetical protein	HNEAP_RS05340 hypothetical protein	365	530
+HNEAP_RS05345	HNEAP_RS05345	ADP-ribose pyrophosphatase	HNEAP_RS05345 ADP-ribose pyrophosphatase	839	1221
+HNEAP_RS05355	HNEAP_RS05355	hypothetical protein	HNEAP_RS05355 hypothetical protein	272	386
+HNEAP_RS05360	HNEAP_RS05360	YebC/PmpR family DNA-binding regulatory protein	HNEAP_RS05360 YebC/PmpR family DNA-binding regulatory protein	695	935
+HNEAP_RS05365	HNEAP_RS05365	hypothetical protein	HNEAP_RS05365 hypothetical protein	92	128
+HNEAP_RS05370	HNEAP_RS05370	YcgN family cysteine cluster protein	HNEAP_RS05370 YcgN family cysteine cluster protein	650	878
+HNEAP_RS05375	HNEAP_RS05375	tRNA glutamyl-Q(34) synthetase GluQRS	HNEAP_RS05375 tRNA glutamyl-Q(34) synthetase GluQRS	1334	1840
+HNEAP_RS05385	HNEAP_RS05385	exodeoxyribonuclease I	HNEAP_RS05385 exodeoxyribonuclease I	1230	1753
+HNEAP_RS05400	HNEAP_RS05400	endonuclease III	HNEAP_RS05400 endonuclease III	1171	1684
+HNEAP_RS05405	HNEAP_RS05405	hypothetical protein	HNEAP_RS05405 hypothetical protein	249	327
+HNEAP_RS05410	HNEAP_RS05410	ATP:cob(I)alamin adenosyltransferase	HNEAP_RS05410 ATP:cob(I)alamin adenosyltransferase	194	269
+HNEAP_RS05415	HNEAP_RS05415	pyridoxal phosphate-dependent aminotransferase	HNEAP_RS05415 pyridoxal phosphate-dependent aminotransferase	165	263
+HNEAP_RS05420	HNEAP_RS05420	SAM-dependent methyltransferase	HNEAP_RS05420 SAM-dependent methyltransferase	522	747
+HNEAP_RS05425	HNEAP_RS05425	DUF481 domain-containing protein	HNEAP_RS05425 DUF481 domain-containing protein	1433	1998
+HNEAP_RS05430	HNEAP_RS05430	1-acyl-sn-glycerol-3-phosphate acyltransferase	HNEAP_RS05430 1-acyl-sn-glycerol-3-phosphate acyltransferase	463	664
+HNEAP_RS05445	HNEAP_RS05445	cyclophilin	HNEAP_RS05445 cyclophilin	702	1076
+HNEAP_RS05465	HNEAP_RS05465	transcription elongation factor GreB	HNEAP_RS05465 transcription elongation factor GreB	466	580
+HNEAP_RS05470	HNEAP_RS05470	lysine decarboxylase	HNEAP_RS05470 lysine decarboxylase	10	24
+HNEAP_RS05475	HNEAP_RS05475	UDP-glucose 4-epimerase GalE	HNEAP_RS05475 UDP-glucose 4-epimerase GalE	908	1354
+HNEAP_RS05480	HNEAP_RS05480	sensor domain-containing diguanylate cyclase	HNEAP_RS05480 sensor domain-containing diguanylate cyclase	1292	1691
+HNEAP_RS05490	HNEAP_RS05490	LysR family transcriptional regulator	HNEAP_RS05490 LysR family transcriptional regulator	7	360
+HNEAP_RS05495	HNEAP_RS05495	VWA domain-containing protein	HNEAP_RS05495 VWA domain-containing protein	1353	1792
+HNEAP_RS05500	HNEAP_RS05500	CbbQ/NirQ/NorQ/GpvN family protein	HNEAP_RS05500 CbbQ/NirQ/NorQ/GpvN family protein	259	313
+HNEAP_RS05505	HNEAP_RS05505	ribulose-bisphosphate carboxylase	HNEAP_RS05505 ribulose-bisphosphate carboxylase	488	511
+HNEAP_RS05510	HNEAP_RS05510	LysR family transcriptional regulator	HNEAP_RS05510 LysR family transcriptional regulator	664	787
+HNEAP_RS05515	HNEAP_RS05515	dicarboxylate/amino acid:cation symporter	HNEAP_RS05515 dicarboxylate/amino acid:cation symporter	703	990
+HNEAP_RS05520	HNEAP_RS05520	urea ABC transporter ATP-binding subunit UrtE	HNEAP_RS05520 urea ABC transporter ATP-binding subunit UrtE	711	1013
+HNEAP_RS05525	HNEAP_RS05525	urea ABC transporter ATP-binding protein UrtD	HNEAP_RS05525 urea ABC transporter ATP-binding protein UrtD	706	1053
+HNEAP_RS05530	HNEAP_RS05530	urea ABC transporter permease subunit UrtC	HNEAP_RS05530 urea ABC transporter permease subunit UrtC	638	842
+HNEAP_RS05535	HNEAP_RS05535	urea ABC transporter permease subunit UrtB	HNEAP_RS05535 urea ABC transporter permease subunit UrtB	963	1473
+HNEAP_RS05540	HNEAP_RS05540	urea ABC transporter substrate-binding protein	HNEAP_RS05540 urea ABC transporter substrate-binding protein	1404	2006
+HNEAP_RS05545	HNEAP_RS05545	GntR family transcriptional regulator	HNEAP_RS05545 GntR family transcriptional regulator	695	1012
+HNEAP_RS05550	HNEAP_RS05550	urea carboxylase	HNEAP_RS05550 urea carboxylase	3032	4546
+HNEAP_RS05555	HNEAP_RS05555	allophanate hydrolase	HNEAP_RS05555 allophanate hydrolase	1748	2566
+HNEAP_RS05565	HNEAP_RS05565	molybdenum cofactor guanylyltransferase	HNEAP_RS05565 molybdenum cofactor guanylyltransferase	873	1342
+HNEAP_RS05570	HNEAP_RS05570	uroporphyrinogen III synthase HEM4	HNEAP_RS05570 uroporphyrinogen III synthase HEM4	638	908
+HNEAP_RS05575	HNEAP_RS05575	formate transporter	HNEAP_RS05575 formate transporter	1088	1481
+HNEAP_RS05580	HNEAP_RS05580	uroporphyrinogen-III C-methyltransferase	HNEAP_RS05580 uroporphyrinogen-III C-methyltransferase	1778	2347
+HNEAP_RS05585	HNEAP_RS05585	nitrate reductase	HNEAP_RS05585 nitrate reductase	2030	2853
+HNEAP_RS05590	HNEAP_RS05590	nitrite reductase (NAD(P)H) small subunit	HNEAP_RS05590 nitrite reductase (NAD(P)H) small subunit	364	480
+HNEAP_RS05595	HNEAP_RS05595	nitrite reductase large subunit	HNEAP_RS05595 nitrite reductase large subunit	2219	2979
+HNEAP_RS05600	HNEAP_RS05600	nitrate ABC transporter substrate-binding protein	HNEAP_RS05600 nitrate ABC transporter substrate-binding protein	933	1296
+HNEAP_RS05605	HNEAP_RS05605	ABC transporter permease	HNEAP_RS05605 ABC transporter permease	1220	1551
+HNEAP_RS05610	HNEAP_RS05610	ABC transporter ATP-binding protein	HNEAP_RS05610 ABC transporter ATP-binding protein	376	493
+HNEAP_RS05615	HNEAP_RS05615	ANTAR domain-containing protein with unknown sensor	HNEAP_RS05615 ANTAR domain-containing protein with unknown sensor	1654	2455
+HNEAP_RS05620	HNEAP_RS05620	cytochrome-c oxidase  cbb3-type subunit I	HNEAP_RS05620 cytochrome-c oxidase  cbb3-type subunit I	1237	1818
+HNEAP_RS05625	HNEAP_RS05625	DNA helicase II	HNEAP_RS05625 DNA helicase II	1187	1737
+HNEAP_RS05635	HNEAP_RS05635	gamma carbonic anhydrase family protein	HNEAP_RS05635 gamma carbonic anhydrase family protein	0	5
+HNEAP_RS05640	HNEAP_RS05640	cytochrome C prime	HNEAP_RS05640 cytochrome C prime	128	169
+HNEAP_RS05645	HNEAP_RS05645	methyl-accepting chemotaxis protein	HNEAP_RS05645 methyl-accepting chemotaxis protein	632	968
+HNEAP_RS05670	HNEAP_RS05670	Na+/H+ antiporter subunit C	HNEAP_RS05670 Na+/H+ antiporter subunit C	50	62
+HNEAP_RS05680	HNEAP_RS05680	polynucleotide adenylyltransferase PcnB	HNEAP_RS05680 polynucleotide adenylyltransferase PcnB	31	38
+HNEAP_RS05710	HNEAP_RS05710	Nif3-like dinuclear metal center hexameric protein	HNEAP_RS05710 Nif3-like dinuclear metal center hexameric protein	969	1318
+HNEAP_RS05730	HNEAP_RS05730	PAS/PAC sensor-containing diguanylate cyclase	HNEAP_RS05730 PAS/PAC sensor-containing diguanylate cyclase	715	963
+HNEAP_RS05755	HNEAP_RS05755	heme-binding protein	HNEAP_RS05755 heme-binding protein	642	911
+HNEAP_RS05760	HNEAP_RS05760	type IV pilus assembly PilZ	HNEAP_RS05760 type IV pilus assembly PilZ	1133	1691
+HNEAP_RS05770	HNEAP_RS05770	hypothetical protein	HNEAP_RS05770 hypothetical protein	0	0
+HNEAP_RS05780	HNEAP_RS05780	tRNA pseudouridine(13) synthase TruD	HNEAP_RS05780 tRNA pseudouridine(13) synthase TruD	464	715
+HNEAP_RS05785	HNEAP_RS05785	monothiol glutaredoxin  Grx4 family	HNEAP_RS05785 monothiol glutaredoxin  Grx4 family	19	37
+HNEAP_RS05790	HNEAP_RS05790	diguanylate cyclase response regulator	HNEAP_RS05790 diguanylate cyclase response regulator	286	418
+HNEAP_RS05810	HNEAP_RS05810	colicin V production protein CvpA	HNEAP_RS05810 colicin V production protein CvpA	161	242
+HNEAP_RS05815	HNEAP_RS05815	sporulation domain-containing protein	HNEAP_RS05815 sporulation domain-containing protein	179	238
+HNEAP_RS05845	HNEAP_RS05845	tRNA pseudouridine(38-40) synthase	HNEAP_RS05845 tRNA pseudouridine(38-40) synthase	271	511
+HNEAP_RS05850	HNEAP_RS05850	TolC family protein	HNEAP_RS05850 TolC family protein	937	1276
+HNEAP_RS05855	HNEAP_RS05855	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS05855 efflux RND transporter periplasmic adaptor subunit	335	413
+HNEAP_RS05860	HNEAP_RS05860	AcrB/AcrD/AcrF family protein	HNEAP_RS05860 AcrB/AcrD/AcrF family protein	1549	2173
+HNEAP_RS05865	HNEAP_RS05865	hypothetical protein	HNEAP_RS05865 hypothetical protein	144	169
+HNEAP_RS05890	HNEAP_RS05890	50S ribosomal protein L25	HNEAP_RS05890 50S ribosomal protein L25	22	55
+HNEAP_RS05900	HNEAP_RS05900	redox-regulated ATPase YchF	HNEAP_RS05900 redox-regulated ATPase YchF	138	241
+HNEAP_RS05910	HNEAP_RS05910	DUF697 domain-containing protein	HNEAP_RS05910 DUF697 domain-containing protein	525	669
+HNEAP_RS05915	HNEAP_RS05915	hypothetical protein	HNEAP_RS05915 hypothetical protein	917	1317
+HNEAP_RS05920	HNEAP_RS05920	EAL domain-containing protein	HNEAP_RS05920 EAL domain-containing protein	1246	1785
+HNEAP_RS05925	HNEAP_RS05925	cation diffusion facilitator transporter	HNEAP_RS05925 cation diffusion facilitator transporter	307	410
+HNEAP_RS05930	HNEAP_RS05930	hypothetical protein	HNEAP_RS05930 hypothetical protein	328	471
+HNEAP_RS05935	HNEAP_RS05935	ABC transporter ATP-binding protein	HNEAP_RS05935 ABC transporter ATP-binding protein	823	1146
+HNEAP_RS05945	HNEAP_RS05945	ion transporter	HNEAP_RS05945 ion transporter	58	89
+HNEAP_RS05955	HNEAP_RS05955	PhoH family protein	HNEAP_RS05955 PhoH family protein	195	280
+HNEAP_RS05960	HNEAP_RS05960	tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB	HNEAP_RS05960 tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB	406	589
+HNEAP_RS05965	HNEAP_RS05965	tRNA dihydrouridine(20/20a) synthase DusA	HNEAP_RS05965 tRNA dihydrouridine(20/20a) synthase DusA	756	1071
+HNEAP_RS05975	HNEAP_RS05975	hypothetical protein	HNEAP_RS05975 hypothetical protein	49	65
+HNEAP_RS05980	HNEAP_RS05980	CHAD domain-containing protein	HNEAP_RS05980 CHAD domain-containing protein	822	1144
+HNEAP_RS05995	HNEAP_RS05995	SUF system Fe-S cluster assembly regulator	HNEAP_RS05995 SUF system Fe-S cluster assembly regulator	431	613
+HNEAP_RS06025	HNEAP_RS06025	(2Fe-2S)-binding protein	HNEAP_RS06025 (2Fe-2S)-binding protein	62	88
+HNEAP_RS06040	HNEAP_RS06040	hypothetical protein	HNEAP_RS06040 hypothetical protein	222	338
+HNEAP_RS06045	HNEAP_RS06045	oxidoreductase molybdopterin-binding protein	HNEAP_RS06045 oxidoreductase molybdopterin-binding protein	349	502
+HNEAP_RS06050	HNEAP_RS06050	cytochrome b561	HNEAP_RS06050 cytochrome b561	362	512
+HNEAP_RS06055	HNEAP_RS06055	ECF subfamily RNA polymerase sigma-24 subunit	HNEAP_RS06055 ECF subfamily RNA polymerase sigma-24 subunit	145	204
+HNEAP_RS06060	HNEAP_RS06060	Tn3 family transposase	HNEAP_RS06060 Tn3 family transposase	3343	4841
+HNEAP_RS06065	HNEAP_RS06065	transposase	HNEAP_RS06065 transposase	537	731
+HNEAP_RS06070	HNEAP_RS06070	DUF3330 domain-containing protein	HNEAP_RS06070 DUF3330 domain-containing protein	581	798
+HNEAP_RS06075	HNEAP_RS06075	hypothetical protein	HNEAP_RS06075 hypothetical protein	103	121
+HNEAP_RS06085	HNEAP_RS06085	mercury(II) reductase	HNEAP_RS06085 mercury(II) reductase	995	1377
+HNEAP_RS06090	HNEAP_RS06090	mercury transporter MerC	HNEAP_RS06090 mercury transporter MerC	922	1276
+HNEAP_RS06095	HNEAP_RS06095	mercuric transport protein periplasmic component	HNEAP_RS06095 mercuric transport protein periplasmic component	219	323
+HNEAP_RS06100	HNEAP_RS06100	mercuric ion transporter MerT	HNEAP_RS06100 mercuric ion transporter MerT	213	303
+HNEAP_RS06105	HNEAP_RS06105	Hg(II)-responsive transcriptional regulator	HNEAP_RS06105 Hg(II)-responsive transcriptional regulator	325	353
+HNEAP_RS06110	HNEAP_RS06110	DUF1109 domain-containing protein	HNEAP_RS06110 DUF1109 domain-containing protein	1071	1472
+HNEAP_RS06115	HNEAP_RS06115	DUF4282 domain-containing protein	HNEAP_RS06115 DUF4282 domain-containing protein	556	804
+HNEAP_RS06130	HNEAP_RS06130	DNA starvation/stationary phase protection protein	HNEAP_RS06130 DNA starvation/stationary phase protection protein	253	364
+HNEAP_RS06140	HNEAP_RS06140	pyridine nucleotide-disulfide oxidoreductase	HNEAP_RS06140 pyridine nucleotide-disulfide oxidoreductase	1626	2398
+HNEAP_RS06145	HNEAP_RS06145	sulfur oxidation protein	HNEAP_RS06145 sulfur oxidation protein	1064	1475
+HNEAP_RS06150	HNEAP_RS06150	ribonuclease HII	HNEAP_RS06150 ribonuclease HII	553	688
+HNEAP_RS06160	HNEAP_RS06160	acetylornithine deacetylase	HNEAP_RS06160 acetylornithine deacetylase	163	242
+HNEAP_RS06165	HNEAP_RS06165	ATPase AAA	HNEAP_RS06165 ATPase AAA	459	698
+HNEAP_RS06170	HNEAP_RS06170	integrase	HNEAP_RS06170 integrase	1687	2404
+HNEAP_RS06175	HNEAP_RS06175	hypothetical protein	HNEAP_RS06175 hypothetical protein	179	269
+HNEAP_RS06195	HNEAP_RS06195	U32 family peptidase	HNEAP_RS06195 U32 family peptidase	37	70
+HNEAP_RS06200	HNEAP_RS06200	BLUF domain-containing protein	HNEAP_RS06200 BLUF domain-containing protein	332	390
+HNEAP_RS06205	HNEAP_RS06205	cryptochrome/photolyase family protein	HNEAP_RS06205 cryptochrome/photolyase family protein	1340	1822
+HNEAP_RS06215	HNEAP_RS06215	DUF615 domain-containing protein	HNEAP_RS06215 DUF615 domain-containing protein	90	134
+HNEAP_RS06235	HNEAP_RS06235	glucokinase	HNEAP_RS06235 glucokinase	808	1154
+HNEAP_RS06240	HNEAP_RS06240	phosphorylase kinase alphabeta	HNEAP_RS06240 phosphorylase kinase alphabeta	1124	1591
+HNEAP_RS06245	HNEAP_RS06245	Hsp33 protein	HNEAP_RS06245 Hsp33 protein	576	919
+HNEAP_RS06275	HNEAP_RS06275	rod shape-determining protein MreD	HNEAP_RS06275 rod shape-determining protein MreD	123	178
+HNEAP_RS06280	HNEAP_RS06280	diacylglycerol kinase	HNEAP_RS06280 diacylglycerol kinase	105	159
+HNEAP_RS06285	HNEAP_RS06285	glycine cleavage system protein H	HNEAP_RS06285 glycine cleavage system protein H	295	374
+HNEAP_RS06290	HNEAP_RS06290	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS06290 sigma-54-dependent Fis family transcriptional regulator	624	796
+HNEAP_RS06295	HNEAP_RS06295	alkylphosphonate utilization operon protein PhnA	HNEAP_RS06295 alkylphosphonate utilization operon protein PhnA	290	355
+HNEAP_RS06300	HNEAP_RS06300	peroxiredoxin	HNEAP_RS06300 peroxiredoxin	559	783
+HNEAP_RS06310	HNEAP_RS06310	aldo/keto reductase	HNEAP_RS06310 aldo/keto reductase	314	483
+HNEAP_RS06315	HNEAP_RS06315	hypothetical protein	HNEAP_RS06315 hypothetical protein	53	86
+HNEAP_RS06325	HNEAP_RS06325	diguanylate cyclase	HNEAP_RS06325 diguanylate cyclase	635	911
+HNEAP_RS06330	HNEAP_RS06330	SulP family inorganic anion transporter	HNEAP_RS06330 SulP family inorganic anion transporter	760	1025
+HNEAP_RS06335	HNEAP_RS06335	MazG nucleotide pyrophosphohydrolase	HNEAP_RS06335 MazG nucleotide pyrophosphohydrolase	100	145
+HNEAP_RS06355	HNEAP_RS06355	class IV aminotransferase	HNEAP_RS06355 class IV aminotransferase	748	1050
+HNEAP_RS06360	HNEAP_RS06360	serine hydrolase	HNEAP_RS06360 serine hydrolase	24	35
+HNEAP_RS06365	HNEAP_RS06365	septal ring lytic transglycosylase RlpA family lipoprotein	HNEAP_RS06365 septal ring lytic transglycosylase RlpA family lipoprotein	635	1015
+HNEAP_RS06370	HNEAP_RS06370	lytic murein transglycosylase B	HNEAP_RS06370 lytic murein transglycosylase B	95	147
+HNEAP_RS06410	HNEAP_RS06410	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA	HNEAP_RS06410 16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA	24	32
+HNEAP_RS06415	HNEAP_RS06415	6-phosphogluconolactonase	HNEAP_RS06415 6-phosphogluconolactonase	794	1077
+HNEAP_RS06420	HNEAP_RS06420	Co2+/Mg2+ efflux protein ApaG	HNEAP_RS06420 Co2+/Mg2+ efflux protein ApaG	29	53
+HNEAP_RS06425	HNEAP_RS06425	class I SAM-dependent methyltransferase	HNEAP_RS06425 class I SAM-dependent methyltransferase	560	838
+HNEAP_RS06430	HNEAP_RS06430	symmetrical bis(5'-nucleosyl)-tetraphosphatase	HNEAP_RS06430 symmetrical bis(5'-nucleosyl)-tetraphosphatase	568	755
+HNEAP_RS06435	HNEAP_RS06435	glutathione S-transferase	HNEAP_RS06435 glutathione S-transferase	613	783
+HNEAP_RS06445	HNEAP_RS06445	phosphoribosylglycinamide formyltransferase	HNEAP_RS06445 phosphoribosylglycinamide formyltransferase	13	13
+HNEAP_RS06455	HNEAP_RS06455	response regulator receiver and Hpt phospho transfer protein	HNEAP_RS06455 response regulator receiver and Hpt phospho transfer protein	3936	5010
+HNEAP_RS06460	HNEAP_RS06460	hypothetical protein	HNEAP_RS06460 hypothetical protein	703	905
+HNEAP_RS06465	HNEAP_RS06465	PilZ domain-containing protein	HNEAP_RS06465 PilZ domain-containing protein	392	499
+HNEAP_RS06470	HNEAP_RS06470	diguanylate cyclase	HNEAP_RS06470 diguanylate cyclase	912	1293
+HNEAP_RS06475	HNEAP_RS06475	PAS domain S-box protein	HNEAP_RS06475 PAS domain S-box protein	285	389
+HNEAP_RS06480	HNEAP_RS06480	thiol reductant ABC exporter subunit CydD	HNEAP_RS06480 thiol reductant ABC exporter subunit CydD	820	1172
+HNEAP_RS06485	HNEAP_RS06485	thiol reductant ABC exporter subunit CydC	HNEAP_RS06485 thiol reductant ABC exporter subunit CydC	1150	1507
+HNEAP_RS06490	HNEAP_RS06490	cytochrome ubiquinol oxidase subunit I	HNEAP_RS06490 cytochrome ubiquinol oxidase subunit I	571	798
+HNEAP_RS06495	HNEAP_RS06495	cytochrome d ubiquinol oxidase subunit II	HNEAP_RS06495 cytochrome d ubiquinol oxidase subunit II	206	260
+HNEAP_RS06500	HNEAP_RS06500	DUF1461 domain-containing protein	HNEAP_RS06500 DUF1461 domain-containing protein	724	1086
+HNEAP_RS06505	HNEAP_RS06505	alpha-D-glucose phosphate-specific phosphoglucomutase	HNEAP_RS06505 alpha-D-glucose phosphate-specific phosphoglucomutase	1432	1948
+HNEAP_RS06510	HNEAP_RS06510	hypothetical protein	HNEAP_RS06510 hypothetical protein	713	1029
+HNEAP_RS06515	HNEAP_RS06515	lytic transglycosylase domain-containing protein	HNEAP_RS06515 lytic transglycosylase domain-containing protein	613	825
+HNEAP_RS06520	HNEAP_RS06520	DUF1249 domain-containing protein	HNEAP_RS06520 DUF1249 domain-containing protein	138	177
+HNEAP_RS06525	HNEAP_RS06525	Rrf2 family transcriptional regulator	HNEAP_RS06525 Rrf2 family transcriptional regulator	255	353
+HNEAP_RS06540	HNEAP_RS06540	DUF429 domain-containing protein	HNEAP_RS06540 DUF429 domain-containing protein	853	1165
+HNEAP_RS06545	HNEAP_RS06545	short-chain dehydrogenase	HNEAP_RS06545 short-chain dehydrogenase	1520	1952
+HNEAP_RS06550	HNEAP_RS06550	TIGR03643 family protein	HNEAP_RS06550 TIGR03643 family protein	111	182
+HNEAP_RS06555	HNEAP_RS06555	deoxyribodipyrimidine photo-lyase	HNEAP_RS06555 deoxyribodipyrimidine photo-lyase	1102	1531
+HNEAP_RS06560	HNEAP_RS06560	MFS transporter	HNEAP_RS06560 MFS transporter	1210	1697
+HNEAP_RS06565	HNEAP_RS06565	hypothetical protein	HNEAP_RS06565 hypothetical protein	591	795
+HNEAP_RS06570	HNEAP_RS06570	IMP dehydrogenase	HNEAP_RS06570 IMP dehydrogenase	1692	2305
+HNEAP_RS06575	HNEAP_RS06575	peptidase	HNEAP_RS06575 peptidase	498	670
+HNEAP_RS06580	HNEAP_RS06580	alpha-E domain-containing protein	HNEAP_RS06580 alpha-E domain-containing protein	1164	1568
+HNEAP_RS06585	HNEAP_RS06585	circularly permuted type 2 ATP-grasp protein	HNEAP_RS06585 circularly permuted type 2 ATP-grasp protein	1253	1871
+HNEAP_RS06630	HNEAP_RS06630	DUF484 domain-containing protein	HNEAP_RS06630 DUF484 domain-containing protein	430	610
+HNEAP_RS06635	HNEAP_RS06635	integrase family protein	HNEAP_RS06635 integrase family protein	62	91
+HNEAP_RS06640	HNEAP_RS06640	ATP-dependent protease subunit HslV	HNEAP_RS06640 ATP-dependent protease subunit HslV	199	240
+HNEAP_RS06645	HNEAP_RS06645	ATP-dependent protease ATPase subunit HslU	HNEAP_RS06645 ATP-dependent protease ATPase subunit HslU	324	380
+HNEAP_RS06650	HNEAP_RS06650	DUF971 domain-containing protein	HNEAP_RS06650 DUF971 domain-containing protein	47	50
+HNEAP_RS06695	HNEAP_RS06695	histidinol-phosphate transaminase	HNEAP_RS06695 histidinol-phosphate transaminase	35	35
+HNEAP_RS06725	HNEAP_RS06725	mechanosensitive ion channel protein	HNEAP_RS06725 mechanosensitive ion channel protein	144	219
+HNEAP_RS06730	HNEAP_RS06730	hypothetical protein	HNEAP_RS06730 hypothetical protein	257	308
+HNEAP_RS06745	HNEAP_RS06745	aspartate aminotransferase family protein	HNEAP_RS06745 aspartate aminotransferase family protein	59	78
+HNEAP_RS06755	HNEAP_RS06755	phosphoglycolate phosphatase	HNEAP_RS06755 phosphoglycolate phosphatase	374	462
+HNEAP_RS06760	HNEAP_RS06760	hypothetical protein	HNEAP_RS06760 hypothetical protein	419	606
+HNEAP_RS06770	HNEAP_RS06770	hypothetical protein	HNEAP_RS06770 hypothetical protein	263	376
+HNEAP_RS06785	HNEAP_RS06785	bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase	HNEAP_RS06785 bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase	292	380
+HNEAP_RS06795	HNEAP_RS06795	YqgE/AlgH family protein	HNEAP_RS06795 YqgE/AlgH family protein	194	288
+HNEAP_RS06805	HNEAP_RS06805	hypothetical protein	HNEAP_RS06805 hypothetical protein	1340	1863
+HNEAP_RS06810	HNEAP_RS06810	iron ABC transporter ATP-binding protein	HNEAP_RS06810 iron ABC transporter ATP-binding protein	324	455
+HNEAP_RS06815	HNEAP_RS06815	MCE family protein	HNEAP_RS06815 MCE family protein	854	1130
+HNEAP_RS06820	HNEAP_RS06820	hypothetical protein	HNEAP_RS06820 hypothetical protein	898	1258
+HNEAP_RS06825	HNEAP_RS06825	RNA helicase	HNEAP_RS06825 RNA helicase	1938	2518
+HNEAP_RS06830	HNEAP_RS06830	phosphoenolpyruvate synthase	HNEAP_RS06830 phosphoenolpyruvate synthase	1811	2460
+HNEAP_RS06835	HNEAP_RS06835	septum site-determining protein MinD	HNEAP_RS06835 septum site-determining protein MinD	125	209
+HNEAP_RS06845	HNEAP_RS06845	hypothetical protein	HNEAP_RS06845 hypothetical protein	28	38
+HNEAP_RS06850	HNEAP_RS06850	hypothetical protein	HNEAP_RS06850 hypothetical protein	128	188
+HNEAP_RS06855	HNEAP_RS06855	RNA-binding S4 domain-containing protein	HNEAP_RS06855 RNA-binding S4 domain-containing protein	359	517
+HNEAP_RS06875	HNEAP_RS06875	50S ribosomal protein L11 methyltransferase	HNEAP_RS06875 50S ribosomal protein L11 methyltransferase	231	347
+HNEAP_RS06880	HNEAP_RS06880	cupin	HNEAP_RS06880 cupin	255	398
+HNEAP_RS06885	HNEAP_RS06885	nitroreductase family protein	HNEAP_RS06885 nitroreductase family protein	510	687
+HNEAP_RS06890	HNEAP_RS06890	NAD(P)-dependent alcohol dehydrogenase	HNEAP_RS06890 NAD(P)-dependent alcohol dehydrogenase	499	724
+HNEAP_RS06895	HNEAP_RS06895	hypothetical protein	HNEAP_RS06895 hypothetical protein	197	301
+HNEAP_RS06905	HNEAP_RS06905	DNA polymerase III subunit chi	HNEAP_RS06905 DNA polymerase III subunit chi	134	157
+HNEAP_RS06915	HNEAP_RS06915	antibiotic biosynthesis monooxygenase	HNEAP_RS06915 antibiotic biosynthesis monooxygenase	233	349
+HNEAP_RS06920	HNEAP_RS06920	50S ribosomal protein L9	HNEAP_RS06920 50S ribosomal protein L9	16	11
+HNEAP_RS06945	HNEAP_RS06945	DNA repair protein RecO	HNEAP_RS06945 DNA repair protein RecO	161	180
+HNEAP_RS06955	HNEAP_RS06955	ribonuclease III	HNEAP_RS06955 ribonuclease III	1	8
+HNEAP_RS06960	HNEAP_RS06960	DUF4845 domain-containing protein	HNEAP_RS06960 DUF4845 domain-containing protein	21	29
+HNEAP_RS06970	HNEAP_RS06970	elongation factor 4	HNEAP_RS06970 elongation factor 4	267	374
+HNEAP_RS06975	HNEAP_RS06975	protease Do	HNEAP_RS06975 protease Do	1642	2382
+HNEAP_RS06995	HNEAP_RS06995	5'-methylthioadenosine phosphorylase	HNEAP_RS06995 5'-methylthioadenosine phosphorylase	384	542
+HNEAP_RS07000	HNEAP_RS07000	hypoxanthine-guanine phosphoribosyltransferase	HNEAP_RS07000 hypoxanthine-guanine phosphoribosyltransferase	187	232
+HNEAP_RS07005	HNEAP_RS07005	beta-N-acetylhexosaminidase	HNEAP_RS07005 beta-N-acetylhexosaminidase	272	364
+HNEAP_RS07010	HNEAP_RS07010	dienelactone hydrolase family protein	HNEAP_RS07010 dienelactone hydrolase family protein	645	965
+HNEAP_RS07015	HNEAP_RS07015	hypothetical protein	HNEAP_RS07015 hypothetical protein	103	127
+HNEAP_RS07020	HNEAP_RS07020	DUF1840 domain-containing protein	HNEAP_RS07020 DUF1840 domain-containing protein	340	451
+HNEAP_RS07025	HNEAP_RS07025	plasma-membrane proton-efflux P-type ATPase	HNEAP_RS07025 plasma-membrane proton-efflux P-type ATPase	2489	3513
+HNEAP_RS07030	HNEAP_RS07030	hypothetical protein	HNEAP_RS07030 hypothetical protein	926	1377
+HNEAP_RS07040	HNEAP_RS07040	ModE family transcriptional regulator	HNEAP_RS07040 ModE family transcriptional regulator	23	19
+HNEAP_RS07045	HNEAP_RS07045	DUF455 domain-containing protein	HNEAP_RS07045 DUF455 domain-containing protein	835	1114
+HNEAP_RS07050	HNEAP_RS07050	hypothetical protein	HNEAP_RS07050 hypothetical protein	2886	4086
+HNEAP_RS07055	HNEAP_RS07055	tRNA-Thr	HNEAP_RS07055 tRNA-Thr	216	301
+HNEAP_RS07065	HNEAP_RS07065	glutathione peroxidase	HNEAP_RS07065 glutathione peroxidase	583	789
+HNEAP_RS07070	HNEAP_RS07070	DNA polymerase III subunit epsilon	HNEAP_RS07070 DNA polymerase III subunit epsilon	1526	2221
+HNEAP_RS07075	HNEAP_RS07075	DASH family cryptochrome	HNEAP_RS07075 DASH family cryptochrome	1357	2028
+HNEAP_RS07080	HNEAP_RS07080	NADH:ubiquinone oxidoreductase complex I intermediate-associated protein 30	HNEAP_RS07080 NADH:ubiquinone oxidoreductase complex I intermediate-associated protein 30	422	588
+HNEAP_RS07085	HNEAP_RS07085	MipA/OmpV family protein	HNEAP_RS07085 MipA/OmpV family protein	1608	2281
+HNEAP_RS07090	HNEAP_RS07090	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS07090 efflux RND transporter periplasmic adaptor subunit	1591	2233
+HNEAP_RS07095	HNEAP_RS07095	multidrug efflux RND transporter permease subunit	HNEAP_RS07095 multidrug efflux RND transporter permease subunit	2575	3537
+HNEAP_RS07100	HNEAP_RS07100	hypothetical protein	HNEAP_RS07100 hypothetical protein	457	672
+HNEAP_RS07105	HNEAP_RS07105	DNA-3-methyladenine glycosylase I	HNEAP_RS07105 DNA-3-methyladenine glycosylase I	229	327
+HNEAP_RS07115	HNEAP_RS07115	nucleotidyl transferase AbiEii/AbiGii toxin family protein	HNEAP_RS07115 nucleotidyl transferase AbiEii/AbiGii toxin family protein	1388	1944
+HNEAP_RS07120	HNEAP_RS07120	peptidase U49	HNEAP_RS07120 peptidase U49	646	855
+HNEAP_RS07125	HNEAP_RS07125	hypothetical protein	HNEAP_RS07125 hypothetical protein	355	523
+HNEAP_RS07130	HNEAP_RS07130	recombinase	HNEAP_RS07130 recombinase	1229	1626
+HNEAP_RS07135	HNEAP_RS07135	hypothetical protein	HNEAP_RS07135 hypothetical protein	57	80
+HNEAP_RS07140	HNEAP_RS07140	group 1 truncated hemoglobin	HNEAP_RS07140 group 1 truncated hemoglobin	491	668
+HNEAP_RS07145	HNEAP_RS07145	DUF3034 domain-containing protein	HNEAP_RS07145 DUF3034 domain-containing protein	526	722
+HNEAP_RS07150	HNEAP_RS07150	response regulator receiver protein	HNEAP_RS07150 response regulator receiver protein	905	1306
+HNEAP_RS07155	HNEAP_RS07155	histidine kinase	HNEAP_RS07155 histidine kinase	1125	1539
+HNEAP_RS07160	HNEAP_RS07160	DNA internalization-related competence protein ComEC/Rec2	HNEAP_RS07160 DNA internalization-related competence protein ComEC/Rec2	2305	3301
+HNEAP_RS07165	HNEAP_RS07165	chemotaxis protein CheR	HNEAP_RS07165 chemotaxis protein CheR	878	1195
+HNEAP_RS07170	HNEAP_RS07170	chemotaxis protein CheV	HNEAP_RS07170 chemotaxis protein CheV	885	1193
+HNEAP_RS07175	HNEAP_RS07175	serine/threonine phosphatase	HNEAP_RS07175 serine/threonine phosphatase	1435	1988
+HNEAP_RS07180	HNEAP_RS07180	hypothetical protein	HNEAP_RS07180 hypothetical protein	308	506
+HNEAP_RS07185	HNEAP_RS07185	DUF1987 domain-containing protein	HNEAP_RS07185 DUF1987 domain-containing protein	303	417
+HNEAP_RS07190	HNEAP_RS07190	GGDEF domain-containing protein	HNEAP_RS07190 GGDEF domain-containing protein	1033	1512
+HNEAP_RS07195	HNEAP_RS07195	phospholipase A(2)	HNEAP_RS07195 phospholipase A(2)	534	643
+HNEAP_RS07200	HNEAP_RS07200	RND transporter	HNEAP_RS07200 RND transporter	1486	2112
+HNEAP_RS07205	HNEAP_RS07205	MexH family multidrug efflux RND transporter periplasmic adaptor subunit	HNEAP_RS07205 MexH family multidrug efflux RND transporter periplasmic adaptor subunit	642	986
+HNEAP_RS07245	HNEAP_RS07245	hypothetical protein	HNEAP_RS07245 hypothetical protein	74	115
+HNEAP_RS07250	HNEAP_RS07250	RIP metalloprotease RseP	HNEAP_RS07250 RIP metalloprotease RseP	20	25
+HNEAP_RS07290	HNEAP_RS07290	segregation/condensation protein A	HNEAP_RS07290 segregation/condensation protein A	669	988
+HNEAP_RS07295	HNEAP_RS07295	site-2 protease family protein	HNEAP_RS07295 site-2 protease family protein	515	692
+HNEAP_RS07300	HNEAP_RS07300	threonylcarbamoyl-AMP synthase	HNEAP_RS07300 threonylcarbamoyl-AMP synthase	624	929
+HNEAP_RS07310	HNEAP_RS07310	hypothetical protein	HNEAP_RS07310 hypothetical protein	181	274
+HNEAP_RS07315	HNEAP_RS07315	hypothetical protein	HNEAP_RS07315 hypothetical protein	731	1070
+HNEAP_RS07320	HNEAP_RS07320	hypothetical protein	HNEAP_RS07320 hypothetical protein	66	265
+HNEAP_RS07325	HNEAP_RS07325	diguanylate phosphodiesterase	HNEAP_RS07325 diguanylate phosphodiesterase	228	300
+HNEAP_RS07330	HNEAP_RS07330	polyribonucleotide nucleotidyltransferase	HNEAP_RS07330 polyribonucleotide nucleotidyltransferase	711	991
+HNEAP_RS07340	HNEAP_RS07340	tRNA pseudouridine(55) synthase TruB	HNEAP_RS07340 tRNA pseudouridine(55) synthase TruB	351	466
+HNEAP_RS07360	HNEAP_RS07360	ribosome assembly cofactor RimP	HNEAP_RS07360 ribosome assembly cofactor RimP	62	104
+HNEAP_RS07365	HNEAP_RS07365	hypothetical protein	HNEAP_RS07365 hypothetical protein	415	564
+HNEAP_RS07370	HNEAP_RS07370	molecular chaperone DnaJ	HNEAP_RS07370 molecular chaperone DnaJ	168	228
+HNEAP_RS07390	HNEAP_RS07390	DNA repair protein RecN	HNEAP_RS07390 DNA repair protein RecN	808	1154
+HNEAP_RS07395	HNEAP_RS07395	cytochrome c	HNEAP_RS07395 cytochrome c	1371	2097
+HNEAP_RS07400	HNEAP_RS07400	cytochrome c	HNEAP_RS07400 cytochrome c	2270	3508
+HNEAP_RS07410	HNEAP_RS07410	flavin reductase family protein	HNEAP_RS07410 flavin reductase family protein	657	866
+HNEAP_RS07415	HNEAP_RS07415	23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD	HNEAP_RS07415 23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD	1084	1468
+HNEAP_RS07425	HNEAP_RS07425	lipid A biosynthesis acyltransferase	HNEAP_RS07425 lipid A biosynthesis acyltransferase	828	1250
+HNEAP_RS07430	HNEAP_RS07430	cytochrome P450	HNEAP_RS07430 cytochrome P450	749	1234
+HNEAP_RS07435	HNEAP_RS07435	capsule polysaccharide biosynthesis protein	HNEAP_RS07435 capsule polysaccharide biosynthesis protein	598	743
+HNEAP_RS07440	HNEAP_RS07440	NAD(P)-dependent oxidoreductase	HNEAP_RS07440 NAD(P)-dependent oxidoreductase	881	1097
+HNEAP_RS07445	HNEAP_RS07445	hypothetical protein	HNEAP_RS07445 hypothetical protein	920	1271
+HNEAP_RS07450	HNEAP_RS07450	polysaccharide export protein	HNEAP_RS07450 polysaccharide export protein	227	479
+HNEAP_RS07470	HNEAP_RS07470	four helix bundle protein	HNEAP_RS07470 four helix bundle protein	111	176
+HNEAP_RS07475	HNEAP_RS07475	glucose-1-phosphate thymidylyltransferase	HNEAP_RS07475 glucose-1-phosphate thymidylyltransferase	59	108
+HNEAP_RS07480	HNEAP_RS07480	glycosyltransferase family 2 protein	HNEAP_RS07480 glycosyltransferase family 2 protein	1143	1605
+HNEAP_RS07485	HNEAP_RS07485	capsular polysaccharide biosynthesis protein	HNEAP_RS07485 capsular polysaccharide biosynthesis protein	298	410
+HNEAP_RS07490	HNEAP_RS07490	sulfate adenylyltransferase	HNEAP_RS07490 sulfate adenylyltransferase	88	108
+HNEAP_RS07500	HNEAP_RS07500	DUF2442 domain-containing protein	HNEAP_RS07500 DUF2442 domain-containing protein	183	260
+HNEAP_RS07515	HNEAP_RS07515	carboxylate transporter	HNEAP_RS07515 carboxylate transporter	5	2
+HNEAP_RS07525	HNEAP_RS07525	3'(2') 5'-bisphosphate nucleotidase	HNEAP_RS07525 3'(2') 5'-bisphosphate nucleotidase	802	1055
+HNEAP_RS07530	HNEAP_RS07530	hypothetical protein	HNEAP_RS07530 hypothetical protein	309	421
+HNEAP_RS07535	HNEAP_RS07535	glycosyltransferase family 2 protein	HNEAP_RS07535 glycosyltransferase family 2 protein	864	1256
+HNEAP_RS07540	HNEAP_RS07540	hypothetical protein	HNEAP_RS07540 hypothetical protein	971	1310
+HNEAP_RS07545	HNEAP_RS07545	ABC transporter ATP-binding protein	HNEAP_RS07545 ABC transporter ATP-binding protein	32	86
+HNEAP_RS07550	HNEAP_RS07550	sugar ABC transporter permease	HNEAP_RS07550 sugar ABC transporter permease	6	26
+HNEAP_RS07555	HNEAP_RS07555	hypothetical protein	HNEAP_RS07555 hypothetical protein	103	234
+HNEAP_RS07560	HNEAP_RS07560	8-amino-7-oxononanoate synthase	HNEAP_RS07560 8-amino-7-oxononanoate synthase	1033	1473
+HNEAP_RS07565	HNEAP_RS07565	type I polyketide synthase	HNEAP_RS07565 type I polyketide synthase	4872	6521
+HNEAP_RS07570	HNEAP_RS07570	lactoylglutathione lyase	HNEAP_RS07570 lactoylglutathione lyase	93	154
+HNEAP_RS07580	HNEAP_RS07580	hypothetical protein	HNEAP_RS07580 hypothetical protein	789	1134
+HNEAP_RS07590	HNEAP_RS07590	ribonuclease BN	HNEAP_RS07590 ribonuclease BN	930	1237
+HNEAP_RS07595	HNEAP_RS07595	hypothetical protein	HNEAP_RS07595 hypothetical protein	831	1175
+HNEAP_RS07600	HNEAP_RS07600	replication-associated recombination protein A	HNEAP_RS07600 replication-associated recombination protein A	1114	1597
+HNEAP_RS07605	HNEAP_RS07605	GNAT family N-acetyltransferase	HNEAP_RS07605 GNAT family N-acetyltransferase	166	259
+HNEAP_RS07620	HNEAP_RS07620	ClpXP protease specificity-enhancing factor	HNEAP_RS07620 ClpXP protease specificity-enhancing factor	423	566
+HNEAP_RS07630	HNEAP_RS07630	ChbG/HpnK family deacetylase	HNEAP_RS07630 ChbG/HpnK family deacetylase	459	657
+HNEAP_RS07635	HNEAP_RS07635	glycosyl transferase family 39	HNEAP_RS07635 glycosyl transferase family 39	1032	1479
+HNEAP_RS07640	HNEAP_RS07640	GtrA family protein	HNEAP_RS07640 GtrA family protein	177	203
+HNEAP_RS07645	HNEAP_RS07645	glycosyltransferase	HNEAP_RS07645 glycosyltransferase	567	934
+HNEAP_RS07650	HNEAP_RS07650	cyclopropane-fatty-acyl-phospholipid synthase	HNEAP_RS07650 cyclopropane-fatty-acyl-phospholipid synthase	79	127
+HNEAP_RS07670	HNEAP_RS07670	hypothetical protein	HNEAP_RS07670 hypothetical protein	173	235
+HNEAP_RS07680	HNEAP_RS07680	type I glyceraldehyde-3-phosphate dehydrogenase	HNEAP_RS07680 type I glyceraldehyde-3-phosphate dehydrogenase	923	1337
+HNEAP_RS07685	HNEAP_RS07685	MFS transporter	HNEAP_RS07685 MFS transporter	2436	3386
+HNEAP_RS07690	HNEAP_RS07690	hypothetical protein	HNEAP_RS07690 hypothetical protein	820	1188
+HNEAP_RS07695	HNEAP_RS07695	DUF2492 domain-containing protein	HNEAP_RS07695 DUF2492 domain-containing protein	155	229
+HNEAP_RS07700	HNEAP_RS07700	ATP-dependent DNA helicase Rep	HNEAP_RS07700 ATP-dependent DNA helicase Rep	487	554
+HNEAP_RS07705	HNEAP_RS07705	EamA/RhaT family transporter	HNEAP_RS07705 EamA/RhaT family transporter	643	815
+HNEAP_RS07715	HNEAP_RS07715	flagella basal body P-ring formation protein FlgA	HNEAP_RS07715 flagella basal body P-ring formation protein FlgA	1863	2670
+HNEAP_RS07725	HNEAP_RS07725	flagellar protein FlgN	HNEAP_RS07725 flagellar protein FlgN	1407	2053
+HNEAP_RS07730	HNEAP_RS07730	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD	HNEAP_RS07730 16S rRNA (guanine(966)-N(2))-methyltransferase RsmD	184	231
+HNEAP_RS07750	HNEAP_RS07750	methyl-accepting chemotaxis protein	HNEAP_RS07750 methyl-accepting chemotaxis protein	1729	2493
+HNEAP_RS07755	HNEAP_RS07755	phytoene synthase	HNEAP_RS07755 phytoene synthase	233	234
+HNEAP_RS07760	HNEAP_RS07760	short-chain dehydrogenase/reductase SDR	HNEAP_RS07760 short-chain dehydrogenase/reductase SDR	17	15
+HNEAP_RS07765	HNEAP_RS07765	hypothetical protein	HNEAP_RS07765 hypothetical protein	287	426
+HNEAP_RS07770	HNEAP_RS07770	DUF853 domain-containing protein	HNEAP_RS07770 DUF853 domain-containing protein	803	1150
+HNEAP_RS07790	HNEAP_RS07790	protein kinase	HNEAP_RS07790 protein kinase	612	839
+HNEAP_RS07820	HNEAP_RS07820	transcription elongation factor GreA	HNEAP_RS07820 transcription elongation factor GreA	53	65
+HNEAP_RS07840	HNEAP_RS07840	sulfurtransferase	HNEAP_RS07840 sulfurtransferase	667	1042
+HNEAP_RS07845	HNEAP_RS07845	oligoribonuclease	HNEAP_RS07845 oligoribonuclease	368	562
+HNEAP_RS07850	HNEAP_RS07850	magnesium transporter	HNEAP_RS07850 magnesium transporter	1173	1591
+HNEAP_RS07855	HNEAP_RS07855	ribosome small subunit-dependent GTPase A	HNEAP_RS07855 ribosome small subunit-dependent GTPase A	0	5
+HNEAP_RS07870	HNEAP_RS07870	lytic transglycosylase	HNEAP_RS07870 lytic transglycosylase	306	493
+HNEAP_RS07875	HNEAP_RS07875	hydroxyacylglutathione hydrolase	HNEAP_RS07875 hydroxyacylglutathione hydrolase	226	289
+HNEAP_RS07880	HNEAP_RS07880	hypothetical protein	HNEAP_RS07880 hypothetical protein	702	1002
+HNEAP_RS07885	HNEAP_RS07885	ribosomal-protein-alanine N-acetyltransferase	HNEAP_RS07885 ribosomal-protein-alanine N-acetyltransferase	409	586
+HNEAP_RS07890	HNEAP_RS07890	hypothetical protein	HNEAP_RS07890 hypothetical protein	577	689
+HNEAP_RS07895	HNEAP_RS07895	2-isopropylmalate synthase	HNEAP_RS07895 2-isopropylmalate synthase	52	38
+HNEAP_RS07905	HNEAP_RS07905	signal transduction histidine kinase	HNEAP_RS07905 signal transduction histidine kinase	192	224
+HNEAP_RS07910	HNEAP_RS07910	type IV-A pilus assembly ATPase PilB	HNEAP_RS07910 type IV-A pilus assembly ATPase PilB	2981	4568
+HNEAP_RS07915	HNEAP_RS07915	type II secretion system F family protein	HNEAP_RS07915 type II secretion system F family protein	1094	1466
+HNEAP_RS07920	HNEAP_RS07920	prepilin peptidase	HNEAP_RS07920 prepilin peptidase	3106	3865
+HNEAP_RS07930	HNEAP_RS07930	hypothetical protein	HNEAP_RS07930 hypothetical protein	93	115
+HNEAP_RS07935	HNEAP_RS07935	hypothetical protein	HNEAP_RS07935 hypothetical protein	76	142
+HNEAP_RS07940	HNEAP_RS07940	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS07940 sigma-54-dependent Fis family transcriptional regulator	1659	2372
+HNEAP_RS07945	HNEAP_RS07945	hybrid sensor histidine kinase/response regulator	HNEAP_RS07945 hybrid sensor histidine kinase/response regulator	3914	5593
+HNEAP_RS07950	HNEAP_RS07950	response regulator	HNEAP_RS07950 response regulator	439	659
+HNEAP_RS07955	HNEAP_RS07955	VWA domain-containing protein	HNEAP_RS07955 VWA domain-containing protein	977	1372
+HNEAP_RS07960	HNEAP_RS07960	hypothetical protein	HNEAP_RS07960 hypothetical protein	876	1265
+HNEAP_RS07965	HNEAP_RS07965	formamidase	HNEAP_RS07965 formamidase	969	1375
+HNEAP_RS07970	HNEAP_RS07970	allantoin permease	HNEAP_RS07970 allantoin permease	1072	1491
+HNEAP_RS07975	HNEAP_RS07975	acylamide amidohydrolase	HNEAP_RS07975 acylamide amidohydrolase	707	1145
+HNEAP_RS07980	HNEAP_RS07980	urea ABC transporter ATP-binding subunit UrtE	HNEAP_RS07980 urea ABC transporter ATP-binding subunit UrtE	349	549
+HNEAP_RS07985	HNEAP_RS07985	urea ABC transporter ATP-binding protein UrtD	HNEAP_RS07985 urea ABC transporter ATP-binding protein UrtD	431	590
+HNEAP_RS07990	HNEAP_RS07990	urea ABC transporter permease subunit UrtC	HNEAP_RS07990 urea ABC transporter permease subunit UrtC	597	881
+HNEAP_RS07995	HNEAP_RS07995	urea ABC transporter permease subunit UrtB	HNEAP_RS07995 urea ABC transporter permease subunit UrtB	789	1167
+HNEAP_RS08000	HNEAP_RS08000	urea ABC transporter substrate-binding protein	HNEAP_RS08000 urea ABC transporter substrate-binding protein	1456	2119
+HNEAP_RS08005	HNEAP_RS08005	acetamidase/formamidase family protein	HNEAP_RS08005 acetamidase/formamidase family protein	920	1340
+HNEAP_RS08015	HNEAP_RS08015	hypothetical protein	HNEAP_RS08015 hypothetical protein	755	1073
+HNEAP_RS08020	HNEAP_RS08020	oxidoreductase	HNEAP_RS08020 oxidoreductase	1517	2170
+HNEAP_RS08025	HNEAP_RS08025	TetR family transcriptional regulator	HNEAP_RS08025 TetR family transcriptional regulator	1007	1414
+HNEAP_RS08030	HNEAP_RS08030	NAD(P)-dependent oxidoreductase	HNEAP_RS08030 NAD(P)-dependent oxidoreductase	445	651
+HNEAP_RS08035	HNEAP_RS08035	TetR/AcrR family transcriptional regulator	HNEAP_RS08035 TetR/AcrR family transcriptional regulator	364	558
+HNEAP_RS08040	HNEAP_RS08040	DUF1348 domain-containing protein	HNEAP_RS08040 DUF1348 domain-containing protein	362	589
+HNEAP_RS08050	HNEAP_RS08050	lytic transglycosylase	HNEAP_RS08050 lytic transglycosylase	332	454
+HNEAP_RS08055	HNEAP_RS08055	TraB family protein	HNEAP_RS08055 TraB family protein	975	1403
+HNEAP_RS08060	HNEAP_RS08060	DNA topoisomerase III	HNEAP_RS08060 DNA topoisomerase III	2255	3399
+HNEAP_RS08070	HNEAP_RS08070	P-type conjugative transfer protein TrbL	HNEAP_RS08070 P-type conjugative transfer protein TrbL	778	1182
+HNEAP_RS08075	HNEAP_RS08075	hypothetical protein	HNEAP_RS08075 hypothetical protein	323	463
+HNEAP_RS08080	HNEAP_RS08080	P-type conjugative transfer protein TrbJ	HNEAP_RS08080 P-type conjugative transfer protein TrbJ	486	658
+HNEAP_RS08085	HNEAP_RS08085	type IV transporter system CagE/TrbE/VirB	HNEAP_RS08085 type IV transporter system CagE/TrbE/VirB	2465	3652
+HNEAP_RS08090	HNEAP_RS08090	conjugal transfer protein TrbD	HNEAP_RS08090 conjugal transfer protein TrbD	85	145
+HNEAP_RS08095	HNEAP_RS08095	conjugal transfer protein TrbC	HNEAP_RS08095 conjugal transfer protein TrbC	273	419
+HNEAP_RS08100	HNEAP_RS08100	N-acetyltransferase	HNEAP_RS08100 N-acetyltransferase	223	334
+HNEAP_RS08105	HNEAP_RS08105	DUF1778 domain-containing protein	HNEAP_RS08105 DUF1778 domain-containing protein	109	175
+HNEAP_RS08110	HNEAP_RS08110	P-type conjugative transfer ATPase TrbB	HNEAP_RS08110 P-type conjugative transfer ATPase TrbB	1128	1666
+HNEAP_RS08115	HNEAP_RS08115	hypothetical protein	HNEAP_RS08115 hypothetical protein	1170	1697
+HNEAP_RS08120	HNEAP_RS08120	type II toxin-antitoxin system RelE/ParE family toxin	HNEAP_RS08120 type II toxin-antitoxin system RelE/ParE family toxin	431	602
+HNEAP_RS08130	HNEAP_RS08130	helix-turn-helix domain-containing protein	HNEAP_RS08130 helix-turn-helix domain-containing protein	20	26
+HNEAP_RS08135	HNEAP_RS08135	hypothetical protein	HNEAP_RS08135 hypothetical protein	147	201
+HNEAP_RS08145	HNEAP_RS08145	hypothetical protein	HNEAP_RS08145 hypothetical protein	1064	1518
+HNEAP_RS08155	HNEAP_RS08155	addiction module antidote protein  HigA family	HNEAP_RS08155 addiction module antidote protein  HigA family	216	300
+HNEAP_RS08165	HNEAP_RS08165	hypothetical protein	HNEAP_RS08165 hypothetical protein	668	962
+HNEAP_RS08170	HNEAP_RS08170	hypothetical protein	HNEAP_RS08170 hypothetical protein	95	147
+HNEAP_RS08175	HNEAP_RS08175	RES domain-containing protein	HNEAP_RS08175 RES domain-containing protein	643	923
+HNEAP_RS08185	HNEAP_RS08185	hypothetical protein	HNEAP_RS08185 hypothetical protein	114	182
+HNEAP_RS08190	HNEAP_RS08190	hypothetical protein	HNEAP_RS08190 hypothetical protein	180	211
+HNEAP_RS08195	HNEAP_RS08195	hypothetical protein	HNEAP_RS08195 hypothetical protein	123	186
+HNEAP_RS08200	HNEAP_RS08200	hypothetical protein	HNEAP_RS08200 hypothetical protein	327	517
+HNEAP_RS08205	HNEAP_RS08205	DUF3363 domain-containing protein	HNEAP_RS08205 DUF3363 domain-containing protein	756	1055
+HNEAP_RS08210	HNEAP_RS08210	hypothetical protein	HNEAP_RS08210 hypothetical protein	910	1444
+HNEAP_RS08215	HNEAP_RS08215	hypothetical protein	HNEAP_RS08215 hypothetical protein	1007	1505
+HNEAP_RS08220	HNEAP_RS08220	hypothetical protein	HNEAP_RS08220 hypothetical protein	340	529
+HNEAP_RS08230	HNEAP_RS08230	DUF1738 domain-containing protein	HNEAP_RS08230 DUF1738 domain-containing protein	1372	1900
+HNEAP_RS08235	HNEAP_RS08235	TRAG family protein	HNEAP_RS08235 TRAG family protein	3223	4583
+HNEAP_RS08240	HNEAP_RS08240	single-stranded DNA-binding protein	HNEAP_RS08240 single-stranded DNA-binding protein	357	498
+HNEAP_RS08245	HNEAP_RS08245	cysteine hydrolase	HNEAP_RS08245 cysteine hydrolase	308	509
+HNEAP_RS08250	HNEAP_RS08250	dihydrofolate reductase	HNEAP_RS08250 dihydrofolate reductase	190	280
+HNEAP_RS08265	HNEAP_RS08265	hypothetical protein	HNEAP_RS08265 hypothetical protein	370	547
+HNEAP_RS08275	HNEAP_RS08275	ATPase	HNEAP_RS08275 ATPase	429	641
+HNEAP_RS08280	HNEAP_RS08280	hypothetical protein	HNEAP_RS08280 hypothetical protein	634	954
+HNEAP_RS08285	HNEAP_RS08285	hypothetical protein	HNEAP_RS08285 hypothetical protein	958	1436
+HNEAP_RS08290	HNEAP_RS08290	transglutaminase family protein	HNEAP_RS08290 transglutaminase family protein	354	516
+HNEAP_RS08305	HNEAP_RS08305	hypothetical protein	HNEAP_RS08305 hypothetical protein	129	230
+HNEAP_RS08310	HNEAP_RS08310	P-type conjugative transfer protein TrbG	HNEAP_RS08310 P-type conjugative transfer protein TrbG	1417	2102
+HNEAP_RS08320	HNEAP_RS08320	hypothetical protein	HNEAP_RS08320 hypothetical protein	134	220
+HNEAP_RS08335	HNEAP_RS08335	hypothetical protein	HNEAP_RS08335 hypothetical protein	48	73
+HNEAP_RS08340	HNEAP_RS08340	hypothetical protein	HNEAP_RS08340 hypothetical protein	156	210
+HNEAP_RS08345	HNEAP_RS08345	hypothetical protein	HNEAP_RS08345 hypothetical protein	1769	2654
+HNEAP_RS08350	HNEAP_RS08350	low molecular weight phosphotyrosine protein phosphatase	HNEAP_RS08350 low molecular weight phosphotyrosine protein phosphatase	582	932
+HNEAP_RS08355	HNEAP_RS08355	amino acid permease	HNEAP_RS08355 amino acid permease	1104	1515
+HNEAP_RS08360	HNEAP_RS08360	exodeoxyribonuclease VII small subunit	HNEAP_RS08360 exodeoxyribonuclease VII small subunit	59	81
+HNEAP_RS08375	HNEAP_RS08375	6-carboxytetrahydropterin synthase QueD	HNEAP_RS08375 6-carboxytetrahydropterin synthase QueD	54	86
+HNEAP_RS08385	HNEAP_RS08385	PAS/PAC sensor-containing diguanylate cyclase/phosphodiesterase	HNEAP_RS08385 PAS/PAC sensor-containing diguanylate cyclase/phosphodiesterase	2234	3354
+HNEAP_RS08390	HNEAP_RS08390	TatD family deoxyribonuclease	HNEAP_RS08390 TatD family deoxyribonuclease	681	955
+HNEAP_RS08395	HNEAP_RS08395	chemotaxis protein MotA	HNEAP_RS08395 chemotaxis protein MotA	1101	1599
+HNEAP_RS08400	HNEAP_RS08400	OmpA/MotB domain-containing protein	HNEAP_RS08400 OmpA/MotB domain-containing protein	1482	2192
+HNEAP_RS08405	HNEAP_RS08405	HIT family protein	HNEAP_RS08405 HIT family protein	155	237
+HNEAP_RS08410	HNEAP_RS08410	GGDEF domain-containing protein	HNEAP_RS08410 GGDEF domain-containing protein	2199	3343
+HNEAP_RS08415	HNEAP_RS08415	DNA polymerase I	HNEAP_RS08415 DNA polymerase I	345	498
+HNEAP_RS08420	HNEAP_RS08420	TIGR00730 family Rossman fold protein	HNEAP_RS08420 TIGR00730 family Rossman fold protein	498	705
+HNEAP_RS08430	HNEAP_RS08430	tRNA dihydrouridine synthase DusB	HNEAP_RS08430 tRNA dihydrouridine synthase DusB	1278	1960
+HNEAP_RS08440	HNEAP_RS08440	hypothetical protein	HNEAP_RS08440 hypothetical protein	663	972
+HNEAP_RS08445	HNEAP_RS08445	diguanylate cyclase	HNEAP_RS08445 diguanylate cyclase	1824	2874
+HNEAP_RS08455	HNEAP_RS08455	phosphoglycerate mutase	HNEAP_RS08455 phosphoglycerate mutase	404	578
+HNEAP_RS08460	HNEAP_RS08460	signaling modulator of AmpD  AmpE	HNEAP_RS08460 signaling modulator of AmpD  AmpE	837	1264
+HNEAP_RS08465	HNEAP_RS08465	1 6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD	HNEAP_RS08465 1 6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD	797	882
+HNEAP_RS08470	HNEAP_RS08470	TetR/AcrR family transcriptional regulator	HNEAP_RS08470 TetR/AcrR family transcriptional regulator	1082	1653
+HNEAP_RS08475	HNEAP_RS08475	hypothetical protein	HNEAP_RS08475 hypothetical protein	178	255
+HNEAP_RS08480	HNEAP_RS08480	hypothetical protein	HNEAP_RS08480 hypothetical protein	794	1082
+HNEAP_RS08485	HNEAP_RS08485	EamA/RhaT family transporter	HNEAP_RS08485 EamA/RhaT family transporter	665	1011
+HNEAP_RS08490	HNEAP_RS08490	4-carboxymuconolactone decarboxylase	HNEAP_RS08490 4-carboxymuconolactone decarboxylase	458	690
+HNEAP_RS08495	HNEAP_RS08495	CinA family protein	HNEAP_RS08495 CinA family protein	59	78
+HNEAP_RS08500	HNEAP_RS08500	hypothetical protein	HNEAP_RS08500 hypothetical protein	440	634
+HNEAP_RS08505	HNEAP_RS08505	thiamine-binding protein	HNEAP_RS08505 thiamine-binding protein	70	80
+HNEAP_RS08510	HNEAP_RS08510	peptidase S8	HNEAP_RS08510 peptidase S8	3247	4537
+HNEAP_RS08515	HNEAP_RS08515	hypothetical protein	HNEAP_RS08515 hypothetical protein	509	699
+HNEAP_RS08520	HNEAP_RS08520	DNA damage-inducible protein DinB	HNEAP_RS08520 DNA damage-inducible protein DinB	542	793
+HNEAP_RS08530	HNEAP_RS08530	PLP-dependent aminotransferase family protein	HNEAP_RS08530 PLP-dependent aminotransferase family protein	816	1116
+HNEAP_RS08535	HNEAP_RS08535	23S rRNA (uracil(747)-C(5))-methyltransferase RlmC	HNEAP_RS08535 23S rRNA (uracil(747)-C(5))-methyltransferase RlmC	556	854
+HNEAP_RS08540	HNEAP_RS08540	FimV protein	HNEAP_RS08540 FimV protein	7928	9953
+HNEAP_RS08555	HNEAP_RS08555	permease	HNEAP_RS08555 permease	867	1278
+HNEAP_RS08570	HNEAP_RS08570	LysR family transcriptional regulator	HNEAP_RS08570 LysR family transcriptional regulator	1513	2171
+HNEAP_RS08575	HNEAP_RS08575	alkene reductase	HNEAP_RS08575 alkene reductase	1144	1693
+HNEAP_RS08580	HNEAP_RS08580	DUF2288 domain-containing protein	HNEAP_RS08580 DUF2288 domain-containing protein	360	550
+HNEAP_RS08590	HNEAP_RS08590	hypothetical protein	HNEAP_RS08590 hypothetical protein	86	146
+HNEAP_RS08615	HNEAP_RS08615	biopolymer transporter ExbD	HNEAP_RS08615 biopolymer transporter ExbD	654	951
+HNEAP_RS08620	HNEAP_RS08620	MotA/TolQ/ExbB proton channel family protein	HNEAP_RS08620 MotA/TolQ/ExbB proton channel family protein	872	1338
+HNEAP_RS08625	HNEAP_RS08625	DUF4140 domain-containing protein	HNEAP_RS08625 DUF4140 domain-containing protein	843	1263
+HNEAP_RS08635	HNEAP_RS08635	nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase	HNEAP_RS08635 nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase	1320	1921
+HNEAP_RS08640	HNEAP_RS08640	TIGR02099 family protein	HNEAP_RS08640 TIGR02099 family protein	218	343
+HNEAP_RS08645	HNEAP_RS08645	Rne/Rng family ribonuclease	HNEAP_RS08645 Rne/Rng family ribonuclease	801	1586
+HNEAP_RS08650	HNEAP_RS08650	septum formation inhibitor Maf	HNEAP_RS08650 septum formation inhibitor Maf	339	467
+HNEAP_RS08655	HNEAP_RS08655	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase RlmH	HNEAP_RS08655 23S rRNA (pseudouridine(1915)-N(3))-methyltransferase RlmH	346	505
+HNEAP_RS08660	HNEAP_RS08660	ribosome silencing factor	HNEAP_RS08660 ribosome silencing factor	649	901
+HNEAP_RS08680	HNEAP_RS08680	lipoprotein B	HNEAP_RS08680 lipoprotein B	33	70
+HNEAP_RS08690	HNEAP_RS08690	hypothetical protein	HNEAP_RS08690 hypothetical protein	113	169
+HNEAP_RS08700	HNEAP_RS08700	peptidase	HNEAP_RS08700 peptidase	588	917
+HNEAP_RS08705	HNEAP_RS08705	translocation/assembly module TamB	HNEAP_RS08705 translocation/assembly module TamB	2544	3812
+HNEAP_RS08710	HNEAP_RS08710	hypothetical protein	HNEAP_RS08710 hypothetical protein	679	1018
+HNEAP_RS08715	HNEAP_RS08715	outer membrane protein assembly factor	HNEAP_RS08715 outer membrane protein assembly factor	1496	2466
+HNEAP_RS08725	HNEAP_RS08725	EamA family transporter	HNEAP_RS08725 EamA family transporter	604	891
+HNEAP_RS08730	HNEAP_RS08730	thioredoxin	HNEAP_RS08730 thioredoxin	325	492
+HNEAP_RS08735	HNEAP_RS08735	ribonuclease Rne/Rng family	HNEAP_RS08735 ribonuclease Rne/Rng family	165	218
+HNEAP_RS08745	HNEAP_RS08745	RluA family pseudouridine synthase	HNEAP_RS08745 RluA family pseudouridine synthase	948	1474
+HNEAP_RS08750	HNEAP_RS08750	haloacid dehalogenase	HNEAP_RS08750 haloacid dehalogenase	771	1220
+HNEAP_RS08755	HNEAP_RS08755	signal peptide peptidase SppA	HNEAP_RS08755 signal peptide peptidase SppA	802	1204
+HNEAP_RS08760	HNEAP_RS08760	ATP-dependent Clp protease adapter ClpS	HNEAP_RS08760 ATP-dependent Clp protease adapter ClpS	147	219
+HNEAP_RS08765	HNEAP_RS08765	ATP-dependent Clp protease ATP-binding subunit ClpA	HNEAP_RS08765 ATP-dependent Clp protease ATP-binding subunit ClpA	1161	1676
+HNEAP_RS08775	HNEAP_RS08775	nitroreductase	HNEAP_RS08775 nitroreductase	301	446
+HNEAP_RS08780	HNEAP_RS08780	hypothetical protein	HNEAP_RS08780 hypothetical protein	454	725
+HNEAP_RS08785	HNEAP_RS08785	hypothetical protein	HNEAP_RS08785 hypothetical protein	536	844
+HNEAP_RS08790	HNEAP_RS08790	flagellar hook-associated protein 3	HNEAP_RS08790 flagellar hook-associated protein 3	2474	3915
+HNEAP_RS08795	HNEAP_RS08795	flagellar hook-associated protein FlgK	HNEAP_RS08795 flagellar hook-associated protein FlgK	6194	9332
+HNEAP_RS08800	HNEAP_RS08800	flagellar assembly peptidoglycan hydrolase FlgJ	HNEAP_RS08800 flagellar assembly peptidoglycan hydrolase FlgJ	3686	5379
+HNEAP_RS08805	HNEAP_RS08805	flagellar basal body P-ring protein FlgI	HNEAP_RS08805 flagellar basal body P-ring protein FlgI	2426	3567
+HNEAP_RS08810	HNEAP_RS08810	flagellar basal body L-ring protein FlgH	HNEAP_RS08810 flagellar basal body L-ring protein FlgH	1282	2000
+HNEAP_RS08815	HNEAP_RS08815	flagellar basal-body rod protein FlgG	HNEAP_RS08815 flagellar basal-body rod protein FlgG	1853	2763
+HNEAP_RS08820	HNEAP_RS08820	flagellar basal-body rod protein FlgF	HNEAP_RS08820 flagellar basal-body rod protein FlgF	2683	3910
+HNEAP_RS08825	HNEAP_RS08825	flagellar hook protein FlgE	HNEAP_RS08825 flagellar hook protein FlgE	2605	3811
+HNEAP_RS08830	HNEAP_RS08830	flagellar hook capping protein	HNEAP_RS08830 flagellar hook capping protein	2678	4043
+HNEAP_RS08835	HNEAP_RS08835	flagellar basal body rod protein FlgC	HNEAP_RS08835 flagellar basal body rod protein FlgC	1865	2647
+HNEAP_RS08840	HNEAP_RS08840	flagellar basal body rod protein FlgB	HNEAP_RS08840 flagellar basal body rod protein FlgB	1106	1609
+HNEAP_RS08845	HNEAP_RS08845	HlyC/CorC family transporter	HNEAP_RS08845 HlyC/CorC family transporter	308	566
+HNEAP_RS08850	HNEAP_RS08850	DNA repair protein RadA	HNEAP_RS08850 DNA repair protein RadA	644	921
+HNEAP_RS08860	HNEAP_RS08860	hypothetical protein	HNEAP_RS08860 hypothetical protein	241	364
+HNEAP_RS08865	HNEAP_RS08865	electron transport complex subunit RsxE	HNEAP_RS08865 electron transport complex subunit RsxE	145	258
+HNEAP_RS08880	HNEAP_RS08880	electron transport complex subunit RsxC	HNEAP_RS08880 electron transport complex subunit RsxC	111	152
+HNEAP_RS08895	HNEAP_RS08895	NADH-ubiquinone oxidoreductase	HNEAP_RS08895 NADH-ubiquinone oxidoreductase	1811	2779
+HNEAP_RS08900	HNEAP_RS08900	NADH ubiquinone oxidoreductase	HNEAP_RS08900 NADH ubiquinone oxidoreductase	1189	1751
+HNEAP_RS08905	HNEAP_RS08905	NADH-quinone oxidoreductase subunit D	HNEAP_RS08905 NADH-quinone oxidoreductase subunit D	1555	2307
+HNEAP_RS08910	HNEAP_RS08910	NADH dehydrogenase	HNEAP_RS08910 NADH dehydrogenase	1238	1762
+HNEAP_RS08915	HNEAP_RS08915	hydrogenase	HNEAP_RS08915 hydrogenase	377	597
+HNEAP_RS08920	HNEAP_RS08920	formate hydrogenlyase	HNEAP_RS08920 formate hydrogenlyase	926	1461
+HNEAP_RS08945	HNEAP_RS08945	hypothetical protein	HNEAP_RS08945 hypothetical protein	1347	2114
+HNEAP_RS08950	HNEAP_RS08950	FMN-binding protein	HNEAP_RS08950 FMN-binding protein	449	677
+HNEAP_RS08955	HNEAP_RS08955	FAD:protein FMN transferase	HNEAP_RS08955 FAD:protein FMN transferase	542	772
+HNEAP_RS08960	HNEAP_RS08960	hypothetical protein	HNEAP_RS08960 hypothetical protein	482	631
+HNEAP_RS08965	HNEAP_RS08965	mechanosensitive ion channel MscS	HNEAP_RS08965 mechanosensitive ion channel MscS	4084	6094
+HNEAP_RS08970	HNEAP_RS08970	excinuclease ABC subunit UvrC	HNEAP_RS08970 excinuclease ABC subunit UvrC	1466	2179
+HNEAP_RS08975	HNEAP_RS08975	DNA-binding response regulator	HNEAP_RS08975 DNA-binding response regulator	1377	1821
+HNEAP_RS08980	HNEAP_RS08980	CYTH domain-containing protein	HNEAP_RS08980 CYTH domain-containing protein	326	425
+HNEAP_RS08985	HNEAP_RS08985	ketoacyl-ACP synthase III	HNEAP_RS08985 ketoacyl-ACP synthase III	1374	1893
+HNEAP_RS09010	HNEAP_RS09010	lysophospholipid transporter LplT	HNEAP_RS09010 lysophospholipid transporter LplT	1025	1492
+HNEAP_RS09015	HNEAP_RS09015	hypothetical protein	HNEAP_RS09015 hypothetical protein	345	548
+HNEAP_RS09020	HNEAP_RS09020	DNA-binding response regulator	HNEAP_RS09020 DNA-binding response regulator	805	1282
+HNEAP_RS09025	HNEAP_RS09025	ATP-binding protein	HNEAP_RS09025 ATP-binding protein	1393	1995
+HNEAP_RS09040	HNEAP_RS09040	lipoprotein	HNEAP_RS09040 lipoprotein	516	740
+HNEAP_RS09045	HNEAP_RS09045	hypothetical protein	HNEAP_RS09045 hypothetical protein	386	551
+HNEAP_RS09050	HNEAP_RS09050	hypothetical protein	HNEAP_RS09050 hypothetical protein	1523	2075
+HNEAP_RS09060	HNEAP_RS09060	peptide chain release factor 3	HNEAP_RS09060 peptide chain release factor 3	120	228
+HNEAP_RS09065	HNEAP_RS09065	hypothetical protein	HNEAP_RS09065 hypothetical protein	305	508
+HNEAP_RS09070	HNEAP_RS09070	folate-binding protein	HNEAP_RS09070 folate-binding protein	238	358
+HNEAP_RS09080	HNEAP_RS09080	tRNA (guanosine(46)-N7)-methyltransferase TrmB	HNEAP_RS09080 tRNA (guanosine(46)-N7)-methyltransferase TrmB	502	729
+HNEAP_RS09085	HNEAP_RS09085	hypothetical protein	HNEAP_RS09085 hypothetical protein	268	436
+HNEAP_RS09100	HNEAP_RS09100	type 11 methyltransferase	HNEAP_RS09100 type 11 methyltransferase	132	203
+HNEAP_RS09105	HNEAP_RS09105	MFS transporter	HNEAP_RS09105 MFS transporter	838	1185
+HNEAP_RS09110	HNEAP_RS09110	DUF1294 domain-containing protein	HNEAP_RS09110 DUF1294 domain-containing protein	705	979
+HNEAP_RS09120	HNEAP_RS09120	AMP-dependent synthetase and ligase	HNEAP_RS09120 AMP-dependent synthetase and ligase	7	13
+HNEAP_RS09125	HNEAP_RS09125	Orn/DAP/Arg decarboxylase 2	HNEAP_RS09125 Orn/DAP/Arg decarboxylase 2	1	1
+HNEAP_RS09140	HNEAP_RS09140	YggT family protein	HNEAP_RS09140 YggT family protein	219	293
+HNEAP_RS09150	HNEAP_RS09150	YggS family pyridoxal phosphate-dependent enzyme	HNEAP_RS09150 YggS family pyridoxal phosphate-dependent enzyme	629	817
+HNEAP_RS09155	HNEAP_RS09155	type IV pili twitching motility protein PilT	HNEAP_RS09155 type IV pili twitching motility protein PilT	807	1201
+HNEAP_RS09160	HNEAP_RS09160	twitching motility protein PilT	HNEAP_RS09160 twitching motility protein PilT	193	263
+HNEAP_RS09165	HNEAP_RS09165	twitching motility protein PilT	HNEAP_RS09165 twitching motility protein PilT	621	918
+HNEAP_RS09170	HNEAP_RS09170	cytochrome C class I	HNEAP_RS09170 cytochrome C class I	344	561
+HNEAP_RS09175	HNEAP_RS09175	pyridine nucleotide-disulfide oxidoreductase	HNEAP_RS09175 pyridine nucleotide-disulfide oxidoreductase	853	1304
+HNEAP_RS09185	HNEAP_RS09185	hypothetical protein	HNEAP_RS09185 hypothetical protein	1098	1644
+HNEAP_RS09190	HNEAP_RS09190	cytochrome c4	HNEAP_RS09190 cytochrome c4	956	1412
+HNEAP_RS09195	HNEAP_RS09195	Fe(2+)-trafficking protein	HNEAP_RS09195 Fe(2+)-trafficking protein	115	168
+HNEAP_RS09200	HNEAP_RS09200	A/G-specific adenine glycosylase	HNEAP_RS09200 A/G-specific adenine glycosylase	1587	2431
+HNEAP_RS09215	HNEAP_RS09215	hypothetical protein	HNEAP_RS09215 hypothetical protein	898	1372
+HNEAP_RS09220	HNEAP_RS09220	glycoside hydrolase	HNEAP_RS09220 glycoside hydrolase	410	620
+HNEAP_RS09225	HNEAP_RS09225	D-hexose-6-phosphate mutarotase	HNEAP_RS09225 D-hexose-6-phosphate mutarotase	446	623
+HNEAP_RS09230	HNEAP_RS09230	type IV pilus assembly PilZ	HNEAP_RS09230 type IV pilus assembly PilZ	476	662
+HNEAP_RS09235	HNEAP_RS09235	6-phosphofructokinase	HNEAP_RS09235 6-phosphofructokinase	1625	2472
+HNEAP_RS09245	HNEAP_RS09245	sterol-binding protein	HNEAP_RS09245 sterol-binding protein	382	616
+HNEAP_RS09250	HNEAP_RS09250	hypothetical protein	HNEAP_RS09250 hypothetical protein	341	528
+HNEAP_RS09255	HNEAP_RS09255	GNAT family N-acetyltransferase	HNEAP_RS09255 GNAT family N-acetyltransferase	2615	3949
+HNEAP_RS09260	HNEAP_RS09260	deacetylase	HNEAP_RS09260 deacetylase	646	943
+HNEAP_RS09280	HNEAP_RS09280	bifunctional 3 4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II	HNEAP_RS09280 bifunctional 3 4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II	27	52
+HNEAP_RS09285	HNEAP_RS09285	riboflavin synthase	HNEAP_RS09285 riboflavin synthase	28	24
+HNEAP_RS09295	HNEAP_RS09295	transcriptional regulator NrdR	HNEAP_RS09295 transcriptional regulator NrdR	303	435
+HNEAP_RS09305	HNEAP_RS09305	hypothetical protein	HNEAP_RS09305 hypothetical protein	98	166
+HNEAP_RS09310	HNEAP_RS09310	Crp/Fnr family transcriptional regulator	HNEAP_RS09310 Crp/Fnr family transcriptional regulator	60	104
+HNEAP_RS09320	HNEAP_RS09320	nitrogen fixation protein FixH	HNEAP_RS09320 nitrogen fixation protein FixH	90	190
+HNEAP_RS09325	HNEAP_RS09325	cytochrome c oxidase accessory protein CcoG	HNEAP_RS09325 cytochrome c oxidase accessory protein CcoG	2	2
+HNEAP_RS09370	HNEAP_RS09370	TlpA family protein disulfide reductase	HNEAP_RS09370 TlpA family protein disulfide reductase	999	1417
+HNEAP_RS09385	HNEAP_RS09385	nuclear transport factor 2 family protein	HNEAP_RS09385 nuclear transport factor 2 family protein	366	467
+HNEAP_RS09390	HNEAP_RS09390	oxidoreductase	HNEAP_RS09390 oxidoreductase	238	323
+HNEAP_RS09395	HNEAP_RS09395	NAD/FAD-binding protein	HNEAP_RS09395 NAD/FAD-binding protein	944	1319
+HNEAP_RS09400	HNEAP_RS09400	DUF1365 domain-containing protein	HNEAP_RS09400 DUF1365 domain-containing protein	573	844
+HNEAP_RS09405	HNEAP_RS09405	class I SAM-dependent methyltransferase	HNEAP_RS09405 class I SAM-dependent methyltransferase	820	1277
+HNEAP_RS09410	HNEAP_RS09410	MFS transporter	HNEAP_RS09410 MFS transporter	944	1438
+HNEAP_RS09415	HNEAP_RS09415	DUF3833 domain-containing protein	HNEAP_RS09415 DUF3833 domain-containing protein	192	241
+HNEAP_RS09420	HNEAP_RS09420	hypothetical protein	HNEAP_RS09420 hypothetical protein	603	926
+HNEAP_RS09425	HNEAP_RS09425	DUF2789 domain-containing protein	HNEAP_RS09425 DUF2789 domain-containing protein	102	155
+HNEAP_RS09430	HNEAP_RS09430	protease SohB	HNEAP_RS09430 protease SohB	261	326
+HNEAP_RS09435	HNEAP_RS09435	Tim44 domain-containing protein	HNEAP_RS09435 Tim44 domain-containing protein	395	576
+HNEAP_RS09460	HNEAP_RS09460	hypothetical protein	HNEAP_RS09460 hypothetical protein	1310	1905
+HNEAP_RS09475	HNEAP_RS09475	rhodanese	HNEAP_RS09475 rhodanese	22	28
+HNEAP_RS09480	HNEAP_RS09480	hypothetical protein	HNEAP_RS09480 hypothetical protein	11	34
+HNEAP_RS09485	HNEAP_RS09485	sulfur oxidation c-type cytochrome SoxX	HNEAP_RS09485 sulfur oxidation c-type cytochrome SoxX	6	11
+HNEAP_RS09490	HNEAP_RS09490	sulfur oxidation c-type cytochrome SoxA	HNEAP_RS09490 sulfur oxidation c-type cytochrome SoxA	5	11
+HNEAP_RS09495	HNEAP_RS09495	DedA family protein	HNEAP_RS09495 DedA family protein	249	379
+HNEAP_RS09510	HNEAP_RS09510	DUF3565 domain-containing protein	HNEAP_RS09510 DUF3565 domain-containing protein	99	143
+HNEAP_RS09515	HNEAP_RS09515	30S ribosomal protein S12 methylthiotransferase RimO	HNEAP_RS09515 30S ribosomal protein S12 methylthiotransferase RimO	712	1028
+HNEAP_RS09525	HNEAP_RS09525	asparaginase	HNEAP_RS09525 asparaginase	400	568
+HNEAP_RS09545	HNEAP_RS09545	hypothetical protein	HNEAP_RS09545 hypothetical protein	1383	2111
+HNEAP_RS09580	HNEAP_RS09580	glycosyltransferase family 4 protein	HNEAP_RS09580 glycosyltransferase family 4 protein	1829	2848
+HNEAP_RS09585	HNEAP_RS09585	RNA helicase	HNEAP_RS09585 RNA helicase	39	66
+HNEAP_RS09590	HNEAP_RS09590	methylated-DNA--[protein]-cysteine S-methyltransferase	HNEAP_RS09590 methylated-DNA--[protein]-cysteine S-methyltransferase	370	548
+HNEAP_RS09595	HNEAP_RS09595	formate-dependent phosphoribosylglycinamide formyltransferase	HNEAP_RS09595 formate-dependent phosphoribosylglycinamide formyltransferase	954	1401
+HNEAP_RS09600	HNEAP_RS09600	DUF3301 domain-containing protein	HNEAP_RS09600 DUF3301 domain-containing protein	245	445
+HNEAP_RS09610	HNEAP_RS09610	hypothetical protein	HNEAP_RS09610 hypothetical protein	74	154
+HNEAP_RS09625	HNEAP_RS09625	hypothetical protein	HNEAP_RS09625 hypothetical protein	237	345
+HNEAP_RS09630	HNEAP_RS09630	penicillin-binding protein 1A	HNEAP_RS09630 penicillin-binding protein 1A	1668	2671
+HNEAP_RS09635	HNEAP_RS09635	pilus assembly protein PilM	HNEAP_RS09635 pilus assembly protein PilM	2770	4547
+HNEAP_RS09640	HNEAP_RS09640	fimbrial assembly family protein	HNEAP_RS09640 fimbrial assembly family protein	573	869
+HNEAP_RS09645	HNEAP_RS09645	pilus assembly protein PilO	HNEAP_RS09645 pilus assembly protein PilO	815	1282
+HNEAP_RS09650	HNEAP_RS09650	pilus assembly protein PilP	HNEAP_RS09650 pilus assembly protein PilP	1072	1728
+HNEAP_RS09655	HNEAP_RS09655	type IV pilus secretin PilQ	HNEAP_RS09655 type IV pilus secretin PilQ	2655	4157
+HNEAP_RS09670	HNEAP_RS09670	RNA polymerase sigma factor RpoS	HNEAP_RS09670 RNA polymerase sigma factor RpoS	143	200
+HNEAP_RS09675	HNEAP_RS09675	hypothetical protein	HNEAP_RS09675 hypothetical protein	1074	1514
+HNEAP_RS09680	HNEAP_RS09680	phosphoserine transaminase	HNEAP_RS09680 phosphoserine transaminase	824	1298
+HNEAP_RS09685	HNEAP_RS09685	NUDIX hydrolase	HNEAP_RS09685 NUDIX hydrolase	150	256
+HNEAP_RS09695	HNEAP_RS09695	DUF489 domain-containing protein	HNEAP_RS09695 DUF489 domain-containing protein	58	87
+HNEAP_RS09795	HNEAP_RS09795	cytochrome C class I	HNEAP_RS09795 cytochrome C class I	109	178
+HNEAP_RS09810	HNEAP_RS09810	23S rRNA (uridine(2552)-2'-O)-methyltransferase RlmE	HNEAP_RS09810 23S rRNA (uridine(2552)-2'-O)-methyltransferase RlmE	279	401
+HNEAP_RS09815	HNEAP_RS09815	copper chaperone PCu(A)C	HNEAP_RS09815 copper chaperone PCu(A)C	229	329
+HNEAP_RS09825	HNEAP_RS09825	ribosome assembly RNA-binding protein YhbY	HNEAP_RS09825 ribosome assembly RNA-binding protein YhbY	790	1197
+HNEAP_RS09830	HNEAP_RS09830	leucyl/phenylalanyl-tRNA--protein transferase	HNEAP_RS09830 leucyl/phenylalanyl-tRNA--protein transferase	993	1518
+HNEAP_RS09835	HNEAP_RS09835	sodium/hydrogen exchanger	HNEAP_RS09835 sodium/hydrogen exchanger	11	31
+HNEAP_RS09840	HNEAP_RS09840	hypothetical protein	HNEAP_RS09840 hypothetical protein	328	501
+HNEAP_RS09845	HNEAP_RS09845	transcription-repair coupling factor	HNEAP_RS09845 transcription-repair coupling factor	2702	3860
+HNEAP_RS09850	HNEAP_RS09850	RDD family protein	HNEAP_RS09850 RDD family protein	467	701
+HNEAP_RS09855	HNEAP_RS09855	exodeoxyribonuclease V subunit alpha	HNEAP_RS09855 exodeoxyribonuclease V subunit alpha	1020	1529
+HNEAP_RS09860	HNEAP_RS09860	exodeoxyribonuclease V subunit beta	HNEAP_RS09860 exodeoxyribonuclease V subunit beta	470	796
+HNEAP_RS09865	HNEAP_RS09865	type II toxin-antitoxin system death-on-curing family toxin	HNEAP_RS09865 type II toxin-antitoxin system death-on-curing family toxin	249	409
+HNEAP_RS09885	HNEAP_RS09885	DUF2339 domain-containing protein	HNEAP_RS09885 DUF2339 domain-containing protein	4533	6777
+HNEAP_RS09890	HNEAP_RS09890	hypothetical protein	HNEAP_RS09890 hypothetical protein	257	406
+HNEAP_RS09910	HNEAP_RS09910	4-oxalocrotonate tautomerase	HNEAP_RS09910 4-oxalocrotonate tautomerase	93	115
+HNEAP_RS09915	HNEAP_RS09915	two-component system response regulator CreB	HNEAP_RS09915 two-component system response regulator CreB	622	967
+HNEAP_RS09920	HNEAP_RS09920	two-component system sensor histidine kinase CreC	HNEAP_RS09920 two-component system sensor histidine kinase CreC	818	1174
+HNEAP_RS09925	HNEAP_RS09925	trypsin	HNEAP_RS09925 trypsin	2094	3128
+HNEAP_RS09930	HNEAP_RS09930	exosortase K	HNEAP_RS09930 exosortase K	387	585
+HNEAP_RS09935	HNEAP_RS09935	NUDIX hydrolase	HNEAP_RS09935 NUDIX hydrolase	130	182
+HNEAP_RS09945	HNEAP_RS09945	DUF945 domain-containing protein	HNEAP_RS09945 DUF945 domain-containing protein	948	1403
+HNEAP_RS09965	HNEAP_RS09965	molecular chaperone HtpG	HNEAP_RS09965 molecular chaperone HtpG	881	1302
+HNEAP_RS10000	HNEAP_RS10000	DUF2065 domain-containing protein	HNEAP_RS10000 DUF2065 domain-containing protein	31	53
+HNEAP_RS10005	HNEAP_RS10005	protease modulator HflC	HNEAP_RS10005 protease modulator HflC	30	29
+HNEAP_RS10010	HNEAP_RS10010	protease modulator HflK	HNEAP_RS10010 protease modulator HflK	23	40
+HNEAP_RS10015	HNEAP_RS10015	GTPase HflX	HNEAP_RS10015 GTPase HflX	1277	1895
+HNEAP_RS10020	HNEAP_RS10020	RNA chaperone Hfq	HNEAP_RS10020 RNA chaperone Hfq	135	171
+HNEAP_RS10030	HNEAP_RS10030	DNA mismatch repair endonuclease MutL	HNEAP_RS10030 DNA mismatch repair endonuclease MutL	1753	2676
+HNEAP_RS10040	HNEAP_RS10040	hypothetical protein	HNEAP_RS10040 hypothetical protein	163	291
+HNEAP_RS10050	HNEAP_RS10050	bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase	HNEAP_RS10050 bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase	2924	4346
+HNEAP_RS10065	HNEAP_RS10065	50S ribosomal protein L33	HNEAP_RS10065 50S ribosomal protein L33	73	131
+HNEAP_RS10070	HNEAP_RS10070	bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase	HNEAP_RS10070 bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase	1503	2279
+HNEAP_RS10080	HNEAP_RS10080	dioxygenase	HNEAP_RS10080 dioxygenase	247	433
+HNEAP_RS10090	HNEAP_RS10090	ATP-dependent chaperone ClpB	HNEAP_RS10090 ATP-dependent chaperone ClpB	1695	2694
+HNEAP_RS10095	HNEAP_RS10095	hypothetical protein	HNEAP_RS10095 hypothetical protein	159	216
+HNEAP_RS10100	HNEAP_RS10100	hypothetical protein	HNEAP_RS10100 hypothetical protein	579	846
+HNEAP_RS10105	HNEAP_RS10105	UDP-2 3-diacylglucosamine diphosphatase	HNEAP_RS10105 UDP-2 3-diacylglucosamine diphosphatase	678	1059
+HNEAP_RS10110	HNEAP_RS10110	hypothetical protein	HNEAP_RS10110 hypothetical protein	268	427
+HNEAP_RS10115	HNEAP_RS10115	peptide deformylase	HNEAP_RS10115 peptide deformylase	22	30
+HNEAP_RS10120	HNEAP_RS10120	amino acid-binding ACT domain-containing protein	HNEAP_RS10120 amino acid-binding ACT domain-containing protein	109	174
+HNEAP_RS10125	HNEAP_RS10125	multi-copper polyphenol oxidoreductase	HNEAP_RS10125 multi-copper polyphenol oxidoreductase	760	1161
+HNEAP_RS10130	HNEAP_RS10130	23S rRNA pseudouridine(1911/1915/1917) synthase RluD	HNEAP_RS10130 23S rRNA pseudouridine(1911/1915/1917) synthase RluD	369	529
+HNEAP_RS10140	HNEAP_RS10140	MFS transporter	HNEAP_RS10140 MFS transporter	1104	1600
+HNEAP_RS10145	HNEAP_RS10145	disulfide bond isomerase DsbC/G-like protein	HNEAP_RS10145 disulfide bond isomerase DsbC/G-like protein	732	1111
+HNEAP_RS10150	HNEAP_RS10150	site-specific tyrosine recombinase XerD	HNEAP_RS10150 site-specific tyrosine recombinase XerD	69	104
+HNEAP_RS10160	HNEAP_RS10160	ATPase AAA	HNEAP_RS10160 ATPase AAA	1033	1582
+HNEAP_RS10165	HNEAP_RS10165	acetate--CoA ligase	HNEAP_RS10165 acetate--CoA ligase	379	592
+HNEAP_RS10170	HNEAP_RS10170	hypothetical protein	HNEAP_RS10170 hypothetical protein	451	645
+HNEAP_RS10185	HNEAP_RS10185	(Fe-S)-binding protein	HNEAP_RS10185 (Fe-S)-binding protein	1868	2852
+HNEAP_RS10190	HNEAP_RS10190	hypothetical protein	HNEAP_RS10190 hypothetical protein	157	226
+HNEAP_RS10195	HNEAP_RS10195	peroxiredoxin	HNEAP_RS10195 peroxiredoxin	179	272
+HNEAP_RS10225	HNEAP_RS10225	hypothetical protein	HNEAP_RS10225 hypothetical protein	791	1231
+HNEAP_RS10230	HNEAP_RS10230	hypothetical protein	HNEAP_RS10230 hypothetical protein	564	784
+HNEAP_RS10240	HNEAP_RS10240	rRNA large subunit pseudouridine synthase E	HNEAP_RS10240 rRNA large subunit pseudouridine synthase E	185	292
+HNEAP_RS10245	HNEAP_RS10245	5'-3' exonuclease	HNEAP_RS10245 5'-3' exonuclease	985	1545
+HNEAP_RS10255	HNEAP_RS10255	chorismate mutase	HNEAP_RS10255 chorismate mutase	557	825
+HNEAP_RS10260	HNEAP_RS10260	phosphate porin	HNEAP_RS10260 phosphate porin	859	1216
+HNEAP_RS10270	HNEAP_RS10270	zinc ribbon domain-containing protein	HNEAP_RS10270 zinc ribbon domain-containing protein	334	504
+HNEAP_RS10275	HNEAP_RS10275	GGDEF domain-containing response regulator	HNEAP_RS10275 GGDEF domain-containing response regulator	1129	1565
+HNEAP_RS10280	HNEAP_RS10280	sensor histidine kinase	HNEAP_RS10280 sensor histidine kinase	2428	3555
+HNEAP_RS10285	HNEAP_RS10285	cell envelope biogenesis protein OmpA	HNEAP_RS10285 cell envelope biogenesis protein OmpA	839	1334
+HNEAP_RS10295	HNEAP_RS10295	sensor histidine kinase	HNEAP_RS10295 sensor histidine kinase	7	20
+HNEAP_RS10300	HNEAP_RS10300	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS10300 sigma-54-dependent Fis family transcriptional regulator	76	129
+HNEAP_RS10305	HNEAP_RS10305	hypothetical protein	HNEAP_RS10305 hypothetical protein	2813	4074
+HNEAP_RS10320	HNEAP_RS10320	prolyl aminopeptidase	HNEAP_RS10320 prolyl aminopeptidase	818	1333
+HNEAP_RS10325	HNEAP_RS10325	tRNA 2-thiocytidine(32) synthetase TtcA	HNEAP_RS10325 tRNA 2-thiocytidine(32) synthetase TtcA	490	773
+HNEAP_RS10330	HNEAP_RS10330	lipid A biosynthesis acyltransferase	HNEAP_RS10330 lipid A biosynthesis acyltransferase	173	235
+HNEAP_RS10365	HNEAP_RS10365	16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB	HNEAP_RS10365 16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB	181	343
+HNEAP_RS10380	HNEAP_RS10380	LysM peptidoglycan-binding domain-containing protein	HNEAP_RS10380 LysM peptidoglycan-binding domain-containing protein	2196	3730
+HNEAP_RS10385	HNEAP_RS10385	DNA-protecting protein DprA	HNEAP_RS10385 DNA-protecting protein DprA	1015	1512
+HNEAP_RS10390	HNEAP_RS10390	DUF494 domain-containing protein	HNEAP_RS10390 DUF494 domain-containing protein	255	422
+HNEAP_RS10410	HNEAP_RS10410	nuclease	HNEAP_RS10410 nuclease	687	982
+HNEAP_RS10420	HNEAP_RS10420	ComF family protein	HNEAP_RS10420 ComF family protein	938	1430
+HNEAP_RS10425	HNEAP_RS10425	hypothetical protein	HNEAP_RS10425 hypothetical protein	265	299
+HNEAP_RS10435	HNEAP_RS10435	hypothetical protein	HNEAP_RS10435 hypothetical protein	2158	3260
+HNEAP_RS10440	HNEAP_RS10440	DUF4168 domain-containing protein	HNEAP_RS10440 DUF4168 domain-containing protein	624	957
+HNEAP_RS10445	HNEAP_RS10445	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS10445 sigma-54-dependent Fis family transcriptional regulator	956	1411
+HNEAP_RS10450	HNEAP_RS10450	signal transduction histidine kinase	HNEAP_RS10450 signal transduction histidine kinase	1011	1593
+HNEAP_RS10460	HNEAP_RS10460	type II toxin-antitoxin system RelE/ParE family toxin	HNEAP_RS10460 type II toxin-antitoxin system RelE/ParE family toxin	646	927
+HNEAP_RS10465	HNEAP_RS10465	hypothetical protein	HNEAP_RS10465 hypothetical protein	354	548
+HNEAP_RS10470	HNEAP_RS10470	hypothetical protein	HNEAP_RS10470 hypothetical protein	278	467
+HNEAP_RS10475	HNEAP_RS10475	hypothetical protein	HNEAP_RS10475 hypothetical protein	62	68
+HNEAP_RS10480	HNEAP_RS10480	hypothetical protein	HNEAP_RS10480 hypothetical protein	1399	2031
+HNEAP_RS10485	HNEAP_RS10485	hypothetical protein	HNEAP_RS10485 hypothetical protein	6018	8923
+HNEAP_RS10490	HNEAP_RS10490	hypothetical protein	HNEAP_RS10490 hypothetical protein	757	1074
+HNEAP_RS10505	HNEAP_RS10505	phosphoglycolate phosphatase	HNEAP_RS10505 phosphoglycolate phosphatase	276	419
+HNEAP_RS10530	HNEAP_RS10530	AraC family transcriptional regulator	HNEAP_RS10530 AraC family transcriptional regulator	885	1267
+HNEAP_RS10535	HNEAP_RS10535	GTP cyclohydrolase I FolE	HNEAP_RS10535 GTP cyclohydrolase I FolE	9	13
+HNEAP_RS10540	HNEAP_RS10540	dihydrofolate reductase	HNEAP_RS10540 dihydrofolate reductase	710	975
+HNEAP_RS10545	HNEAP_RS10545	hypothetical protein	HNEAP_RS10545 hypothetical protein	48	56
+HNEAP_RS10550	HNEAP_RS10550	nodulation protein NodJ	HNEAP_RS10550 nodulation protein NodJ	1019	1440
+HNEAP_RS10555	HNEAP_RS10555	ABC transporter	HNEAP_RS10555 ABC transporter	1030	1515
+HNEAP_RS10570	HNEAP_RS10570	glycosyltransferase family 1 protein	HNEAP_RS10570 glycosyltransferase family 1 protein	963	1367
+HNEAP_RS10575	HNEAP_RS10575	O-antigen polymerase	HNEAP_RS10575 O-antigen polymerase	84	98
+HNEAP_RS10580	HNEAP_RS10580	glycosyltransferase family 2 protein	HNEAP_RS10580 glycosyltransferase family 2 protein	230	351
+HNEAP_RS10585	HNEAP_RS10585	polysaccharide deacetylase	HNEAP_RS10585 polysaccharide deacetylase	327	418
+HNEAP_RS10590	HNEAP_RS10590	hypothetical protein	HNEAP_RS10590 hypothetical protein	265	358
+HNEAP_RS10595	HNEAP_RS10595	glycosyltransferase family 1 protein	HNEAP_RS10595 glycosyltransferase family 1 protein	61	116
+HNEAP_RS10615	HNEAP_RS10615	zinc-finger domain-containing protein	HNEAP_RS10615 zinc-finger domain-containing protein	75	102
+HNEAP_RS10670	HNEAP_RS10670	anhydro-N-acetylmuramic acid kinase	HNEAP_RS10670 anhydro-N-acetylmuramic acid kinase	482	701
+HNEAP_RS10690	HNEAP_RS10690	Cl- channel voltage-gated family protein	HNEAP_RS10690 Cl- channel voltage-gated family protein	2372	3585
+HNEAP_RS10705	HNEAP_RS10705	[protein-PII] uridylyltransferase	HNEAP_RS10705 [protein-PII] uridylyltransferase	638	851
+HNEAP_RS10710	HNEAP_RS10710	pseudouridine synthase	HNEAP_RS10710 pseudouridine synthase	698	1089
+HNEAP_RS10715	HNEAP_RS10715	DNA-binding response regulator	HNEAP_RS10715 DNA-binding response regulator	1077	1661
+HNEAP_RS10720	HNEAP_RS10720	signal transduction histidine kinase LytS	HNEAP_RS10720 signal transduction histidine kinase LytS	3371	4779
+HNEAP_RS10740	HNEAP_RS10740	uracil-DNA glycosylase	HNEAP_RS10740 uracil-DNA glycosylase	656	994
+HNEAP_RS10745	HNEAP_RS10745	JAB domain-containing protein	HNEAP_RS10745 JAB domain-containing protein	908	1325
+HNEAP_RS10750	HNEAP_RS10750	hypothetical protein	HNEAP_RS10750 hypothetical protein	126	239
+HNEAP_RS10755	HNEAP_RS10755	TonB-system energizer ExbB	HNEAP_RS10755 TonB-system energizer ExbB	364	571
+HNEAP_RS10760	HNEAP_RS10760	TonB system transport protein ExbD	HNEAP_RS10760 TonB system transport protein ExbD	211	319
+HNEAP_RS10765	HNEAP_RS10765	energy transducer TonB	HNEAP_RS10765 energy transducer TonB	860	1447
+HNEAP_RS10770	HNEAP_RS10770	thioredoxin family protein	HNEAP_RS10770 thioredoxin family protein	2	3
+HNEAP_RS10785	HNEAP_RS10785	hypothetical protein	HNEAP_RS10785 hypothetical protein	385	636
+HNEAP_RS10790	HNEAP_RS10790	heme biosynthesis protein HemY	HNEAP_RS10790 heme biosynthesis protein HemY	757	1185
+HNEAP_RS10800	HNEAP_RS10800	hypothetical protein	HNEAP_RS10800 hypothetical protein	486	722
+HNEAP_RS10805	HNEAP_RS10805	DSBA oxidoreductase	HNEAP_RS10805 DSBA oxidoreductase	128	129
+HNEAP_RS10830	HNEAP_RS10830	sensor domain-containing diguanylate cyclase	HNEAP_RS10830 sensor domain-containing diguanylate cyclase	4281	6443
+HNEAP_RS10840	HNEAP_RS10840	glutathione-disulfide reductase	HNEAP_RS10840 glutathione-disulfide reductase	20	36
+HNEAP_RS10845	HNEAP_RS10845	glutathione amide-dependent peroxidase	HNEAP_RS10845 glutathione amide-dependent peroxidase	323	477
+HNEAP_RS10855	HNEAP_RS10855	catalase/peroxidase HPI	HNEAP_RS10855 catalase/peroxidase HPI	2223	3273
+HNEAP_RS10860	HNEAP_RS10860	hypothetical protein	HNEAP_RS10860 hypothetical protein	1893	2728
+HNEAP_RS10865	HNEAP_RS10865	hypothetical protein	HNEAP_RS10865 hypothetical protein	928	1297
+HNEAP_RS10870	HNEAP_RS10870	hypothetical protein	HNEAP_RS10870 hypothetical protein	327	501
+HNEAP_RS10875	HNEAP_RS10875	tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA	HNEAP_RS10875 tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA	831	1276
+HNEAP_RS10880	HNEAP_RS10880	tRNA guanosine(34) transglycosylase Tgt	HNEAP_RS10880 tRNA guanosine(34) transglycosylase Tgt	709	1097
+HNEAP_RS10905	HNEAP_RS10905	TrmH family RNA methyltransferase	HNEAP_RS10905 TrmH family RNA methyltransferase	765	1185
+HNEAP_RS10915	HNEAP_RS10915	transcriptional regulator	HNEAP_RS10915 transcriptional regulator	763	1126
+HNEAP_RS10925	HNEAP_RS10925	23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN	HNEAP_RS10925 23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN	239	373
+HNEAP_RS10930	HNEAP_RS10930	type IV pilus biogenesis/stability protein PilW	HNEAP_RS10930 type IV pilus biogenesis/stability protein PilW	55	54
+HNEAP_RS10935	HNEAP_RS10935	DUF4115 domain-containing protein	HNEAP_RS10935 DUF4115 domain-containing protein	48	84
+HNEAP_RS10950	HNEAP_RS10950	hypothetical protein	HNEAP_RS10950 hypothetical protein	184	269
+HNEAP_RS10960	HNEAP_RS10960	hypothetical protein	HNEAP_RS10960 hypothetical protein	1366	2017
+HNEAP_RS10965	HNEAP_RS10965	amidohydrolase	HNEAP_RS10965 amidohydrolase	1437	2257
+HNEAP_RS10970	HNEAP_RS10970	aspartate aminotransferase family protein	HNEAP_RS10970 aspartate aminotransferase family protein	1015	1515
+HNEAP_RS10975	HNEAP_RS10975	aminopeptidase P family protein	HNEAP_RS10975 aminopeptidase P family protein	1410	2063
+HNEAP_RS10980	HNEAP_RS10980	succinate-semialdehyde dehydrogenase	HNEAP_RS10980 succinate-semialdehyde dehydrogenase	1530	2421
+HNEAP_RS10990	HNEAP_RS10990	ABC transporter ATP-binding protein	HNEAP_RS10990 ABC transporter ATP-binding protein	704	1133
+HNEAP_RS10995	HNEAP_RS10995	nitrate ABC transporter  permease protein	HNEAP_RS10995 nitrate ABC transporter  permease protein	810	1237
+HNEAP_RS11000	HNEAP_RS11000	nitrate ABC transporter substrate-binding protein	HNEAP_RS11000 nitrate ABC transporter substrate-binding protein	712	1017
+HNEAP_RS11005	HNEAP_RS11005	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS11005 sigma-54-dependent Fis family transcriptional regulator	1699	2675
+HNEAP_RS11010	HNEAP_RS11010	hypothetical protein	HNEAP_RS11010 hypothetical protein	207	372
+HNEAP_RS11015	HNEAP_RS11015	sulfurtransferase	HNEAP_RS11015 sulfurtransferase	704	1042
+HNEAP_RS11020	HNEAP_RS11020	hypothetical protein	HNEAP_RS11020 hypothetical protein	1491	2364
+HNEAP_RS11025	HNEAP_RS11025	acyl-CoA dehydrogenase	HNEAP_RS11025 acyl-CoA dehydrogenase	1918	2900
+HNEAP_RS11030	HNEAP_RS11030	peroxiredoxin	HNEAP_RS11030 peroxiredoxin	746	948
+HNEAP_RS11035	HNEAP_RS11035	IS110 family transposase	HNEAP_RS11035 IS110 family transposase	269	337
+HNEAP_RS11040	HNEAP_RS11040	cyanase	HNEAP_RS11040 cyanase	160	291
+HNEAP_RS11045	HNEAP_RS11045	hypothetical protein	HNEAP_RS11045 hypothetical protein	1875	2812
+HNEAP_RS11050	HNEAP_RS11050	hypothetical protein	HNEAP_RS11050 hypothetical protein	2161	3425
+HNEAP_RS11060	HNEAP_RS11060	2OG-Fe(II) oxygenase	HNEAP_RS11060 2OG-Fe(II) oxygenase	1415	2082
+HNEAP_RS11065	HNEAP_RS11065	hypothetical protein	HNEAP_RS11065 hypothetical protein	1327	2063
+HNEAP_RS11070	HNEAP_RS11070	TonB-denpendent receptor	HNEAP_RS11070 TonB-denpendent receptor	3470	5506
+HNEAP_RS11075	HNEAP_RS11075	diguanylate cyclase	HNEAP_RS11075 diguanylate cyclase	3587	5570
+HNEAP_RS11080	HNEAP_RS11080	DUF2058 domain-containing protein	HNEAP_RS11080 DUF2058 domain-containing protein	600	1015
+HNEAP_RS11085	HNEAP_RS11085	DUF1415 domain-containing protein	HNEAP_RS11085 DUF1415 domain-containing protein	514	812
+HNEAP_RS11090	HNEAP_RS11090	linear amide C-N hydrolase	HNEAP_RS11090 linear amide C-N hydrolase	444	708
+HNEAP_RS11095	HNEAP_RS11095	hypothetical protein	HNEAP_RS11095 hypothetical protein	246	347
+HNEAP_RS11100	HNEAP_RS11100	sulfate transporter CysZ	HNEAP_RS11100 sulfate transporter CysZ	287	464
+HNEAP_RS11130	HNEAP_RS11130	hypothetical protein	HNEAP_RS11130 hypothetical protein	271	447
+HNEAP_RS11135	HNEAP_RS11135	glycerate kinase	HNEAP_RS11135 glycerate kinase	2344	3669
+HNEAP_RS11140	HNEAP_RS11140	glycosyltransferase family 2 protein	HNEAP_RS11140 glycosyltransferase family 2 protein	666	993
+HNEAP_RS11145	HNEAP_RS11145	1-acyl-sn-glycerol-3-phosphate acyltransferase	HNEAP_RS11145 1-acyl-sn-glycerol-3-phosphate acyltransferase	461	727
+HNEAP_RS11150	HNEAP_RS11150	endoribonuclease L-PSP	HNEAP_RS11150 endoribonuclease L-PSP	23	29
+HNEAP_RS11155	HNEAP_RS11155	NAD(P)/FAD-dependent oxidoreductase	HNEAP_RS11155 NAD(P)/FAD-dependent oxidoreductase	1554	2388
+HNEAP_RS11160	HNEAP_RS11160	inositol phosphorylceramide synthase	HNEAP_RS11160 inositol phosphorylceramide synthase	1951	2966
+HNEAP_RS11165	HNEAP_RS11165	beta-ketoacyl-[acyl-carrier-protein] synthase II	HNEAP_RS11165 beta-ketoacyl-[acyl-carrier-protein] synthase II	1651	2501
+HNEAP_RS11170	HNEAP_RS11170	hypothetical protein	HNEAP_RS11170 hypothetical protein	575	875
+HNEAP_RS11175	HNEAP_RS11175	3-oxoacyl-ACP reductase FabG	HNEAP_RS11175 3-oxoacyl-ACP reductase FabG	754	1130
+HNEAP_RS11180	HNEAP_RS11180	polysaccharide deacetylase family protein	HNEAP_RS11180 polysaccharide deacetylase family protein	717	1103
+HNEAP_RS11185	HNEAP_RS11185	2OG-Fe(II) oxygenase	HNEAP_RS11185 2OG-Fe(II) oxygenase	350	561
+HNEAP_RS11190	HNEAP_RS11190	NAD-dependent epimerase/dehydratase	HNEAP_RS11190 NAD-dependent epimerase/dehydratase	1174	1779
+HNEAP_RS11205	HNEAP_RS11205	arsenate reductase	HNEAP_RS11205 arsenate reductase	223	322
+HNEAP_RS11210	HNEAP_RS11210	hypothetical protein	HNEAP_RS11210 hypothetical protein	631	996
+HNEAP_RS11215	HNEAP_RS11215	PepSY domain-containing protein	HNEAP_RS11215 PepSY domain-containing protein	702	1113
+HNEAP_RS11220	HNEAP_RS11220	hypothetical protein	HNEAP_RS11220 hypothetical protein	507	832
+HNEAP_RS11230	HNEAP_RS11230	2-hydroxyacid dehydrogenase	HNEAP_RS11230 2-hydroxyacid dehydrogenase	686	976
+HNEAP_RS11235	HNEAP_RS11235	flagellar motor protein MotB	HNEAP_RS11235 flagellar motor protein MotB	1516	2410
+HNEAP_RS11240	HNEAP_RS11240	hypothetical protein	HNEAP_RS11240 hypothetical protein	2396	3634
+HNEAP_RS11250	HNEAP_RS11250	IS66 family insertion sequence hypothetical protein	HNEAP_RS11250 IS66 family insertion sequence hypothetical protein	483	662
+HNEAP_RS11260	HNEAP_RS11260	hypothetical protein	HNEAP_RS11260 hypothetical protein	193	277
+HNEAP_RS11265	HNEAP_RS11265	glycine zipper 2TM domain-containing protein	HNEAP_RS11265 glycine zipper 2TM domain-containing protein	369	561
+HNEAP_RS11270	HNEAP_RS11270	hypothetical protein	HNEAP_RS11270 hypothetical protein	60	119
+HNEAP_RS11275	HNEAP_RS11275	Crp/Fnr family transcriptional regulator	HNEAP_RS11275 Crp/Fnr family transcriptional regulator	321	537
+HNEAP_RS11280	HNEAP_RS11280	BON domain-containing protein	HNEAP_RS11280 BON domain-containing protein	730	1119
+HNEAP_RS11285	HNEAP_RS11285	CsbD family protein	HNEAP_RS11285 CsbD family protein	184	322
+HNEAP_RS11290	HNEAP_RS11290	hypothetical protein	HNEAP_RS11290 hypothetical protein	27	59
+HNEAP_RS11295	HNEAP_RS11295	glutamate racemase	HNEAP_RS11295 glutamate racemase	645	1001
+HNEAP_RS11300	HNEAP_RS11300	phosphate regulon transcriptional regulatory protein PhoB	HNEAP_RS11300 phosphate regulon transcriptional regulatory protein PhoB	167	193
+HNEAP_RS11305	HNEAP_RS11305	phosphate regulon sensor histidine kinase PhoR	HNEAP_RS11305 phosphate regulon sensor histidine kinase PhoR	289	375
+HNEAP_RS11310	HNEAP_RS11310	hypothetical protein	HNEAP_RS11310 hypothetical protein	374	564
+HNEAP_RS11315	HNEAP_RS11315	sigma-54-dependent Fis family transcriptional regulator	HNEAP_RS11315 sigma-54-dependent Fis family transcriptional regulator	3845	5445
+HNEAP_RS11320	HNEAP_RS11320	signal transduction histidine kinase	HNEAP_RS11320 signal transduction histidine kinase	3422	4873
+HNEAP_RS11325	HNEAP_RS11325	hypothetical protein	HNEAP_RS11325 hypothetical protein	447	735
+HNEAP_RS11330	HNEAP_RS11330	peptide-methionine (R)-S-oxide reductase	HNEAP_RS11330 peptide-methionine (R)-S-oxide reductase	1190	1954
+HNEAP_RS11335	HNEAP_RS11335	glycosyltransferase family 2 protein	HNEAP_RS11335 glycosyltransferase family 2 protein	2043	3063
+HNEAP_RS11340	HNEAP_RS11340	hypothetical protein	HNEAP_RS11340 hypothetical protein	915	1382
+HNEAP_RS11345	HNEAP_RS11345	hypothetical protein	HNEAP_RS11345 hypothetical protein	509	835
+HNEAP_RS11350	HNEAP_RS11350	MFS transporter	HNEAP_RS11350 MFS transporter	3891	6174
+HNEAP_RS11355	HNEAP_RS11355	YcgL domain-containing protein	HNEAP_RS11355 YcgL domain-containing protein	654	1029
+HNEAP_RS11360	HNEAP_RS11360	hypothetical protein	HNEAP_RS11360 hypothetical protein	445	747
+HNEAP_RS11370	HNEAP_RS11370	hypothetical protein	HNEAP_RS11370 hypothetical protein	1846	3035
+HNEAP_RS11375	HNEAP_RS11375	class I SAM-dependent methyltransferase	HNEAP_RS11375 class I SAM-dependent methyltransferase	568	791
+HNEAP_RS11380	HNEAP_RS11380	phosphohydrolase	HNEAP_RS11380 phosphohydrolase	4722	7378
+HNEAP_RS11395	HNEAP_RS11395	alpha/beta hydrolase	HNEAP_RS11395 alpha/beta hydrolase	286	460
+HNEAP_RS11400	HNEAP_RS11400	hypothetical protein	HNEAP_RS11400 hypothetical protein	110	163
+HNEAP_RS11405	HNEAP_RS11405	hypothetical protein	HNEAP_RS11405 hypothetical protein	424	591
+HNEAP_RS11410	HNEAP_RS11410	hypothetical protein	HNEAP_RS11410 hypothetical protein	152	262
+HNEAP_RS11420	HNEAP_RS11420	hypothetical protein	HNEAP_RS11420 hypothetical protein	1550	2393
+HNEAP_RS11425	HNEAP_RS11425	hypothetical protein	HNEAP_RS11425 hypothetical protein	1132	1788
+HNEAP_RS11435	HNEAP_RS11435	hypothetical protein	HNEAP_RS11435 hypothetical protein	293	428
+HNEAP_RS11440	HNEAP_RS11440	hypothetical protein	HNEAP_RS11440 hypothetical protein	145	240
+HNEAP_RS11445	HNEAP_RS11445	hypothetical protein	HNEAP_RS11445 hypothetical protein	586	927
+HNEAP_RS11450	HNEAP_RS11450	hypothetical protein	HNEAP_RS11450 hypothetical protein	3844	6168
+HNEAP_RS11455	HNEAP_RS11455	hypothetical protein	HNEAP_RS11455 hypothetical protein	399	602
+HNEAP_RS11460	HNEAP_RS11460	hypothetical protein	HNEAP_RS11460 hypothetical protein	583	923
+HNEAP_RS11465	HNEAP_RS11465	pilus assembly protein TadE	HNEAP_RS11465 pilus assembly protein TadE	132	254
+HNEAP_RS11475	HNEAP_RS11475	hypothetical protein	HNEAP_RS11475 hypothetical protein	1141	1819
+HNEAP_RS11480	HNEAP_RS11480	pilus assembly protein TadE	HNEAP_RS11480 pilus assembly protein TadE	301	529
+HNEAP_RS11485	HNEAP_RS11485	tetratricopeptide repeat protein	HNEAP_RS11485 tetratricopeptide repeat protein	426	695
+HNEAP_RS11490	HNEAP_RS11490	hypothetical protein	HNEAP_RS11490 hypothetical protein	331	554
+HNEAP_RS11495	HNEAP_RS11495	type II secretion protein F	HNEAP_RS11495 type II secretion protein F	847	1228
+HNEAP_RS11500	HNEAP_RS11500	type II secretion protein F	HNEAP_RS11500 type II secretion protein F	714	1153
+HNEAP_RS11505	HNEAP_RS11505	hypothetical protein	HNEAP_RS11505 hypothetical protein	1138	1817
+HNEAP_RS11510	HNEAP_RS11510	type II and III secretion system protein	HNEAP_RS11510 type II and III secretion system protein	1966	3217
+HNEAP_RS11515	HNEAP_RS11515	Flp pilus assembly protein CpaB	HNEAP_RS11515 Flp pilus assembly protein CpaB	1210	1917
+HNEAP_RS11520	HNEAP_RS11520	hypothetical protein	HNEAP_RS11520 hypothetical protein	320	488
+HNEAP_RS11525	HNEAP_RS11525	hypothetical protein	HNEAP_RS11525 hypothetical protein	387	593
+HNEAP_RS11530	HNEAP_RS11530	hypothetical protein	HNEAP_RS11530 hypothetical protein	1478	2272
+HNEAP_RS11540	HNEAP_RS11540	hypothetical protein	HNEAP_RS11540 hypothetical protein	544	818
+HNEAP_RS11545	HNEAP_RS11545	hypothetical protein	HNEAP_RS11545 hypothetical protein	534	985
+HNEAP_RS11550	HNEAP_RS11550	hypothetical protein	HNEAP_RS11550 hypothetical protein	1577	2608
+HNEAP_RS11555	HNEAP_RS11555	hypothetical protein	HNEAP_RS11555 hypothetical protein	313	484
+HNEAP_RS11560	HNEAP_RS11560	OmpA/MotB domain-containing protein	HNEAP_RS11560 OmpA/MotB domain-containing protein	1308	2104
+HNEAP_RS11565	HNEAP_RS11565	non-canonical purine NTP pyrophosphatase	HNEAP_RS11565 non-canonical purine NTP pyrophosphatase	556	897
+HNEAP_RS11570	HNEAP_RS11570	YggW family oxidoreductase	HNEAP_RS11570 YggW family oxidoreductase	693	972
+HNEAP_RS11630	HNEAP_RS11630	chromosome partitioning protein ParB	HNEAP_RS11630 chromosome partitioning protein ParB	248	471
+HNEAP_RS11635	HNEAP_RS11635	ParA family protein	HNEAP_RS11635 ParA family protein	107	204
+HNEAP_RS11640	HNEAP_RS11640	16S rRNA (guanine(527)-N(7))-methyltransferase RsmG	HNEAP_RS11640 16S rRNA (guanine(527)-N(7))-methyltransferase RsmG	160	316
+HNEAP_RS11645	HNEAP_RS11645	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG	HNEAP_RS11645 tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG	17	38
+HNEAP_RS11650	HNEAP_RS11650	cold-shock protein	HNEAP_RS11650 cold-shock protein	848	1365
+HNEAP_RS11655	HNEAP_RS11655	LysR family transcriptional regulator	HNEAP_RS11655 LysR family transcriptional regulator	1208	1968
+HNEAP_RS11675	HNEAP_RS11675	tRNA (uridine(34)/cytosine(34)/5-carboxymethylaminomethyluridine(34)-2'-O)-methyltransferase TrmL	HNEAP_RS11675 tRNA (uridine(34)/cytosine(34)/5-carboxymethylaminomethyluridine(34)-2'-O)-methyltransferase TrmL	355	569
+HNEAP_RS11680	HNEAP_RS11680	tRNA (N6-threonylcarbamoyladenosine(37)-N6)-methyltransferase TrmO	HNEAP_RS11680 tRNA (N6-threonylcarbamoyladenosine(37)-N6)-methyltransferase TrmO	1368	2242
+HNEAP_RS11690	HNEAP_RS11690	protein-export chaperone SecB	HNEAP_RS11690 protein-export chaperone SecB	96	106
+HNEAP_RS11695	HNEAP_RS11695	thioredoxin TrxC	HNEAP_RS11695 thioredoxin TrxC	606	878
+HNEAP_RS11700	HNEAP_RS11700	glutaredoxin 3	HNEAP_RS11700 glutaredoxin 3	192	354
+HNEAP_RS11705	HNEAP_RS11705	rhodanese-like domain-containing protein	HNEAP_RS11705 rhodanese-like domain-containing protein	460	749
+HNEAP_RS11710	HNEAP_RS11710	DUF2892 domain-containing protein	HNEAP_RS11710 DUF2892 domain-containing protein	280	452
+HNEAP_RS11715	HNEAP_RS11715	ArsR family transcriptional regulator	HNEAP_RS11715 ArsR family transcriptional regulator	69	94
+HNEAP_RS11720	HNEAP_RS11720	hypothetical protein	HNEAP_RS11720 hypothetical protein	161	182
+HNEAP_RS11725	HNEAP_RS11725	M23 family peptidase	HNEAP_RS11725 M23 family peptidase	77	127
+HNEAP_RS11730	HNEAP_RS11730	hypothetical protein	HNEAP_RS11730 hypothetical protein	245	412
+HNEAP_RS11740	HNEAP_RS11740	DJ-1 family protein	HNEAP_RS11740 DJ-1 family protein	703	1077
+HNEAP_RS11745	HNEAP_RS11745	ammonium transporter	HNEAP_RS11745 ammonium transporter	2349	3724
+HNEAP_RS11750	HNEAP_RS11750	nitrogen regulatory protein P-II 1	HNEAP_RS11750 nitrogen regulatory protein P-II 1	175	269
+HNEAP_RS11755	HNEAP_RS11755	hypothetical protein	HNEAP_RS11755 hypothetical protein	906	1529
+HNEAP_RS11760	HNEAP_RS11760	cell division protein ZapE	HNEAP_RS11760 cell division protein ZapE	1327	2161
+HNEAP_RS11765	HNEAP_RS11765	succinate dehydrogenase assembly factor 2	HNEAP_RS11765 succinate dehydrogenase assembly factor 2	192	258
+HNEAP_RS11770	HNEAP_RS11770	succinate dehydrogenase iron-sulfur subunit	HNEAP_RS11770 succinate dehydrogenase iron-sulfur subunit	887	1375
+HNEAP_RS11775	HNEAP_RS11775	succinate dehydrogenase flavoprotein subunit	HNEAP_RS11775 succinate dehydrogenase flavoprotein subunit	2049	3224
+HNEAP_RS11780	HNEAP_RS11780	succinate dehydrogenase  hydrophobic membrane anchor protein	HNEAP_RS11780 succinate dehydrogenase  hydrophobic membrane anchor protein	784	1223
+HNEAP_RS11785	HNEAP_RS11785	succinate dehydrogenase  cytochrome b556 subunit	HNEAP_RS11785 succinate dehydrogenase  cytochrome b556 subunit	324	567
+HNEAP_RS11790	HNEAP_RS11790	GntR family transcriptional regulator	HNEAP_RS11790 GntR family transcriptional regulator	578	832
+HNEAP_RS11795	HNEAP_RS11795	aldehyde dehydrogenase	HNEAP_RS11795 aldehyde dehydrogenase	276	458
+HNEAP_RS11800	HNEAP_RS11800	aspartate aminotransferase family protein	HNEAP_RS11800 aspartate aminotransferase family protein	1492	2370
+HNEAP_RS11805	HNEAP_RS11805	methylmalonate-semialdehyde dehydrogenase (CoA acylating)	HNEAP_RS11805 methylmalonate-semialdehyde dehydrogenase (CoA acylating)	1680	2667
+HNEAP_RS11810	HNEAP_RS11810	membrane protein	HNEAP_RS11810 membrane protein	132	266
+HNEAP_RS11815	HNEAP_RS11815	type III glutamate--ammonia ligase	HNEAP_RS11815 type III glutamate--ammonia ligase	1013	1588
+HNEAP_RS11820	HNEAP_RS11820	4-aminobutyrate--2-oxoglutarate transaminase	HNEAP_RS11820 4-aminobutyrate--2-oxoglutarate transaminase	2043	3264
+HNEAP_RS11825	HNEAP_RS11825	gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase	HNEAP_RS11825 gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase	1391	2269
+HNEAP_RS11830	HNEAP_RS11830	NAD-dependent succinate-semialdehyde dehydrogenase	HNEAP_RS11830 NAD-dependent succinate-semialdehyde dehydrogenase	1382	2086
+HNEAP_RS11835	HNEAP_RS11835	putrescine ABC transporter permease PotI	HNEAP_RS11835 putrescine ABC transporter permease PotI	544	1019
+HNEAP_RS11840	HNEAP_RS11840	putrescine ABC transporter permease	HNEAP_RS11840 putrescine ABC transporter permease	969	1598
+HNEAP_RS11845	HNEAP_RS11845	polyamine ABC transporter ATP-binding protein	HNEAP_RS11845 polyamine ABC transporter ATP-binding protein	683	1214
+HNEAP_RS11850	HNEAP_RS11850	polyamine ABC transporter substrate-binding protein	HNEAP_RS11850 polyamine ABC transporter substrate-binding protein	596	1027
+HNEAP_RS11855	HNEAP_RS11855	aspartate aminotransferase family protein	HNEAP_RS11855 aspartate aminotransferase family protein	1519	2335
+HNEAP_RS11860	HNEAP_RS11860	glutamine synthetase	HNEAP_RS11860 glutamine synthetase	1261	2020
+HNEAP_RS11865	HNEAP_RS11865	gamma-glutamyl-gamma-aminobutyrate hydrolase	HNEAP_RS11865 gamma-glutamyl-gamma-aminobutyrate hydrolase	864	1299
+HNEAP_RS11870	HNEAP_RS11870	PLP-dependent aminotransferase family protein	HNEAP_RS11870 PLP-dependent aminotransferase family protein	1929	2867
+HNEAP_RS11875	HNEAP_RS11875	FAD-binding oxidoreductase	HNEAP_RS11875 FAD-binding oxidoreductase	2425	3977
+HNEAP_RS11880	HNEAP_RS11880	agmatinase	HNEAP_RS11880 agmatinase	1406	2220
+HNEAP_RS11885	HNEAP_RS11885	aspartate aminotransferase family protein	HNEAP_RS11885 aspartate aminotransferase family protein	1729	2893
+HNEAP_RS11890	HNEAP_RS11890	MFS transporter	HNEAP_RS11890 MFS transporter	1343	2023
+HNEAP_RS11895	HNEAP_RS11895	RidA family protein	HNEAP_RS11895 RidA family protein	172	350
+HNEAP_RS11900	HNEAP_RS11900	alanine racemase	HNEAP_RS11900 alanine racemase	1230	2016
+HNEAP_RS11905	HNEAP_RS11905	D-amino acid dehydrogenase small subunit	HNEAP_RS11905 D-amino acid dehydrogenase small subunit	1209	1901
+HNEAP_RS11910	HNEAP_RS11910	AsnC family transcriptional regulator	HNEAP_RS11910 AsnC family transcriptional regulator	471	773
+HNEAP_RS11915	HNEAP_RS11915	hypothetical protein	HNEAP_RS11915 hypothetical protein	1828	2899
+HNEAP_RS11920	HNEAP_RS11920	hypothetical protein	HNEAP_RS11920 hypothetical protein	15	29
+HNEAP_RS11925	HNEAP_RS11925	ATP-dependent protease	HNEAP_RS11925 ATP-dependent protease	555	783
+HNEAP_RS11930	HNEAP_RS11930	tRNA 5-methoxyuridine(34)/uridine 5-oxyacetic acid(34) synthase CmoB	HNEAP_RS11930 tRNA 5-methoxyuridine(34)/uridine 5-oxyacetic acid(34) synthase CmoB	512	794
+HNEAP_RS11935	HNEAP_RS11935	carboxy-S-adenosyl-L-methionine synthase CmoA	HNEAP_RS11935 carboxy-S-adenosyl-L-methionine synthase CmoA	349	523
+HNEAP_RS11940	HNEAP_RS11940	tRNA 2-selenouridine(34) synthase MnmH	HNEAP_RS11940 tRNA 2-selenouridine(34) synthase MnmH	543	888
+HNEAP_RS11945	HNEAP_RS11945	selenide  water dikinase SelD	HNEAP_RS11945 selenide  water dikinase SelD	430	679
+HNEAP_RS11950	HNEAP_RS11950	cytochrome oxidase assembly	HNEAP_RS11950 cytochrome oxidase assembly	1260	1966
+HNEAP_RS11955	HNEAP_RS11955	lanthionine synthetase C	HNEAP_RS11955 lanthionine synthetase C	1300	2129
+HNEAP_RS11960	HNEAP_RS11960	SCO family protein	HNEAP_RS11960 SCO family protein	539	824
+HNEAP_RS11965	HNEAP_RS11965	cytochrome c oxidase assembly protein	HNEAP_RS11965 cytochrome c oxidase assembly protein	723	1149
+HNEAP_RS11970	HNEAP_RS11970	protoheme IX farnesyltransferase	HNEAP_RS11970 protoheme IX farnesyltransferase	390	601
+HNEAP_RS11975	HNEAP_RS11975	hypothetical protein	HNEAP_RS11975 hypothetical protein	881	1454
+HNEAP_RS11980	HNEAP_RS11980	SURF1 family protein	HNEAP_RS11980 SURF1 family protein	792	1276
+HNEAP_RS11985	HNEAP_RS11985	cytochrome c oxidase subunit I	HNEAP_RS11985 cytochrome c oxidase subunit I	1156	1838
+HNEAP_RS11990	HNEAP_RS11990	cytochrome c oxidase subunit II	HNEAP_RS11990 cytochrome c oxidase subunit II	1405	2118
+HNEAP_RS11995	HNEAP_RS11995	DUF2173 domain-containing protein	HNEAP_RS11995 DUF2173 domain-containing protein	633	1045
+HNEAP_RS12000	HNEAP_RS12000	DUF2173 domain-containing protein	HNEAP_RS12000 DUF2173 domain-containing protein	111	137
+HNEAP_RS12010	HNEAP_RS12010	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE	HNEAP_RS12010 tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE	23	30
+HNEAP_RS12050	HNEAP_RS12050	membrane protein-like protein	HNEAP_RS12050 membrane protein-like protein	699	1010
+HNEAP_RS12065	HNEAP_RS12065	AraC family transcriptional regulator	HNEAP_RS12065 AraC family transcriptional regulator	1421	2344
+HNEAP_RS12070	HNEAP_RS12070	AraC family transcriptional regulator	HNEAP_RS12070 AraC family transcriptional regulator	1473	2316
+HNEAP_RS12075	HNEAP_RS12075	outer membrane autotransporter barrel domain-containing protein	HNEAP_RS12075 outer membrane autotransporter barrel domain-containing protein	3442	5355
+HNEAP_RS12080	HNEAP_RS12080	prepilin-type cleavage/methylation domain-containing protein	HNEAP_RS12080 prepilin-type cleavage/methylation domain-containing protein	422	759
+HNEAP_RS12085	HNEAP_RS12085	type II secretion system protein GspI	HNEAP_RS12085 type II secretion system protein GspI	631	965
+HNEAP_RS12090	HNEAP_RS12090	peptidoglycan-binding lysin domain-containing protein-containing protein	HNEAP_RS12090 peptidoglycan-binding lysin domain-containing protein-containing protein	947	1493
+HNEAP_RS12100	HNEAP_RS12100	class I SAM-dependent methyltransferase	HNEAP_RS12100 class I SAM-dependent methyltransferase	1166	1817
+HNEAP_RS12105	HNEAP_RS12105	type 11 methyltransferase	HNEAP_RS12105 type 11 methyltransferase	386	647
+HNEAP_RS12110	HNEAP_RS12110	META domain-containing protein	HNEAP_RS12110 META domain-containing protein	1297	2044
+HNEAP_RS12115	HNEAP_RS12115	efflux RND transporter periplasmic adaptor subunit	HNEAP_RS12115 efflux RND transporter periplasmic adaptor subunit	136	416
+HNEAP_RS12120	HNEAP_RS12120	DUF2063 domain-containing protein	HNEAP_RS12120 DUF2063 domain-containing protein	1569	2346
+HNEAP_RS12135	HNEAP_RS12135	diguanylate cyclase with PAS/PAC and GAF sensors	HNEAP_RS12135 diguanylate cyclase with PAS/PAC and GAF sensors	2792	3862
+HNEAP_RS12140	HNEAP_RS12140	group 1 glycosyl transferase	HNEAP_RS12140 group 1 glycosyl transferase	720	947
+HNEAP_RS12145	HNEAP_RS12145	hypothetical protein	HNEAP_RS12145 hypothetical protein	726	1157
+HNEAP_RS12150	HNEAP_RS12150	energy transducer TonB	HNEAP_RS12150 energy transducer TonB	676	999
+HNEAP_RS12155	HNEAP_RS12155	CheW protein	HNEAP_RS12155 CheW protein	3557	4291
+HNEAP_RS12165	HNEAP_RS12165	hypothetical protein	HNEAP_RS12165 hypothetical protein	2286	3096
+HNEAP_RS12170	HNEAP_RS12170	restriction modification system DNA specificity domain-containing protein	HNEAP_RS12170 restriction modification system DNA specificity domain-containing protein	1411	1995
+HNEAP_RS12175	HNEAP_RS12175	hypothetical protein	HNEAP_RS12175 hypothetical protein	359	529
+HNEAP_RS12180	HNEAP_RS12180	GGDEF domain-containing protein	HNEAP_RS12180 GGDEF domain-containing protein	406	646
+HNEAP_RS12185	HNEAP_RS12185	flagellar biosynthetic protein FliO	HNEAP_RS12185 flagellar biosynthetic protein FliO	684	1014
+HNEAP_RS12190	HNEAP_RS12190	hypothetical protein	HNEAP_RS12190 hypothetical protein	92	111
+HNEAP_RS12195	HNEAP_RS12195	hypothetical protein	HNEAP_RS12195 hypothetical protein	98	157
+HNEAP_RS12200	HNEAP_RS12200	xanthine dehydrogenase accessory protein XdhC	HNEAP_RS12200 xanthine dehydrogenase accessory protein XdhC	981	1452
+HNEAP_RS12205	HNEAP_RS12205	RHS repeat protein	HNEAP_RS12205 RHS repeat protein	5052	7308
+HNEAP_RS12215	HNEAP_RS12215	phosphopantetheinyl transferase component of siderophore synthetase-like protein	HNEAP_RS12215 phosphopantetheinyl transferase component of siderophore synthetase-like protein	282	431
+HNEAP_RS12220	HNEAP_RS12220	thiol reductase thioredoxin	HNEAP_RS12220 thiol reductase thioredoxin	237	281
+HNEAP_RS12230	HNEAP_RS12230	hypothetical protein	HNEAP_RS12230 hypothetical protein	960	1387
+HNEAP_RS12235	HNEAP_RS12235	CBS domain-containing protein	HNEAP_RS12235 CBS domain-containing protein	447	762
+HNEAP_RS12240	HNEAP_RS12240	molybdopterin molybdenumtransferase MoeA	HNEAP_RS12240 molybdopterin molybdenumtransferase MoeA	1126	1591
+HNEAP_RS12245	HNEAP_RS12245	hypothetical protein	HNEAP_RS12245 hypothetical protein	828	1154
+HNEAP_RS12250	HNEAP_RS12250	GGDEF domain-containing protein	HNEAP_RS12250 GGDEF domain-containing protein	1026	1466
+HNEAP_RS12255	HNEAP_RS12255	EAL domain-containing protein	HNEAP_RS12255 EAL domain-containing protein	235	285
+HNEAP_RS12260	HNEAP_RS12260	DUF2237 domain-containing protein	HNEAP_RS12260 DUF2237 domain-containing protein	382	530
+HNEAP_RS12265	HNEAP_RS12265	outer membrane lipoprotein carrier protein LolA	HNEAP_RS12265 outer membrane lipoprotein carrier protein LolA	66	104
+HNEAP_RS12270	HNEAP_RS12270	flagellar biosynthesis anti-sigma factor FlgM	HNEAP_RS12270 flagellar biosynthesis anti-sigma factor FlgM	806	1289
+HNEAP_RS12285	HNEAP_RS12285	conjugative transfer signal peptidase TraF	HNEAP_RS12285 conjugative transfer signal peptidase TraF	520	789
+HNEAP_RS12290	HNEAP_RS12290	hypothetical protein	HNEAP_RS12290 hypothetical protein	1067	1574
+HNEAP_RS12295	HNEAP_RS12295	hypothetical protein	HNEAP_RS12295 hypothetical protein	299	407
+HNEAP_RS12300	HNEAP_RS12300	conjugation TrbI family protein	HNEAP_RS12300 conjugation TrbI family protein	1400	2037
+HNEAP_RS12305	HNEAP_RS12305	ParA family protein	HNEAP_RS12305 ParA family protein	1907	2705
+HNEAP_RS12310	HNEAP_RS12310	parB-like partition protein	HNEAP_RS12310 parB-like partition protein	708	1042
+HNEAP_RS12320	HNEAP_RS12320	hypothetical protein	HNEAP_RS12320 hypothetical protein	186	290
+HNEAP_RS12325	HNEAP_RS12325	zinc ribbon domain-containing protein	HNEAP_RS12325 zinc ribbon domain-containing protein	192	291
+HNEAP_RS12330	HNEAP_RS12330	GAF sensor-containing diguanylate cyclase/phosphodiesterase	HNEAP_RS12330 GAF sensor-containing diguanylate cyclase/phosphodiesterase	1151	1773
+HNEAP_RS12335	HNEAP_RS12335	AsmA family protein	HNEAP_RS12335 AsmA family protein	1038	1651
+HNEAP_RS12340	HNEAP_RS12340	hypothetical protein	HNEAP_RS12340 hypothetical protein	55	56
+HNEAP_RS12345	HNEAP_RS12345	family 2 glycosyl transferase	HNEAP_RS12345 family 2 glycosyl transferase	373	517
+HNEAP_RS12350	HNEAP_RS12350	hypothetical protein	HNEAP_RS12350 hypothetical protein	25	37
+HNEAP_RS12355	HNEAP_RS12355	SCO family protein	HNEAP_RS12355 SCO family protein	819	1195
+HNEAP_RS12360	HNEAP_RS12360	hypothetical protein	HNEAP_RS12360 hypothetical protein	926	1411
+HNEAP_RS12365	HNEAP_RS12365	SPOR domain-containing protein	HNEAP_RS12365 SPOR domain-containing protein	53	87
+HNEAP_RS12370	HNEAP_RS12370	outer membrane autotransporter barrel domain-containing protein	HNEAP_RS12370 outer membrane autotransporter barrel domain-containing protein	7412	10975
+HNEAP_RS12375	HNEAP_RS12375	hypothetical protein	HNEAP_RS12375 hypothetical protein	386	545
+HNEAP_RS12380	HNEAP_RS12380	hypothetical protein	HNEAP_RS12380 hypothetical protein	350	464
+HNEAP_RS12385	HNEAP_RS12385	GGDEF domain-containing protein	HNEAP_RS12385 GGDEF domain-containing protein	501	750
+HNEAP_RS12390	HNEAP_RS12390	hypothetical protein	HNEAP_RS12390 hypothetical protein	653	955
+HNEAP_RS12395	HNEAP_RS12395	IS66 family insertion sequence hypothetical protein	HNEAP_RS12395 IS66 family insertion sequence hypothetical protein	154	270
+HNEAP_RS12400	HNEAP_RS12400	hypothetical protein	HNEAP_RS12400 hypothetical protein	965	1586
+HNEAP_RS12405	HNEAP_RS12405	hypothetical protein	HNEAP_RS12405 hypothetical protein	314	506
+HNEAP_RS12410	HNEAP_RS12410	DUF2173 domain-containing protein	HNEAP_RS12410 DUF2173 domain-containing protein	115	168
+HNEAP_RS12420	HNEAP_RS12420	hypothetical protein	HNEAP_RS12420 hypothetical protein	271	438
+HNEAP_RS12425	HNEAP_RS12425	PKD domain-containing protein	HNEAP_RS12425 PKD domain-containing protein	1984	3105
+HNEAP_RS12430	HNEAP_RS12430	acyltransferase	HNEAP_RS12430 acyltransferase	29	53
+HNEAP_RS12445	HNEAP_RS12445	relaxase	HNEAP_RS12445 relaxase	2003	2924
+HNEAP_RS12450	HNEAP_RS12450	YkgJ family cysteine cluster protein	HNEAP_RS12450 YkgJ family cysteine cluster protein	365	540
+HNEAP_RS12455	HNEAP_RS12455	relaxase	HNEAP_RS12455 relaxase	4192	6166
+HNEAP_RS12465	HNEAP_RS12465	energy transducer TonB	HNEAP_RS12465 energy transducer TonB	192	548
+HNEAP_RS12470	HNEAP_RS12470	DUF3096 domain-containing protein	HNEAP_RS12470 DUF3096 domain-containing protein	173	236
+HNEAP_RS12475	HNEAP_RS12475	CPXCG motif-containing cysteine-rich protein	HNEAP_RS12475 CPXCG motif-containing cysteine-rich protein	114	163
+HNEAP_RS12490	HNEAP_RS12490	peptidase S24/S26A/S26B  conserved region	HNEAP_RS12490 peptidase S24/S26A/S26B  conserved region	838	1129
+HNEAP_RS12495	HNEAP_RS12495	ATPase-like protein	HNEAP_RS12495 ATPase-like protein	552	828
+HNEAP_RS12505	HNEAP_RS12505	alpha/beta hydrolase	HNEAP_RS12505 alpha/beta hydrolase	243	318
+HNEAP_RS12510	HNEAP_RS12510	DUF4902 domain-containing protein	HNEAP_RS12510 DUF4902 domain-containing protein	122	150
+HNEAP_RS12515	HNEAP_RS12515	N-acylhomoserine lactone synthase	HNEAP_RS12515 N-acylhomoserine lactone synthase	442	651
+HNEAP_RS12520	HNEAP_RS12520	hypothetical protein	HNEAP_RS12520 hypothetical protein	75	98
+HNEAP_RS12525	HNEAP_RS12525	ECF subfamily RNA polymerase sigma-24 subunit	HNEAP_RS12525 ECF subfamily RNA polymerase sigma-24 subunit	248	376
+HNEAP_RS12530	HNEAP_RS12530	DUF2256 domain-containing protein	HNEAP_RS12530 DUF2256 domain-containing protein	291	380
+HNEAP_RS12535	HNEAP_RS12535	hypothetical protein	HNEAP_RS12535 hypothetical protein	289	440
+HNEAP_RS12550	HNEAP_RS12550	ArsR family transcriptional regulator	HNEAP_RS12550 ArsR family transcriptional regulator	898	1263
+HNEAP_RS12555	HNEAP_RS12555	zinc ribbon domain-containing protein	HNEAP_RS12555 zinc ribbon domain-containing protein	314	432
+HNEAP_RS12570	HNEAP_RS12570	aldehyde-activating protein	HNEAP_RS12570 aldehyde-activating protein	281	400

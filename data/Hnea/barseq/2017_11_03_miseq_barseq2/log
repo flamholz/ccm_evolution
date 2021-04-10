@@ -1,0 +1,13 @@
+Read 2408 genes, 3 exps, and data for 107254 barcodes
+Central Reads per t0set, in millions:
+somedate test 
+          1.2 
+Time0 reads per gene: mean 638.1 median 461.0 ratio 1.38
+Genes with enough Time0 reads:  1681 
+Using  57599  of  72358  genic strains
+Using  1681  of  1876  genes with data
+For cor12, using  1556 genes
+Skipping log ratios for  setAS1  which has no control counts
+status
+OK 
+ 2 

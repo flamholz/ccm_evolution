@@ -1,0 +1,4 @@
+SetName	Index	Person	Date_pool_expt_started	Description	num	name	short
+test	S12	someone	somedate	Time0	1	setAS12	Time0
+test	S10	someone	somedate	1-5	2	setAS10	1-5
+test	S11	someone	somedate	5	3	setAS11	5
