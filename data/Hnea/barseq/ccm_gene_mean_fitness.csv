@@ -1,0 +1,24 @@
+,begin,end,strand,gene_name,desc,GC,nTA,ambient CO2,0.5% CO2,5% CO2,1.5% CO2,10% CO2,CO2_Rval
+HNEAP_RS05505,1184110,1185489,-,cbbM,ribulose-bisphosphate carboxylase,0.548,28,-0.147,-0.041,-0.474,-0.219,-0.567,-0.933
+HNEAP_RS04660,989858,991279,-,cbbL,ribulose bisphosphate carboxylase large chain,0.532,40,-5.339,-5.004,-0.056,-3.035,-0.03,0.887
+HNEAP_RS05490,1179635,1180537,+,LysR cbbM (catA),LysR family transcriptional regulator,0.523,31,-5.65,-5.018,0.013,-2.798,0.214,0.886
+HNEAP_RS04610,982347,983027,-,mcdA,ParA family protein,0.517,18,-0.734,-0.965,-0.106,-0.984,-0.048,0.872
+HNEAP_RS04575,972739,973542,-,cbbQ,CbbQ/NirQ/NorQ/GpvN family protein,0.505,19,-0.758,-0.561,-0.121,-0.429,-0.114,0.869
+HNEAP_RS04655,989489,989821,-,cbbS,ribulose bisphosphate carboxylase small subunit,0.48,11,-4.254,-4.802,-0.366,-3.584,-0.966,0.845
+HNEAP_RS04565,971679,972320,-,csos1D,microcompartments protein,0.53,12,-1.03,-0.278,-0.098,-0.493,0.06,0.773
+HNEAP_RS04640,985002,985253,-,csos4A,carboxysome peptide A,0.496,8,-6.128,-5.559,-0.177,-1.236,-0.172,0.768
+HNEAP_RS04630,984409,984705,-,csos1C,major carboxysome shell protein 1C,0.559,4,-6.651,-5.718,0.086,-1.043,-0.028,0.755
+HNEAP_RS04615,983002,983283,-,acRAF,hypothetical protein,0.44,9,-4.042,-5.355,-0.404,-1.247,-0.334,0.753
+HNEAP_RS04645,985250,986794,-,csosCA,carboxysome shell carbonic anhydrase,0.479,61,-4.635,-4.546,0.137,-0.577,0.1,0.749
+HNEAP_RS04650,986815,989436,-,csos2,hypothetical protein,0.53,72,-6.018,-5.729,0.055,-0.717,0.029,0.742
+HNEAP_RS04635,984757,985002,-,csos4B,carboxysome peptide B,0.512,7,-5.96,-6.816,0.235,-0.805,-0.033,0.729
+HNEAP_RS04595,977820,979499,-,DAB1A,oxidoreductase,0.518,42,-1.636,-0.799,-0.37,-1.828,-0.345,0.726
+HNEAP_RS04625,984038,984334,-,csos1A,major carboxysome shell protein 1A,0.539,7,-4.524,-3.972,0.012,-0.768,-0.34,0.725
+HNEAP_RS07320,1575176,1575778,+,Crp/Fnr (catC),hypothetical protein,0.526,17,-1.772,-1.537,-0.098,-0.252,-0.145,0.716
+HNEAP_RS04620,983594,983926,-,csos1B,major carboxysome shell protein 1B,0.55,4,-1.501,-0.86,-0.094,-0.097,0.039,0.712
+HNEAP_RS04585,973927,977067,-,DAB1B,DUF2309 domain-containing protein,0.514,85,-1.56,-0.901,-0.487,-2.085,-0.374,0.709
+HNEAP_RS04600,979659,982025,-,cbbO,VWA domain-containing protein,0.509,64,-0.426,-0.619,-0.116,-0.935,-0.116,0.7
+HNEAP_RS04605,982133,982360,+,mcdB,hypothetical protein,0.548,3,-0.296,-0.47,-0.079,-0.787,-0.126,0.606
+HNEAP_RS01030,216936,219419,-,DAB2B,DUF2309 domain-containing protein,0.584,39,-2.833,-0.705,-0.024,-0.004,0.012,0.57
+HNEAP_RS01035,219465,221120,-,DAB2A,NADH dehydrogenase subunit 5,0.563,26,-2.891,-0.657,-0.056,-0.042,-0.006,0.562
+HNEAP_RS01040,221411,222358,+,LysR DAB2 (catB),LysR family transcriptional regulator,0.522,23,-2.524,-0.576,0.037,0.131,0.055,0.552

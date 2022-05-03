@@ -1,0 +1,55 @@
+species,genotype,cond,bio_replicate,tech_replicate,CFU (3 ul plated),CFU/mL,note
+hnea,WT,5% CO2,1,1,2.00E+06,6.67E+08,
+hnea,WT,5% CO2,1,2,1.00E+06,3.33E+08,
+hnea,WT,5% CO2,1,3,2.00E+06,6.67E+08,
+hnea,WT,5% CO2,2,1,8.00E+05,2.67E+08,
+hnea,WT,5% CO2,2,2,4.00E+05,1.33E+08,
+hnea,WT,5% CO2,2,3,1.30E+06,4.33E+08,
+hnea,WT,5% CO2,3,1,8.00E+05,2.67E+08,
+hnea,WT,5% CO2,3,2,8.00E+06,2.67E+09,
+hnea,WT,5% CO2,3,3,1.20E+06,4.00E+08,
+hnea,dS2,5% CO2,1,1,8.00E+05,2.67E+08,csos2 deletion
+hnea,dS2,5% CO2,1,2,1.10E+06,3.67E+08,csos2 deletion
+hnea,dS2,5% CO2,1,3,1.50E+06,5.00E+08,csos2 deletion
+hnea,dS2,5% CO2,2,1,2.10E+06,7.00E+08,csos2 deletion
+hnea,dS2,5% CO2,2,2,2.00E+06,6.67E+08,csos2 deletion
+hnea,dS2,5% CO2,2,3,2.00E+06,6.67E+08,csos2 deletion
+hnea,dS2,5% CO2,3,1,2.00E+06,6.67E+08,csos2 deletion
+hnea,dS2,5% CO2,3,2,6.00E+05,2.00E+08,csos2 deletion
+hnea,dS2,5% CO2,3,3,1.00E+06,3.33E+08,csos2 deletion
+hnea,dCsosCA,5% CO2,1,1,9.00E+05,3.00E+08,csosCA deletion
+hnea,dCsosCA,5% CO2,1,2,2.00E+06,6.67E+08,csosCA deletion
+hnea,dCsosCA,5% CO2,1,3,4.00E+05,1.33E+08,csosCA deletion
+hnea,dCsosCA,5% CO2,2,1,4.00E+05,1.33E+08,csosCA deletion
+hnea,dCsosCA,5% CO2,2,2,2.70E+05,9.00E+07,csosCA deletion
+hnea,dCsosCA,5% CO2,2,3,2.30E+05,7.67E+07,csosCA deletion
+hnea,dCsosCA,5% CO2,3,1,6.00E+05,2.00E+08,csosCA deletion
+hnea,dCsosCA,5% CO2,3,2,2.00E+05,6.67E+07,csosCA deletion
+hnea,dCsosCA,5% CO2,3,3,5.00E+05,1.67E+08,csosCA deletion
+hnea,WT,ambient,1,1,2.00E+06,6.67E+08,
+hnea,WT,ambient,1,2,2.00E+06,6.67E+08,
+hnea,WT,ambient,1,3,1.00E+06,3.33E+08,
+hnea,WT,ambient,2,1,6.00E+05,2.00E+08,
+hnea,WT,ambient,2,2,2.00E+06,6.67E+08,
+hnea,WT,ambient,2,3,8.00E+05,2.67E+08,
+hnea,WT,ambient,3,1,1.00E+06,3.33E+08,
+hnea,WT,ambient,3,2,2.00E+06,6.67E+08,
+hnea,WT,ambient,3,3,2.00E+06,6.67E+08,
+hnea,dS2,ambient,1,1,No Growth,0,csos2 deletion
+hnea,dS2,ambient,1,2,No Growth,0,csos2 deletion
+hnea,dS2,ambient,1,3,No Growth,0,csos2 deletion
+hnea,dS2,ambient,2,1,No Growth,0,csos2 deletion
+hnea,dS2,ambient,2,2,No Growth,0,csos2 deletion
+hnea,dS2,ambient,2,3,No Growth,0,csos2 deletion
+hnea,dS2,ambient,3,1,No Growth,0,csos2 deletion
+hnea,dS2,ambient,3,2,No Growth,0,csos2 deletion
+hnea,dS2,ambient,3,3,No Growth,0,csos2 deletion
+hnea,dCsosCA,ambient,1,1,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,1,2,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,1,3,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,2,1,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,2,2,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,2,3,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,3,1,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,3,2,No Growth,0,csosCA deletion
+hnea,dCsosCA,ambient,3,3,No Growth,0,csosCA deletion
