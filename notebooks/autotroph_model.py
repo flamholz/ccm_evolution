@@ -1,5 +1,17 @@
+"""autotroph_model.py: a model of co-limiation of autotrophic growth by CO2 and HCO3-.
+
+The model was initially specified as a set of coupled linear differential equations
+in the intracellular CO2 and HCO3- concentrations. This system was solved at steady-state
+in Mathematica and solutions were "ported" to python for simpler plotting.
+"""
+
+__author__      = "Avi Flamholz"
+__copyright__   = "Copyright 2022, Pasadena, CA, USA"
+
 import numpy as np
 
+# Fraction of biomass that derives from carboxylation reactions
+# using HCO3- as the substrate ("bicarboxylation").
 DEFAULT_HCARB_RATIO = 100.0
 
 # Lengths in micron units
@@ -10,42 +22,55 @@ C_PER_CELL = 1e10 # BNID 103010
 
 # Empirical membrane permeability values [um/s], see Mangan & Flamholz, PNAS 2016 for refs.
 C_PERM = 0.3*1e4
-# Permeability of HCO3- is mostly due to H2CO3, see Mangan & Flamholz, PNAS 2016.
+# Permeability of hydrated CO2 species (CO3--, HCO3-, H2CO3) is mostly due to H2CO3,
+# as it is uncharged. Assumes that these species are in equilibrium w.r.t. the pH. 
+# Units are [um/s]. See supplement of Mangan & Flamholz, PNAS 2016.
 H_PERM = 3e-3*1e4*np.power(10, 3.2-7.1)
 
-# Default values for C and H permeabilities.
+# Effective permeability of the cell membrane to CO2 (alpha) and HCO3- (beta)
+# have units of [/s] and account for the SA/V ratio of the cell. 
 DEFAULT_ALPHA = C_PERM * SA_V_RATIO
 DEFAULT_BETA = H_PERM * SA_V_RATIO
 
 # Concentrations in uM units, assume near neutral pH.
-# External CO2 roughly equal to Henry's law equilibrium at 25 C. 
-# See relevant chapter of Cell Biology by the Numbers for CO2 solubility.
+# External CO2 roughly equal to Henry's law equilibrium at 25 C (≈15 uM).
+# See relevant chapter of Cell Biology by the Numbers for CO2
+# solubility as a function of temperature.
 DEFAULT_COUT = 15    # uM
 DEFAULT_PH = 7.1     # pH chosen so Keq = 10, see below.
 
-# Effective pKa between CO2 and HCO3-. 
+# Effective pKa between CO2 and HCO3-.
+# See supplement of Mangan & Flamholz, PNAS 2016 for refs.
 PKA_EFF = 6.1 
 
-# Calculate the Keq as a function of the pH.
+# The Keq is the equilibrium ratio of HCO3-/CO2; Keq depends strongly on pH.
+# Calculate the Keq as a function of the pH via Henderson-Hasselbalch eqn.  
 def Keq_pH(p, pKa=PKA_EFF):
     return np.power(10, p-pKa)
 
-# By assuming a single Keq in & out of the cell we are assuming pH 
-# equilibrium across the cell membrane. This greatly simplifies the math.
+# We assume a single Keq in & out of the cell, which means we assume
+# pH equilibrium across the cell membrane. This is not required, but 
+# greatly simplifies the math.
 # See SI of Mangan & Flamholz, PNAS 2016 for details on this point. 
 DEFAULT_KEQ = Keq_pH(DEFAULT_PH)
 
 # Default value for rubisco carboxylation rate constant assumes 1 uM of 
-# a relatively fast rubisco. See accompanying Mathematica file for notes.
+# a relatively fast rubisco. See Flamholz et al. Biochemistry 2019 for 
+# the empirical distribution of rubisco kinetics from current measurements.
 DEFAULT_GAMMA = 1
 
 # Default value for CO2 hydration is roughly the spontaneous rate constant at 25 C.
+# See SI of Mangan & Flamholz PNAS 2016 for references to the primary literature.
 DEFAULT_DELTA = 0.01 # /s
 
-# By default we assume that capacity for H-carboxylation scales with rubisco carboxylation capacity.
+# By default we assume that cellular capacity for bicarboxylation scales with rubisco carboxylation capacity.
+# Basically, we assume that the cell regulates the bicarboxylation activity omega s.t. omega = gamma/C 
+# where C is some constant, here chosen to equal the fraction of biomass deriving from bicarboxylation.
+# This simplification allows us to make 2D plots where the rubisco activity (gamma) varies without
+# having a 3rd axis for variation in omega. 
 DEFAULT_GAMMA_OMEGA_RATIO = 100
 
-# By default there is no drive H uptake.
+# By default there is no energized HCO3- uptake (chi).
 DEFAULT_CHI = 0
 
 class AutotrophModel(object):
@@ -159,4 +184,18 @@ class AutotrophModel(object):
     
     def C_leakage_C_per_s(self):
         return -self.a*(self.c_out-self.C_in())*self.flux_conversion_factor 
+    
+    def H_leakage(self):
+        return -self.b*(self.h_out-self.H_in())
+    
+    def H_leakage_C_per_s(self):
+        return -self.b*(self.h_out-self.H_in())*self.flux_conversion_factor 
+    
+    def total_Ci_leakage(self):
+        return self.H_leakage() + self.C_leakage()
+    
+    def total_Ci_leakage_C_per_s(self):
+        return self.total_Ci_leakage() * self.flux_conversion_factor
+    
+    
     
