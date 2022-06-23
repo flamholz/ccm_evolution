@@ -1,0 +1,1411 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     60139,       1403]
+NotebookOptionsPosition[     57826,       1361]
+NotebookOutlinePosition[     58217,       1378]
+CellTagsIndexPosition[     58174,       1375]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Set up the full (linearized) model",
+  FontWeight->"Bold"],
+ "\nEquations describe membrane permeability to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "f547c244-154f-4149-aab9-114c959d7c1e"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "2f9307f8-623d-461d-80e4-c83b3e96913a"],
+ ", Ci uptake and carbonic anhydrase activity, and fixation of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "5a086937-d342-4472-bfef-87dd5192ef14"],
+ " by rubisco and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "630f3cbc-bef7-4146-8844-33ae636778a0"],
+ " by unspecified carboxylases.\n\nHout, Cout: extracellular ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "04700af3-acf7-4d3b-8ec5-e3c5cb63262e"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "68c51812-c664-4202-b784-5a43d877c967"],
+ " concentrations, assumed constant.\nHin, Cin: intracellular ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "5492f527-98b7-4efa-b465-b0182946ddbb"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "1784b7fe-c819-4a4a-9b4a-9556d4d6aa61"],
+ " concentrations, variable.\n\[Alpha]: membrane permeability to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "b38a3d07-022f-4947-b2aa-a6b7f2ca5cb4"],
+ "\n\[Beta]: membrane permeability to ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "b9e215c4-7311-4cb7-95f1-afe02dfe0464"],
+ "\n\[Chi]: active uptake of ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "0e1e8644-7b95-4de4-8c57-757af732eb69"],
+ "\n\[Delta]: CA hydration rate constant\n\[Phi]: CA dehydration rate \
+constant\n\[Gamma]: rubisco ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "1d96f46b-842a-4837-8c2c-dcc33fd39aeb"],
+ " fixation rate constant\n\[Omega]: ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "8469e09b-8367-4a08-8245-5f4c8a191ce0"],
+ " carboxylation rate constant AKA \[OpenCurlyDoubleQuote]bicarboxylation\
+\[CloseCurlyDoubleQuote] rate constant\n\nWe also assume that the external \
+inorganic carbon pool is in chemical equilibrium such that Keq = Hout/Cout.\n\
+\nBelow we set up the system of linear differential equations and solve them \
+at steady state to understand autotrophic metabolism. Note that because of \
+the linearization there is no saturation behavior to any of the enzymatic \
+activities, e.g. rubisco, CA or ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "4be92a7f-9e8c-4c34-aa1e-51ba5eb2546f"],
+ " dependent carboxylation. For this reason such a model should not be used \
+to draw conclusions about the behavior of the system as a function of \
+external ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "36cec406-e1f6-458d-806e-2902e8dfef25"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     SubscriptBox["HCO", "3"], "-"], " "}], TraditionalForm]],ExpressionUUID->
+  "35ca692c-109d-4f7c-91c1-55fc050c285d"],
+ "concentrations. Instead we will use the model to explore the modeled cells\
+\[CloseCurlyQuote] ability to produce biomass at different levels of \
+enzymatic activity (e.g. varying amounts of CA, Ci transport, and rubisco). "
+}], "Text",
+ CellChangeTimes->{{3.83967657534557*^9, 3.839676852025301*^9}, {
+  3.839677605010397*^9, 3.8396776299945383`*^9}, {3.840142705317072*^9, 
+  3.840142705935812*^9}, {3.8402241858102627`*^9, 3.840224194880371*^9}, {
+  3.840270344193014*^9, 3.840270419610014*^9}, {3.8402704510872583`*^9, 
+  3.840270534271523*^9}, {3.840270569946869*^9, 3.8402705938759604`*^9}, {
+  3.8402715869805927`*^9, 3.840271749926693*^9}, {3.8402718122823057`*^9, 
+  3.8402718916229267`*^9}, {3.840277982474935*^9, 3.840278014116701*^9}, {
+  3.864936351084818*^9, 
+  3.8649363599693813`*^9}},ExpressionUUID->"c584fd29-992a-44cd-8516-\
+5ed2f7f5a671"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"assump", " ", ":=", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\[Alpha]", ",", "\[Beta]", ",", "\[Gamma]", ",", "\[Delta]", ",", 
+     "\[Phi]", ",", "\[Omega]", ",", "\[Chi]", ",", "Cout", ",", "Cin", ",", 
+     "Hout", ",", " ", "Hin", ",", "KEQ"}], "}"}], "\[Element]", 
+   "PositiveReals"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dC", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"\[Alpha]", "*", 
+     RowBox[{"(", 
+      RowBox[{"Cout", "-", "Cin"}], ")"}]}], "-", 
+    RowBox[{"\[Gamma]", "*", "Cin"}], "-", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Delta]", "*", "Cin"}], "-", 
+      RowBox[{"\[Phi]", "*", "Hin"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dH", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"\[Chi]", "*", "Hout"}], "+", 
+    RowBox[{"\[Beta]", "*", 
+     RowBox[{"(", 
+      RowBox[{"Hout", "-", "Hin"}], ")"}]}], "+", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Delta]", "*", "Cin"}], "-", 
+      RowBox[{"\[Phi]", "*", "Hin"}]}], ")"}], "-", 
+    RowBox[{"\[Omega]", "*", "Hin"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"system", " ", "=", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"dC", " ", "\[Equal]", "0"}], ",", 
+      RowBox[{"dH", "\[Equal]", "0"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Solve", " ", "the", " ", "system", " ", "at", " ", "steady"}], 
+    "-", 
+    RowBox[{
+    "state", " ", "assuming", " ", "chemical", " ", "equilibrium", " ", "of", 
+     " ", "Ci", " ", "outside", " ", "the", " ", "cell"}]}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{"fullSoln1", " ", "=", " ", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"Solve", "[", 
+    RowBox[{
+     RowBox[{"system", "/.", 
+      RowBox[{"{", 
+       RowBox[{"Hout", "\[Rule]", " ", 
+        RowBox[{"Cout", "*", "KEQ"}]}], "}"}]}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"Cin", ",", " ", "Hin"}], "}"}]}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"noHcarb", " ", "=", " ", 
+   RowBox[{"FullSimplify", "[", 
+    RowBox[{"fullSoln1", " ", "/.", 
+     RowBox[{"{", 
+      RowBox[{"\[Omega]", "\[Rule]", " ", "0"}], "}"}]}], "]"}]}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Straw", "-", 
+    RowBox[{
+    "man", " ", "model", " ", "discussed", " ", "in", " ", "the", " ", "main",
+      " ", "text", " ", "where", " ", "the", " ", "is", " ", "no", " ", "CA", 
+     " ", "and", " ", "no", " ", "bicarboxylation"}]}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"noHcarb", " ", "/.", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\[Delta]", "\[Rule]", " ", "0"}], ",", " ", 
+      RowBox[{"\[Phi]", "\[Rule]", " ", "0"}]}], "}"}]}], "]"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Hin", " ", "solution", " ", "simplifies", " ", "further", " ", "when", 
+    " ", "there", " ", "is", " ", "no", " ", "Ci", " ", 
+    RowBox[{"pumping", "."}]}], " ", "*)"}], " "}], "\[IndentingNewLine]", 
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"fullSoln1", "/.", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Delta]", "\[Rule]", " ", "0"}], ",", " ", 
+     RowBox[{"\[Phi]", "\[Rule]", " ", "0"}], ",", " ", 
+     RowBox[{"\[Chi]", "\[Rule]", " ", "0"}]}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.83944206108889*^9, 3.839442081945757*^9}, {
+   3.839442636065453*^9, 3.8394426476223392`*^9}, {3.839675540243853*^9, 
+   3.839675541362824*^9}, {3.839675592156721*^9, 3.839675592849333*^9}, {
+   3.8396763285541697`*^9, 3.839676331527965*^9}, {3.839676538260627*^9, 
+   3.8396765442496643`*^9}, {3.839676879433775*^9, 3.8396768798442287`*^9}, {
+   3.8396769403978043`*^9, 3.839677008286646*^9}, {3.8402780158374147`*^9, 
+   3.8402780326789427`*^9}, 3.840281754000787*^9, {3.8429780450563803`*^9, 
+   3.842978130267496*^9}, {3.8429781634383993`*^9, 3.84297816460295*^9}, {
+   3.8429783353801727`*^9, 3.8429783903943043`*^9}, {3.842978972155325*^9, 
+   3.842978990595624*^9}, {3.84297912113081*^9, 3.842979129058181*^9}, {
+   3.843486595374381*^9, 3.843486598326586*^9}, {3.8434991252320213`*^9, 
+   3.843499141543458*^9}, {3.8434997831945972`*^9, 3.84349979399969*^9}, {
+   3.843499833551223*^9, 3.843499833816787*^9}, 3.843499865846341*^9, {
+   3.843510450153964*^9, 3.8435104507055197`*^9}, {3.859983993999975*^9, 
+   3.859984028231764*^9}, {3.8630036462128277`*^9, 3.8630036918478127`*^9}, {
+   3.864936269824294*^9, 
+   3.8649363445616713`*^9}},ExpressionUUID->"7d0c98be-aac8-472f-ad9d-\
+29572c30ffd8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Cin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"KEQ", " ", "\[Phi]", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}], "+", 
+         RowBox[{"\[Alpha]", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}], 
+        ")"}]}], 
+      RowBox[{
+       RowBox[{"\[Beta]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+       RowBox[{"\[Gamma]", " ", "\[Phi]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+       RowBox[{"\[Alpha]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}]]}], 
+    ",", 
+    RowBox[{"Hin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Alpha]", " ", "\[Delta]"}], "+", 
+         RowBox[{"KEQ", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}]}], ")"}]}], 
+      RowBox[{
+       RowBox[{"\[Beta]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+       RowBox[{"\[Gamma]", " ", "\[Phi]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+       RowBox[{"\[Alpha]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}]]}]}], 
+   "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.839442083159466*^9, {3.8394426418114023`*^9, 3.839442648002965*^9}, 
+   3.839675547277569*^9, 3.839676333847993*^9, {3.8396768835966053`*^9, 
+   3.8396769010827723`*^9}, 3.839676940895607*^9, {3.839676979539001*^9, 
+   3.839677010280445*^9}, {3.840142679981942*^9, 3.840142708362534*^9}, 
+   3.840201032442644*^9, 3.840224344278563*^9, 3.840283276611493*^9, {
+   3.8429780887388906`*^9, 3.842978097741046*^9}, 3.842978130709632*^9, 
+   3.8429781649838457`*^9, 3.8429783128368187`*^9, {3.8429783655182123`*^9, 
+   3.842978391157827*^9}, 3.842978991255721*^9, 3.842979129292973*^9, 
+   3.842993761357277*^9, 3.8434864212997*^9, 3.843486598932102*^9, 
+   3.843499918094781*^9, 3.859983970241413*^9, 3.8599840287795773`*^9, 
+   3.863003692616416*^9, 3.8649362527980537`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"d21dc7a1-1108-46f4-8d47-f82ca5bd0dee"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Cin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Alpha]", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Phi]"}], ")"}]}], "+", 
+         RowBox[{"KEQ", " ", "\[Phi]", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}]}], ")"}]}], 
+      RowBox[{
+       RowBox[{"\[Beta]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", "\[Gamma]"}], ")"}], " ", "\[Phi]"}]}]]}], 
+    ",", 
+    RowBox[{"Hin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Alpha]", " ", "\[Delta]"}], "+", 
+         RowBox[{"KEQ", " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}]}], ")"}]}], 
+      RowBox[{
+       RowBox[{"\[Beta]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", "\[Gamma]"}], ")"}], " ", "\[Phi]"}]}]]}]}],
+    "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.839442083159466*^9, {3.8394426418114023`*^9, 3.839442648002965*^9}, 
+   3.839675547277569*^9, 3.839676333847993*^9, {3.8396768835966053`*^9, 
+   3.8396769010827723`*^9}, 3.839676940895607*^9, {3.839676979539001*^9, 
+   3.839677010280445*^9}, {3.840142679981942*^9, 3.840142708362534*^9}, 
+   3.840201032442644*^9, 3.840224344278563*^9, 3.840283276611493*^9, {
+   3.8429780887388906`*^9, 3.842978097741046*^9}, 3.842978130709632*^9, 
+   3.8429781649838457`*^9, 3.8429783128368187`*^9, {3.8429783655182123`*^9, 
+   3.842978391157827*^9}, 3.842978991255721*^9, 3.842979129292973*^9, 
+   3.842993761357277*^9, 3.8434864212997*^9, 3.843486598932102*^9, 
+   3.843499918094781*^9, 3.859983970241413*^9, 3.8599840287795773`*^9, 
+   3.863003692616416*^9, 3.8649362528460817`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"70546f70-de55-40cc-ac26-9378ee1c593f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Cin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", "\[Alpha]"}], 
+      RowBox[{"\[Alpha]", "+", "\[Gamma]"}]]}], ",", 
+    RowBox[{"Hin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", "KEQ", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}], "\[Beta]"]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.839442083159466*^9, {3.8394426418114023`*^9, 3.839442648002965*^9}, 
+   3.839675547277569*^9, 3.839676333847993*^9, {3.8396768835966053`*^9, 
+   3.8396769010827723`*^9}, 3.839676940895607*^9, {3.839676979539001*^9, 
+   3.839677010280445*^9}, {3.840142679981942*^9, 3.840142708362534*^9}, 
+   3.840201032442644*^9, 3.840224344278563*^9, 3.840283276611493*^9, {
+   3.8429780887388906`*^9, 3.842978097741046*^9}, 3.842978130709632*^9, 
+   3.8429781649838457`*^9, 3.8429783128368187`*^9, {3.8429783655182123`*^9, 
+   3.842978391157827*^9}, 3.842978991255721*^9, 3.842979129292973*^9, 
+   3.842993761357277*^9, 3.8434864212997*^9, 3.843486598932102*^9, 
+   3.843499918094781*^9, 3.859983970241413*^9, 3.8599840287795773`*^9, 
+   3.863003692616416*^9, 3.86493625285601*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"a03890c5-7937-4dab-a5ea-405d15f56c45"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Cin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", "\[Alpha]"}], 
+      RowBox[{"\[Alpha]", "+", "\[Gamma]"}]]}], ",", 
+    RowBox[{"Hin", "\[Rule]", 
+     FractionBox[
+      RowBox[{"Cout", " ", "KEQ", " ", "\[Beta]"}], 
+      RowBox[{"\[Beta]", "+", "\[Omega]"}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.839442083159466*^9, {3.8394426418114023`*^9, 3.839442648002965*^9}, 
+   3.839675547277569*^9, 3.839676333847993*^9, {3.8396768835966053`*^9, 
+   3.8396769010827723`*^9}, 3.839676940895607*^9, {3.839676979539001*^9, 
+   3.839677010280445*^9}, {3.840142679981942*^9, 3.840142708362534*^9}, 
+   3.840201032442644*^9, 3.840224344278563*^9, 3.840283276611493*^9, {
+   3.8429780887388906`*^9, 3.842978097741046*^9}, 3.842978130709632*^9, 
+   3.8429781649838457`*^9, 3.8429783128368187`*^9, {3.8429783655182123`*^9, 
+   3.842978391157827*^9}, 3.842978991255721*^9, 3.842979129292973*^9, 
+   3.842993761357277*^9, 3.8434864212997*^9, 3.843486598932102*^9, 
+   3.843499918094781*^9, 3.859983970241413*^9, 3.8599840287795773`*^9, 
+   3.863003692616416*^9, 3.864936252857998*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"f04c4105-a4c2-4ea1-8c79-ccf47709abab"]
+}, Open  ]],
+
+Cell["\<\
+Examine the rates of rubisco and bicarboxylation, since these are \
+growth-limiting. The basic framework of our model is that we consider growth \
+to be co-limited by these two processes, such that the rate of biomass \
+production is a weighted minimum of the two, as articulated below.\
+\>", "Text",
+ CellChangeTimes->{{3.839676909043578*^9, 3.839676928080222*^9}, {
+  3.839677019770702*^9, 3.8396770356096478`*^9}, {3.840142449186328*^9, 
+  3.840142465750533*^9}, {3.8401427225555067`*^9, 3.840142761618977*^9}, {
+  3.840224365080579*^9, 3.840224366582986*^9}, {3.840271757385446*^9, 
+  3.8402718014250174`*^9}, {3.864936370880187*^9, 
+  3.864936384688952*^9}},ExpressionUUID->"8e5aba96-d9f9-4bd1-8a7e-\
+23675203d95f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"CinSS", " ", "=", " ", 
+   RowBox[{"Cin", "/.", "fullSoln1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"HinSS", " ", "=", " ", 
+   RowBox[{"Hin", "/.", "fullSoln1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"rubRate", " ", "=", " ", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"\[Gamma]", "*", "CinSS"}], ",", " ", "assump"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"hcarbRate", " ", "=", " ", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"\[Omega]", "*", "HinSS"}], ",", " ", "assump"}], 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{
+  3.839676887829872*^9, {3.839677015208449*^9, 3.839677093745006*^9}, {
+   3.839677138044409*^9, 3.839677152360888*^9}, {3.839677187673657*^9, 
+   3.8396773111037407`*^9}, {3.83967747895933*^9, 3.839677481911559*^9}, {
+   3.839677694194853*^9, 3.839677696607993*^9}, {3.8401423848970947`*^9, 
+   3.840142412739909*^9}, {3.84014257856493*^9, 3.8401426523457727`*^9}, {
+   3.840186334153554*^9, 3.840186368765594*^9}, {3.8401875300718317`*^9, 
+   3.8401876058688927`*^9}, {3.8401884557349977`*^9, 3.840188475756549*^9}, {
+   3.840224275014241*^9, 3.8402242763161783`*^9}, {3.84048234917774*^9, 
+   3.8404823759868813`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"1b22365b-1fe3-4758-9bc4-2ad6af7692ab"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  FractionBox[
+   RowBox[{"Cout", " ", "\[Gamma]", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"KEQ", " ", "\[Phi]", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}], "+", 
+      RowBox[{"\[Alpha]", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}], 
+     ")"}]}], 
+   RowBox[{
+    RowBox[{"\[Beta]", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+    RowBox[{"\[Gamma]", " ", "\[Phi]"}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+    RowBox[{"\[Alpha]", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}]], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.8396769294996157`*^9, {3.839677064805768*^9, 3.8396770940349493`*^9}, 
+   3.839677141073689*^9, {3.8396771926343393`*^9, 3.839677277464806*^9}, 
+   3.8396773115761538`*^9, 3.839677485001049*^9, {3.839677697169222*^9, 
+   3.839677718487195*^9}, {3.840142403868626*^9, 3.840142413901391*^9}, 
+   3.840142655851081*^9, 3.840142772476061*^9, {3.840186338399639*^9, 
+   3.840186364640882*^9}, {3.8401875832401533`*^9, 3.840187606169752*^9}, {
+   3.840188467093843*^9, 3.840188476534246*^9}, 3.840201035273801*^9, 
+   3.8402243584760323`*^9, 3.8402244439955463`*^9, 3.840283280768619*^9, 
+   3.840482378489957*^9, 3.842993766453476*^9, 3.864936387161911*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"cf6acaa5-4611-45ff-9b04-31e1926cc053"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  FractionBox[
+   RowBox[{"Cout", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"\[Alpha]", " ", "\[Delta]"}], "+", 
+      RowBox[{"KEQ", " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}]}], ")"}], " ", 
+    "\[Omega]"}], 
+   RowBox[{
+    RowBox[{"\[Beta]", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+    RowBox[{"\[Gamma]", " ", "\[Phi]"}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+    RowBox[{"\[Alpha]", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Beta]", "+", "\[Phi]", "+", "\[Omega]"}], ")"}]}]}]], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.8396769294996157`*^9, {3.839677064805768*^9, 3.8396770940349493`*^9}, 
+   3.839677141073689*^9, {3.8396771926343393`*^9, 3.839677277464806*^9}, 
+   3.8396773115761538`*^9, 3.839677485001049*^9, {3.839677697169222*^9, 
+   3.839677718487195*^9}, {3.840142403868626*^9, 3.840142413901391*^9}, 
+   3.840142655851081*^9, 3.840142772476061*^9, {3.840186338399639*^9, 
+   3.840186364640882*^9}, {3.8401875832401533`*^9, 3.840187606169752*^9}, {
+   3.840188467093843*^9, 3.840188476534246*^9}, 3.840201035273801*^9, 
+   3.8402243584760323`*^9, 3.8402244439955463`*^9, 3.840283280768619*^9, 
+   3.840482378489957*^9, 3.842993766453476*^9, 3.8649363872116823`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"0564d786-1d43-40e2-9b5f-2678de5b38e4"]
+}, Open  ]],
+
+Cell["\<\
+Now we will take a look at the steady-state solutions above by plugging in \
+values for various parameters and making a manipulable plot. 
+
+See inline comments for justification of individual values. \
+\>", "Text",
+ CellChangeTimes->{{3.840224467440115*^9, 3.840224521793503*^9}, {
+  3.840277801191943*^9, 3.8402778231251287`*^9}, {3.8649363918722143`*^9, 
+  3.864936393249064*^9}},ExpressionUUID->"f0926ba7-19e6-4d52-bb29-\
+4ea902922a8d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+     "pH", " ", "and", " ", "pKa", " ", "required", " ", "for", " ", 
+      "calculating", " ", "Ci", " ", "pool", " ", "equilibria"}], " ", "-", 
+     " ", 
+     RowBox[{
+     "For", " ", "simplicity", " ", "assume", " ", "a", " ", "pH", " ", "1", 
+      " ", "point", " ", "above", " ", "the", " ", "pKa", " ", "so", " ", 
+      "Keq"}]}], " ", "=", " ", "10."}], " ", "*)"}], " ", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"pHout", "=", "7.1"}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"pKaEff", "=", "6.1"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Simplifying", " ", 
+       RowBox[{"assumption", ":", " ", "pHin"}]}], " ", "=", " ", "pHout"}], 
+     ";", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+       "otherwise", " ", "H", " ", "permeability", " ", "is", " ", "more", 
+        " ", 
+        RowBox[{"complex", ".", " ", "See"}], " ", "Mangan"}], " ", "&"}], 
+      " ", "Flamholz", " ", "PNAS", " ", "2016"}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"pHin", " ", "=", " ", "pHout"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Calculate", " ", 
+      RowBox[{"H", "/", "C"}], " ", "equilibrium", " ", "constant", " ", 
+      "from", " ", "pH", " ", "with", " ", "Henderson"}], "-", 
+     RowBox[{"Hasselbach", " ", "relation"}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"fKeq", "[", 
+     RowBox[{"pH_", ",", " ", "pKa_"}], "]"}], " ", ":=", " ", 
+    RowBox[{"Power", "[", 
+     RowBox[{"10", ",", " ", 
+      RowBox[{"pH", "-", "pKa"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"KeqOut", " ", "=", " ", 
+     RowBox[{"fKeq", "[", 
+      RowBox[{"pHout", ",", " ", "pKaEff"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"KeqIn", " ", "=", " ", 
+     RowBox[{"fKeq", "[", 
+      RowBox[{"pHin", ",", " ", "pKaEff"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"External", " ", "concentrations", " ", "in", " ", "uM"}], " ", 
+      "\[TildeTilde]", " ", 
+      RowBox[{
+       RowBox[{"Henry", "'"}], "s", " ", "law", " ", "at", " ", "25", " ", 
+       "C"}]}], ",", " ", 
+     RowBox[{"see", " ", "Cell", " ", "Biology", " ", "by", " ", "the", " ", 
+      RowBox[{"Numbers", "."}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"CoutVal", "=", "15"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+     "Calculate", " ", "external", " ", "H", " ", "conc", " ", "from", " ", 
+      "pH"}], "-", 
+     RowBox[{"dependent", " ", "equilibrium", " ", 
+      RowBox[{"const", "."}]}]}], " ", "*)"}], " ", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"HoutVal", "=", 
+     RowBox[{"KeqOut", "*", "CoutVal"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Need", " ", 
+     RowBox[{"SA", "/", "V"}], " ", "ratio", " ", "for", " ", 
+     RowBox[{"cells", ".", " ", "Values"}], " ", "for", " ", 
+     RowBox[{"E", ".", " ", "coli"}], " ", "from", " ", 
+     RowBox[{"Bionumbers", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"SA", "=", "6"}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"BNID", " ", "101792"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"V", "=", "1.5"}], ";"}], " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"BNID", " ", "114924"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"SAVratio", " ", "=", " ", 
+     RowBox[{"SA", "/", "V"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Permeability", " ", "coefficients", " ", "in", " ", 
+      RowBox[{"um", "/", "s"}]}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"see", " ", "Mangan"}], " ", "&"}], " ", "Flamholz", " ", 
+      "PNAS", " ", "2016."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Cperm", "=", "3*^3"}], " ", ";"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"As", " ", "discussed", " ", "Mangan"}], " ", "&"}], " ", 
+      "Flamholz", " ", "2016"}], ",", " ", 
+     RowBox[{
+     "H", " ", "permeability", " ", "depends", " ", "on", " ", "pH"}]}], " ", 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Hperm", "=", 
+    RowBox[{"30", "*", 
+     RowBox[{"Power", "[", 
+      RowBox[{"10", ",", 
+       RowBox[{"3.2", "-", "7.1"}]}], "]"}]}]}], "\n", "\[IndentingNewLine]", 
+   
+   RowBox[{"vals", " ", "=", " ", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{"(*", " ", 
+      RowBox[{
+       RowBox[{
+       "Linearized", " ", "CA", " ", "kinetics", " ", "require", " ", 
+        RowBox[{"\[Phi]", "/", "\[Delta]"}]}], " ", "=", " ", 
+       RowBox[{"Keq", " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"Haldane", " ", "relation"}], ")"}], ".", " ", 
+         "Enforcing"}], " ", "this", " ", "drops", " ", "one", " ", 
+        RowBox[{"variable", "."}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"\[Phi]", "\[Rule]", " ", 
+       RowBox[{"\[Delta]", "/", "KeqIn"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "Set", " ", "numerical", " ", "values", " ", "for", " ", "external", 
+        " ", "Ci", " ", "concentrations", " ", "from", " ", "equilibrium", 
+        " ", "calcs"}], " ", "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"Cout", "\[Rule]", " ", "CoutVal"}], ",", " ", 
+      RowBox[{"Hout", "\[Rule]", " ", "HoutVal"}], ",", 
+      RowBox[{"KEQ", "\[Rule]", " ", "KeqOut"}]}], "}"}]}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Make", " ", "the", " ", "rates", " ", "into", " ", "functions", " ", 
+     "for", " ", "plotting", " ", "below"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Permeabilities", " ", "include", " ", 
+     RowBox[{"SA", "/", "V"}], " ", "ratio"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"defaultAlpha", " ", "=", 
+    RowBox[{"Cperm", "*", "SAVratio"}]}], "\[IndentingNewLine]", 
+   RowBox[{"defaultBeta", " ", "=", " ", 
+    RowBox[{"Hperm", "*", "SAVratio"}]}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"CinSSVals", " ", "=", " ", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"CinSS", " ", "/.", " ", "vals"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"HinSSVals", " ", "=", " ", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"HinSS", " ", "/.", " ", "vals"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"rubRateVals", " ", "=", " ", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"rubRate", " ", "/.", " ", "vals"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"hcarbRateVals", " ", "=", " ", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{"hcarbRate", " ", "/.", "vals"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"rubRateFunction", "[", 
+      RowBox[{
+      "\[Gamma]_", ",", "\[Delta]_", ",", "\[Chi]_", ",", "\[Alpha]_", ",", 
+       " ", "\[Beta]_", ",", "\[Omega]_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"Evaluate", "[", "rubRateVals", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"hcarbRateFunction", "[", 
+      RowBox[{
+      "\[Gamma]_", ",", "\[Delta]_", ",", "\[Chi]_", ",", "\[Alpha]_", ",", 
+       " ", "\[Beta]_", ",", "\[Omega]_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"Evaluate", "[", "hcarbRateVals", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"CinSSFunction", "[", 
+      RowBox[{
+      "\[Gamma]_", ",", "\[Delta]_", ",", "\[Chi]_", ",", "\[Alpha]_", ",", 
+       " ", "\[Beta]_", ",", "\[Omega]_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"Evaluate", "[", "CinSSVals", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"HinSSFunction", "[", 
+      RowBox[{
+      "\[Gamma]_", ",", "\[Delta]_", ",", "\[Chi]_", ",", "\[Alpha]_", ",", 
+       " ", "\[Beta]_", ",", "\[Omega]_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"Evaluate", "[", "HinSSVals", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"biomassRate", "=", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{
+      RowBox[{"Min", "[", 
+       RowBox[{"rubRate", ",", 
+        RowBox[{"100", "*", "hcarbRate"}]}], "]"}], "/.", "vals"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"biomassRateFunction", "[", 
+      RowBox[{
+      "\[Gamma]_", ",", "\[Delta]_", ",", "\[Chi]_", ",", "\[Alpha]_", ",", 
+       " ", "\[Beta]_", ",", "\[Omega]_"}], "]"}], " ", ":=", " ", 
+     RowBox[{"Evaluate", "[", "biomassRate", "]"}]}], ";"}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.840186031057377*^9, 3.840186167350923*^9}, {
+   3.8401862221643677`*^9, 3.8401862436383953`*^9}, {3.840186275353642*^9, 
+   3.8401863146878033`*^9}, {3.840186372661889*^9, 3.840186385162264*^9}, {
+   3.840186482241084*^9, 3.8401867128932447`*^9}, {3.840186920441337*^9, 
+   3.840186964696539*^9}, {3.840187010777721*^9, 3.840187043980467*^9}, {
+   3.840187102788072*^9, 3.8401871160651913`*^9}, {3.840187153608554*^9, 
+   3.840187207548913*^9}, {3.840187277140305*^9, 3.840187425059412*^9}, {
+   3.8401874727219677`*^9, 3.840187477966989*^9}, {3.8401875912064257`*^9, 
+   3.840187817952467*^9}, {3.84018785914454*^9, 3.840187929576202*^9}, {
+   3.840187963344664*^9, 3.840187969333075*^9}, {3.840188007792647*^9, 
+   3.840188098654821*^9}, {3.840188318628735*^9, 3.84018839185128*^9}, {
+   3.840188491754987*^9, 3.840188549910493*^9}, {3.840188626297895*^9, 
+   3.8401886503115187`*^9}, {3.840200941360374*^9, 3.8402009930439987`*^9}, {
+   3.840201178757925*^9, 3.840201186717621*^9}, {3.8402012399064198`*^9, 
+   3.840201264676668*^9}, {3.840201311170712*^9, 3.840201404897521*^9}, {
+   3.840201437049542*^9, 3.840201468575706*^9}, {3.840201600661478*^9, 
+   3.840201681508814*^9}, {3.840201757394547*^9, 3.840201758896936*^9}, {
+   3.84020183912774*^9, 3.840201843080866*^9}, {3.840201883229248*^9, 
+   3.840201944634285*^9}, {3.840202183910483*^9, 3.840202192539857*^9}, {
+   3.840202321325762*^9, 3.840202346429582*^9}, {3.840202653843582*^9, 
+   3.840202691277598*^9}, {3.8402027654298563`*^9, 3.840202765931756*^9}, {
+   3.84020322846073*^9, 3.840203265980006*^9}, {3.8402033904645557`*^9, 
+   3.840203430134782*^9}, {3.840223670057534*^9, 3.840223787260651*^9}, {
+   3.840224157385741*^9, 3.840224169891786*^9}, {3.8402766882751303`*^9, 
+   3.8402767374490128`*^9}, {3.840276914239023*^9, 3.840276930200201*^9}, {
+   3.840277515103657*^9, 3.8402777922993813`*^9}, {3.840277897411192*^9, 
+   3.8402779661067944`*^9}, {3.8402818855461206`*^9, 
+   3.8402818932467937`*^9}, {3.840282184968381*^9, 3.84028229336198*^9}, {
+   3.840282361554051*^9, 3.840282410613563*^9}, {3.840288754858533*^9, 
+   3.840288762114294*^9}, {3.8402887952649107`*^9, 3.840288810092066*^9}, {
+   3.8402892571062593`*^9, 3.8402893285778513`*^9}, {3.8404819498436613`*^9, 
+   3.8404819963248043`*^9}, {3.840482268984548*^9, 3.8404822778302593`*^9}, {
+   3.840482410730935*^9, 3.840482456326765*^9}, 3.842993736814271*^9, 
+   3.842993797196292*^9, 3.843046154754552*^9},
+ CellLabel->"In[13]:=",ExpressionUUID->"516a6666-a514-443e-a4b8-3203814f1edf"],
+
+Cell[BoxData["0.0037767762353825064`"], "Output",
+ CellChangeTimes->{
+  3.840223789004012*^9, 3.8402244183802853`*^9, 3.840276652323732*^9, {
+   3.8402767308282137`*^9, 3.840276738312161*^9}, 3.840276931473583*^9, 
+   3.840281775268203*^9, 3.840281916024354*^9, {3.840282273540082*^9, 
+   3.840282294575914*^9}, {3.840282383277557*^9, 3.840282412006427*^9}, {
+   3.8402832666640863`*^9, 3.840283282601267*^9}, {3.8402887556311207`*^9, 
+   3.8402887624191113`*^9}, 3.840288811748231*^9, 3.840289328897122*^9, 
+   3.8404819662225657`*^9, 3.840481998673025*^9, {3.840482270575733*^9, 
+   3.840482278188106*^9}, {3.840482448594881*^9, 3.840482456689246*^9}, {
+   3.8429937419485188`*^9, 3.8429937685605993`*^9}, 3.84299379857547*^9, 
+   3.843046156078533*^9, 3.864936396204811*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"a145ae4b-185f-44b6-bf87-ac5b23f475b0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[Phi]", "\[Rule]", 
+    RowBox[{"0.1`", " ", "\[Delta]"}]}], ",", 
+   RowBox[{"Cout", "\[Rule]", "15"}], ",", 
+   RowBox[{"Hout", "\[Rule]", "150.`"}], ",", 
+   RowBox[{"KEQ", "\[Rule]", "10.`"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.840223789004012*^9, 3.8402244183802853`*^9, 3.840276652323732*^9, {
+   3.8402767308282137`*^9, 3.840276738312161*^9}, 3.840276931473583*^9, 
+   3.840281775268203*^9, 3.840281916024354*^9, {3.840282273540082*^9, 
+   3.840282294575914*^9}, {3.840282383277557*^9, 3.840282412006427*^9}, {
+   3.8402832666640863`*^9, 3.840283282601267*^9}, {3.8402887556311207`*^9, 
+   3.8402887624191113`*^9}, 3.840288811748231*^9, 3.840289328897122*^9, 
+   3.8404819662225657`*^9, 3.840481998673025*^9, {3.840482270575733*^9, 
+   3.840482278188106*^9}, {3.840482448594881*^9, 3.840482456689246*^9}, {
+   3.8429937419485188`*^9, 3.8429937685605993`*^9}, 3.84299379857547*^9, 
+   3.843046156078533*^9, 3.864936396206835*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"8f555626-646f-4b3f-980d-ba7335c4a0e8"],
+
+Cell[BoxData["12000.`"], "Output",
+ CellChangeTimes->{
+  3.840223789004012*^9, 3.8402244183802853`*^9, 3.840276652323732*^9, {
+   3.8402767308282137`*^9, 3.840276738312161*^9}, 3.840276931473583*^9, 
+   3.840281775268203*^9, 3.840281916024354*^9, {3.840282273540082*^9, 
+   3.840282294575914*^9}, {3.840282383277557*^9, 3.840282412006427*^9}, {
+   3.8402832666640863`*^9, 3.840283282601267*^9}, {3.8402887556311207`*^9, 
+   3.8402887624191113`*^9}, 3.840288811748231*^9, 3.840289328897122*^9, 
+   3.8404819662225657`*^9, 3.840481998673025*^9, {3.840482270575733*^9, 
+   3.840482278188106*^9}, {3.840482448594881*^9, 3.840482456689246*^9}, {
+   3.8429937419485188`*^9, 3.8429937685605993`*^9}, 3.84299379857547*^9, 
+   3.843046156078533*^9, 3.864936396208829*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"7d768250-17fe-4026-9426-486541241fb8"],
+
+Cell[BoxData["0.015107104941530025`"], "Output",
+ CellChangeTimes->{
+  3.840223789004012*^9, 3.8402244183802853`*^9, 3.840276652323732*^9, {
+   3.8402767308282137`*^9, 3.840276738312161*^9}, 3.840276931473583*^9, 
+   3.840281775268203*^9, 3.840281916024354*^9, {3.840282273540082*^9, 
+   3.840282294575914*^9}, {3.840282383277557*^9, 3.840282412006427*^9}, {
+   3.8402832666640863`*^9, 3.840283282601267*^9}, {3.8402887556311207`*^9, 
+   3.8402887624191113`*^9}, 3.840288811748231*^9, 3.840289328897122*^9, 
+   3.8404819662225657`*^9, 3.840481998673025*^9, {3.840482270575733*^9, 
+   3.840482278188106*^9}, {3.840482448594881*^9, 3.840482456689246*^9}, {
+   3.8429937419485188`*^9, 3.8429937685605993`*^9}, 3.84299379857547*^9, 
+   3.843046156078533*^9, 3.864936396210924*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"7042cb76-ad68-4489-8dd2-605eb6d79b5a"],
+
+Cell[BoxData[
+ RowBox[{"Min", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"1500", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"\[Alpha]", " ", "\[Delta]"}], "+", 
+       RowBox[{"10.`", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", "+", "\[Gamma]", "+", "\[Delta]"}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}]}], ")"}], " ", 
+     "\[Omega]"}], 
+    RowBox[{
+     RowBox[{"0.1`", " ", "\[Gamma]", " ", "\[Delta]"}], "+", 
+     RowBox[{"\[Beta]", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+     RowBox[{"\[Alpha]", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Beta]", "+", 
+        RowBox[{"0.1`", " ", "\[Delta]"}], "+", "\[Omega]"}], ")"}]}]}]], ",", 
+   FractionBox[
+    RowBox[{"15", " ", "\[Gamma]", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"1.`", " ", "\[Delta]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Beta]", "+", "\[Chi]"}], ")"}]}], "+", 
+       RowBox[{"\[Alpha]", " ", 
+        RowBox[{"(", 
+         RowBox[{"\[Beta]", "+", 
+          RowBox[{"0.1`", " ", "\[Delta]"}], "+", "\[Omega]"}], ")"}]}]}], 
+      ")"}]}], 
+    RowBox[{
+     RowBox[{"0.1`", " ", "\[Gamma]", " ", "\[Delta]"}], "+", 
+     RowBox[{"\[Beta]", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Gamma]", "+", "\[Delta]"}], ")"}], " ", "\[Omega]"}], "+", 
+     RowBox[{"\[Alpha]", " ", 
+      RowBox[{"(", 
+       RowBox[{"\[Beta]", "+", 
+        RowBox[{"0.1`", " ", "\[Delta]"}], "+", "\[Omega]"}], ")"}]}]}]]}], 
+  "]"}]], "Output",
+ CellChangeTimes->{
+  3.840223789004012*^9, 3.8402244183802853`*^9, 3.840276652323732*^9, {
+   3.8402767308282137`*^9, 3.840276738312161*^9}, 3.840276931473583*^9, 
+   3.840281775268203*^9, 3.840281916024354*^9, {3.840282273540082*^9, 
+   3.840282294575914*^9}, {3.840282383277557*^9, 3.840282412006427*^9}, {
+   3.8402832666640863`*^9, 3.840283282601267*^9}, {3.8402887556311207`*^9, 
+   3.8402887624191113`*^9}, 3.840288811748231*^9, 3.840289328897122*^9, 
+   3.8404819662225657`*^9, 3.840481998673025*^9, {3.840482270575733*^9, 
+   3.840482278188106*^9}, {3.840482448594881*^9, 3.840482456689246*^9}, {
+   3.8429937419485188`*^9, 3.8429937685605993`*^9}, 3.84299379857547*^9, 
+   3.843046156078533*^9, 3.86493639657579*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"872e6684-c54a-4d6b-af26-f4051aab988f"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Now we will make a manipulable plot of the important fluxes. To set a range \
+for \[Gamma] , we note that \[Gamma] \[TildeTilde] [rubisco] x ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "cat"], TraditionalForm]],ExpressionUUID->
+  "b32145f8-e8ff-46d8-86c4-fd133918c56f"],
+ "/ ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "M"], TraditionalForm]],ExpressionUUID->
+  "59b80751-098f-4fda-8118-d314e0d4bf5e"],
+ " given the assumption that we are in rubisco\[CloseCurlyQuote]s linear \
+regime. Following the data presented in Flamholz et al. Biochemistry 2019, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "cat"], TraditionalForm]],ExpressionUUID->
+  "0a15b9ef-d2d0-45b3-a292-c4fb9841b177"],
+ "/ ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "M"], TraditionalForm]],ExpressionUUID->
+  "4c41c7ce-795b-4bb5-984e-8c2111ad7801"],
+ " \[TildeTilde] 0.01-1 ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "13059903-820e-4b88-90c2-b841263426b2"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Mu]M", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "c68db1da-b957-478b-a846-09f677886557"],
+ " and [rubisco] \[TildeTilde] 0.1-100 micromolar (e.g. see Cell Biology by \
+the Numbers chapter on concentrations of proteins). We will extend the \
+concentration range to 1 mM to reflect the fact that rubisco  typically has \
+an exceptionally high expression level. Therefore \[Gamma] should range from ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "3"}]], TraditionalForm]],ExpressionUUID->
+  "eaa8eb1e-1245-48c4-ae2c-4685d50bb998"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "4613cb12-aea9-49c6-866a-73a9ebd2b19f"],
+ " to 1000 ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "a6e724e8-6e6f-423e-9f5e-4522f9b14372"],
+ ". \n\nTo set a range from \[Delta] \[TildeTilde] [CA] x ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "cat"], TraditionalForm]],ExpressionUUID->
+  "967eff6c-30eb-46eb-a249-d8431afadb26"],
+ "/ ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "M"], TraditionalForm]],ExpressionUUID->
+  "7f775ed0-76ad-463a-b6f8-3a378cbd40cd"],
+ " we consider that a typical CA has ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", "cat"], TraditionalForm]],ExpressionUUID->
+  "ce811554-a9a5-4508-8e4b-0d85e52bdacd"],
+ "/ ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "M"], TraditionalForm]],ExpressionUUID->
+  "78726cb3-a9cc-4af1-94a0-869225164826"],
+ "\[TildeTilde] 1-100 ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "e4641e6c-cb0d-4922-9ecd-4cf484bbf49b"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Mu]M", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "c6b5c5b1-2d7b-4cb8-bbda-5efaa6a3e90d"],
+ "(see Davidi et al. Chemical Reviews 2018). Assuming a similar concentration \
+range as rubisco, \[Delta] should range between ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", 
+     RowBox[{"-", "2"}]], " "}], TraditionalForm]],ExpressionUUID->
+  "c3517de2-98dc-4caf-9354-ec83300b8d7b"],
+ "and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "3"], TraditionalForm]],ExpressionUUID->
+  "2274ff34-fd01-4bb2-a5e1-41e8044387e6"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "fff012c4-d0d0-48ad-8358-abf375d9378e"],
+ ".  We also want to consider a regime where there is no CA and only \
+spontaneous interconversion between ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "53bf22c9-71cf-4734-b12f-651590234061"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["HCO", "3"], "-"], TraditionalForm]],ExpressionUUID->
+  "27c1c5ec-b278-4156-bdb7-e480030fe699"],
+ ". The lowest value of \[Delta]  we consider (",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "2"}]], TraditionalForm]],ExpressionUUID->
+  "3361bced-cdba-4d0c-a733-8113363c98e9"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["s", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "4710bb05-bea0-4544-9172-c61820b5f2d3"],
+ ") is roughly equal to the rate constant for spontaneous ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CO", "2"], TraditionalForm]],ExpressionUUID->
+  "b3f68d46-e52c-4b38-8a92-807670646b72"],
+ " hydration at pH 7, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox[
+    RowBox[{"k", "'"}], "h"], TraditionalForm]],ExpressionUUID->
+  "5360cb6c-d0a3-4f26-90b0-6dd96b71664e"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", 
+    RowBox[{"+", "1"}]], TraditionalForm]],ExpressionUUID->
+  "184e65fe-bb7d-4287-b3d1-8343a415f2db"],
+ "+ ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["k", 
+    RowBox[{"+", "4"}]], TraditionalForm]],ExpressionUUID->
+  "a5b6a523-639e-4ba4-85b1-41c635aff1e8"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"pH", "-", "14"}]], TraditionalForm]],ExpressionUUID->
+  "a70b5098-1f5f-4c14-a856-5040c4ee56b5"],
+ "\[TildeTilde] 0.04. This can be seen in Figure S5 of Mangan & Flamholz PNAS \
+2016, with detailed description of the spontaneous hydration/dehydration \
+kinetics in the supplement of that same paper."
+}], "Text",
+ CellChangeTimes->{{3.840281946146287*^9, 3.8402821203424673`*^9}, {
+  3.840282547901821*^9, 3.840282808220297*^9}, {3.840282986020101*^9, 
+  3.8402830518238153`*^9}, {3.840283084634488*^9, 3.840283133247164*^9}, {
+  3.840283175269631*^9, 3.840283189213731*^9}, {3.8402834774054623`*^9, 
+  3.840283562335235*^9}, {3.840285453218872*^9, 3.840285454351397*^9}, {
+  3.840285633222781*^9, 3.840285735750107*^9}, {3.840285799822852*^9, 
+  3.84028601406924*^9}, {3.840286369994185*^9, 3.840286390369603*^9}, {
+  3.84028648923958*^9, 3.840286586944126*^9}, {3.840286676202073*^9, 
+  3.84028676006214*^9}, {3.840286797627136*^9, 3.840286884830364*^9}, {
+  3.840286957159773*^9, 3.8402869762222147`*^9}, {3.840542622016591*^9, 
+  3.840542693982378*^9}, {3.840542738370207*^9, 3.8405427642888603`*^9}, {
+  3.864936437342086*^9, 
+  3.8649365127257757`*^9}},ExpressionUUID->"0ed7a136-1433-478a-86ee-\
+3aee4862c187"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"rubMax", " ", "=", " ", "2005"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Column", "[", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Plot3D", "[", 
+       RowBox[{
+        RowBox[{"rubRateFunction", "[", 
+         RowBox[{
+         "\[Gamma]", ",", "\[Delta]", ",", "\[Chi]", ",", "\[Alpha]", ",", 
+          "\[Beta]", ",", "\[Omega]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"\[Gamma]", ",", "0.001", ",", "1000"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"\[Delta]", ",", "0.01", ",", "1000"}], "}"}], ",", 
+        RowBox[{"AxesLabel", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<rubisco \[Gamma]\>\"", ",", "\"\<CA hydration \[Delta]\>\"", 
+           ",", "\"\<rubisco rate\>\""}], "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"ScalingFunctions", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"\"\<Log\>\"", ",", "\"\<Log\>\"", ",", "Identity"}], 
+          "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"PlotRange", "\[Rule]", " ", 
+         RowBox[{"{", 
+          RowBox[{"Full", ",", "Full", ",", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "rubMax"}], "}"}]}], "}"}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Plot3D", "[", 
+       RowBox[{
+        RowBox[{"hcarbRateFunction", "[", 
+         RowBox[{
+         "\[Gamma]", ",", "\[Delta]", ",", "\[Chi]", ",", "\[Alpha]", ",", 
+          "\[Beta]", ",", "\[Omega]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"\[Gamma]", ",", "0.001", ",", "1000"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"\[Delta]", ",", "0.01", ",", "1000"}], "}"}], ",", 
+        RowBox[{"AxesLabel", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<rubisco \[Gamma]\>\"", ",", "\"\<CA hydration \[Delta]\>\"", 
+           ",", "\"\<hcarb rate\>\""}], "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"ScalingFunctions", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"\"\<Log\>\"", ",", "\"\<Log\>\"", ",", "Identity"}], 
+          "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"PlotRange", "\[Rule]", " ", 
+         RowBox[{"{", 
+          RowBox[{"Full", ",", "Full", ",", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", 
+             RowBox[{"rubMax", "/", "50"}]}], "}"}]}], "}"}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Plot3D", "[", 
+       RowBox[{
+        RowBox[{"biomassRateFunction", "[", 
+         RowBox[{
+         "\[Gamma]", ",", "\[Delta]", ",", "\[Chi]", ",", "\[Alpha]", ",", 
+          "\[Beta]", ",", "\[Omega]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"\[Gamma]", ",", "0.001", ",", "1000"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"\[Delta]", ",", "0.01", ",", "1000"}], "}"}], ",", 
+        RowBox[{"AxesLabel", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<rubisco \[Gamma]\>\"", ",", "\"\<CA hydration \[Delta]\>\"", 
+           ",", "\"\<biomass production\>\""}], "}"}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"ScalingFunctions", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"\"\<Log\>\"", ",", "\"\<Log\>\"", ",", "Identity"}], 
+          "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"PlotRange", "\[Rule]", " ", 
+         RowBox[{"{", 
+          RowBox[{"Full", ",", "Full", ",", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "rubMax"}], "}"}]}], "}"}]}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]}], "}"}], 
+    "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Alpha]", ",", "defaultAlpha", ",", 
+       "\"\<C permeability \[Alpha]\>\""}], "}"}], ",", "0", ",", 
+     RowBox[{"defaultAlpha", "*", "10"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Beta]", ",", "defaultBeta", ",", "\"\<H permeability \[Beta]\>\""}], 
+      "}"}], ",", "0", ",", 
+     RowBox[{"defaultBeta", "*", "10"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Chi]", ",", "0", ",", "\"\<H uptake \[Chi]\>\""}], "}"}], 
+     ",", "0", ",", "1"}], "}"}], ",", " ", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Omega]", ",", " ", "0.1", ",", "\"\<H carboxylation \[Omega]\>\""}], 
+      "}"}], ",", " ", "0", ",", "1"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.84027665779296*^9, 3.840276676566257*^9}, {
+   3.840276753143819*^9, 3.840276801193634*^9}, {3.8402768514399233`*^9, 
+   3.8402769006924553`*^9}, {3.840277069231988*^9, 3.84027708865844*^9}, {
+   3.840277155374152*^9, 3.840277155439053*^9}, {3.840277339051675*^9, 
+   3.8402773496461973`*^9}, {3.840282434614614*^9, 3.8402825035846233`*^9}, {
+   3.84028319713301*^9, 3.84028333838146*^9}, {3.8402834090586367`*^9, 
+   3.840283462479578*^9}, {3.840286898386904*^9, 3.840286901391169*^9}, {
+   3.8402870380061502`*^9, 3.8402870381837873`*^9}, 3.840481972548774*^9, {
+   3.840482006228383*^9, 3.840482062436324*^9}, {3.8405426250184393`*^9, 
+   3.8405426309129677`*^9}, 3.84054269580748*^9, {3.840542776571014*^9, 
+   3.840542786020578*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"093ad36b-bfb6-4143-b86c-ae28eeaa9614"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Alpha]$$ = 
+    12000., $CellContext`\[Beta]$$ = 
+    0.015107104941530025`, $CellContext`\[Chi]$$ = 
+    0, $CellContext`\[Omega]$$ = 0.1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`\[Alpha]$$], 12000., "C permeability \[Alpha]"}, 0, 
+      120000.}, {{
+       Hold[$CellContext`\[Beta]$$], 0.015107104941530025`, 
+       "H permeability \[Beta]"}, 0, 0.15107104941530025`}, {{
+       Hold[$CellContext`\[Chi]$$], 0, "H uptake \[Chi]"}, 0, 1}, {{
+       Hold[$CellContext`\[Omega]$$], 0.1, "H carboxylation \[Omega]"}, 0, 
+      1}}, Typeset`size$$ = {360., {310.134033203125, 315.865966796875}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`\[Alpha]$6531$$ = 0, $CellContext`\[Beta]$6532$$ = 
+    0, $CellContext`\[Chi]$6533$$ = 0, $CellContext`\[Omega]$6534$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`\[Alpha]$$ = 
+        12000., $CellContext`\[Beta]$$ = 
+        0.015107104941530025`, $CellContext`\[Chi]$$ = 
+        0, $CellContext`\[Omega]$$ = 0.1}, "ControllerVariables" :> {
+        Hold[$CellContext`\[Alpha]$$, $CellContext`\[Alpha]$6531$$, 0], 
+        Hold[$CellContext`\[Beta]$$, $CellContext`\[Beta]$6532$$, 0], 
+        Hold[$CellContext`\[Chi]$$, $CellContext`\[Chi]$6533$$, 0], 
+        Hold[$CellContext`\[Omega]$$, $CellContext`\[Omega]$6534$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Column[{
+         Plot3D[
+          $CellContext`rubRateFunction[$CellContext`\[Gamma], $CellContext`\
+\[Delta], $CellContext`\[Chi]$$, $CellContext`\[Alpha]$$, \
+$CellContext`\[Beta]$$, $CellContext`\[Omega]$$], {$CellContext`\[Gamma], 
+           0.001, 1000}, {$CellContext`\[Delta], 0.01, 1000}, 
+          AxesLabel -> {
+           "rubisco \[Gamma]", "CA hydration \[Delta]", "rubisco rate"}, 
+          ScalingFunctions -> {"Log", "Log", Identity}, 
+          PlotRange -> {Full, Full, {0, $CellContext`rubMax}}, ImageSize -> 
+          Medium], 
+         Plot3D[
+          $CellContext`hcarbRateFunction[$CellContext`\[Gamma], $CellContext`\
+\[Delta], $CellContext`\[Chi]$$, $CellContext`\[Alpha]$$, \
+$CellContext`\[Beta]$$, $CellContext`\[Omega]$$], {$CellContext`\[Gamma], 
+           0.001, 1000}, {$CellContext`\[Delta], 0.01, 1000}, 
+          AxesLabel -> {
+           "rubisco \[Gamma]", "CA hydration \[Delta]", "hcarb rate"}, 
+          ScalingFunctions -> {"Log", "Log", Identity}, 
+          PlotRange -> {Full, Full, {0, $CellContext`rubMax/50}}, ImageSize -> 
+          Medium], 
+         Plot3D[
+          $CellContext`biomassRateFunction[$CellContext`\[Gamma], \
+$CellContext`\[Delta], $CellContext`\[Chi]$$, $CellContext`\[Alpha]$$, \
+$CellContext`\[Beta]$$, $CellContext`\[Omega]$$], {$CellContext`\[Gamma], 
+           0.001, 1000}, {$CellContext`\[Delta], 0.01, 1000}, 
+          AxesLabel -> {
+           "rubisco \[Gamma]", "CA hydration \[Delta]", "biomass production"},
+           ScalingFunctions -> {"Log", "Log", Identity}, 
+          PlotRange -> {Full, Full, {0, $CellContext`rubMax}}, ImageSize -> 
+          Medium]}], 
+      "Specifications" :> {{{$CellContext`\[Alpha]$$, 12000., 
+          "C permeability \[Alpha]"}, 0, 
+         120000.}, {{$CellContext`\[Beta]$$, 0.015107104941530025`, 
+          "H permeability \[Beta]"}, 0, 
+         0.15107104941530025`}, {{$CellContext`\[Chi]$$, 0, 
+          "H uptake \[Chi]"}, 0, 
+         1}, {{$CellContext`\[Omega]$$, 0.1, "H carboxylation \[Omega]"}, 0, 
+         1}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {398., 404.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.840276778881122*^9, 3.840276803966683*^9}, {
+   3.840276889576357*^9, 3.840276901013373*^9}, 3.84027693477763*^9, 
+   3.840277092355631*^9, 3.840277158528483*^9, 3.8402773506268997`*^9, 
+   3.840281801151675*^9, {3.8402824357591248`*^9, 3.840282503981946*^9}, {
+   3.840283213531517*^9, 3.8402832599729347`*^9}, 3.840283295291497*^9, 
+   3.840283341574231*^9, {3.840283417383296*^9, 3.840283463507119*^9}, 
+   3.840286902109686*^9, 3.8402870387562733`*^9, 3.840288816322576*^9, {
+   3.840482034671914*^9, 3.840482063197392*^9}, {3.8404821384539967`*^9, 
+   3.840482143819013*^9}, 3.840542786485017*^9, 3.8649364164391737`*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"7d9563b5-c904-4f6c-ad49-8ab8a3227607"]
+}, Open  ]]
+},
+WindowSize->{1232, 798},
+WindowMargins->{{Automatic, 0}, {Automatic, 15}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 4574, 115, 449, "Text",ExpressionUUID->"c584fd29-992a-44cd-8516-5ed2f7f5a671"],
+Cell[CellGroupData[{
+Cell[5157, 139, 4588, 111, 241, "Input",ExpressionUUID->"7d0c98be-aac8-472f-ad9d-29572c30ffd8"],
+Cell[9748, 252, 2627, 63, 52, "Output",ExpressionUUID->"d21dc7a1-1108-46f4-8d47-f82ca5bd0dee"],
+Cell[12378, 317, 2267, 54, 52, "Output",ExpressionUUID->"70546f70-de55-40cc-ac26-9378ee1c593f"],
+Cell[14648, 373, 1278, 26, 52, "Output",ExpressionUUID->"a03890c5-7937-4dab-a5ea-405d15f56c45"],
+Cell[15929, 401, 1248, 24, 52, "Output",ExpressionUUID->"f04c4105-a4c2-4ea1-8c79-ccf47709abab"]
+}, Open  ]],
+Cell[17192, 428, 730, 12, 58, "Text",ExpressionUUID->"8e5aba96-d9f9-4bd1-8a7e-23675203d95f"],
+Cell[CellGroupData[{
+Cell[17947, 444, 1315, 27, 94, "Input",ExpressionUUID->"1b22365b-1fe3-4758-9bc4-2ad6af7692ab"],
+Cell[19265, 473, 1553, 35, 52, "Output",ExpressionUUID->"cf6acaa5-4611-45ff-9b04-31e1926cc053"],
+Cell[20821, 510, 1559, 35, 52, "Output",ExpressionUUID->"0564d786-1d43-40e2-9b5f-2678de5b38e4"]
+}, Open  ]],
+Cell[22395, 548, 449, 9, 81, "Text",ExpressionUUID->"f0926ba7-19e6-4d52-bb29-4ea902922a8d"],
+Cell[CellGroupData[{
+Cell[22869, 561, 11450, 263, 976, "Input",ExpressionUUID->"516a6666-a514-443e-a4b8-3203814f1edf"],
+Cell[34322, 826, 856, 12, 34, "Output",ExpressionUUID->"a145ae4b-185f-44b6-bf87-ac5b23f475b0"],
+Cell[35181, 840, 1076, 19, 34, "Output",ExpressionUUID->"8f555626-646f-4b3f-980d-ba7335c4a0e8"],
+Cell[36260, 861, 841, 12, 34, "Output",ExpressionUUID->"7d768250-17fe-4026-9426-486541241fb8"],
+Cell[37104, 875, 855, 12, 34, "Output",ExpressionUUID->"7042cb76-ad68-4489-8dd2-605eb6d79b5a"],
+Cell[37962, 889, 2560, 62, 52, "Output",ExpressionUUID->"872e6684-c54a-4d6b-af26-f4051aab988f"]
+}, Open  ]],
+Cell[40537, 954, 6328, 177, 219, "Text",ExpressionUUID->"0ed7a136-1433-478a-86ee-3aee4862c187"],
+Cell[CellGroupData[{
+Cell[46890, 1135, 5729, 128, 493, "Input",ExpressionUUID->"093ad36b-bfb6-4143-b86c-ae28eeaa9614"],
+Cell[52622, 1265, 5188, 93, 821, "Output",ExpressionUUID->"7d9563b5-c904-4f6c-ad49-8ab8a3227607"]
+}, Open  ]]
+}
+]
+*)
+
